@@ -1,0 +1,152 @@
+date,key,seasonal,hist_range,actual_value,fcst_best_raw_model_unadjusted,fcst_best_raw_model_adjusted,fcst_best_adj_model_adjusted,best_model_raw,best_model_bias_adj,period
+2022-01-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1170.0,,,,TBF,TBF,train
+2022-01-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,2880.0,,,,RF_default,RF_default,train
+2022-01-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,7200.0,,,,LGBM_default,LGBM_default,train
+2022-02-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1035.0,,,,TBF,TBF,train
+2022-02-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,90.0,,,,RF_default,RF_default,train
+2022-02-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,15360.0,,,,LGBM_default,LGBM_default,train
+2022-03-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1080.0,,,,TBF,TBF,train
+2022-03-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,45.0,,,,RF_default,RF_default,train
+2022-03-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,16800.0,,,,LGBM_default,LGBM_default,train
+2022-04-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,270.0,,,,TBF,TBF,train
+2022-04-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,45.0,,,,RF_default,RF_default,train
+2022-04-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,12960.0,,,,LGBM_default,LGBM_default,train
+2022-05-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1125.0,,,,TBF,TBF,train
+2022-05-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,45.0,,,,RF_default,RF_default,train
+2022-05-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,22080.0,,,,LGBM_default,LGBM_default,train
+2022-06-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,2070.0,,,,TBF,TBF,train
+2022-06-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,480.0,,,,LGBM_default,LY_trend,train
+2022-06-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,,,,,RF_default,RF_default,train
+2022-06-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,6720.0,,,,LGBM_default,LGBM_default,train
+2022-07-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,585.0,,,,TBF,TBF,train
+2022-07-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,2400.0,,,,LGBM_default,LY_trend,train
+2022-07-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,360.0,,,,RF_default,RF_default,train
+2022-07-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,2880.0,,,,LGBM_default,LGBM_default,train
+2022-08-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1080.0,,,,TBF,TBF,train
+2022-08-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,960.0,,,,LGBM_default,LY_trend,train
+2022-08-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,720.0,,,,RF_default,RF_default,train
+2022-08-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,19200.0,,,,LGBM_default,LGBM_default,train
+2022-09-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1710.0,,,,TBF,TBF,train
+2022-09-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,4800.0,,,,LGBM_default,LY_trend,train
+2022-09-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,1035.0,,,,RF_default,RF_default,train
+2022-09-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,18720.0,,,,LGBM_default,LGBM_default,train
+2022-10-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,360.0,,,,TBF,TBF,train
+2022-10-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,7200.0,,,,LGBM_default,LY_trend,train
+2022-10-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,3465.0,,,,RF_default,RF_default,train
+2022-10-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,30720.0,,,,LGBM_default,LGBM_default,train
+2022-11-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,720.0,,,,TBF,TBF,train
+2022-11-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,14400.0,,,,LGBM_default,LY_trend,train
+2022-11-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,6255.0,,,,RF_default,RF_default,train
+2022-11-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,20160.0,,,,LGBM_default,LGBM_default,train
+2022-12-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1080.0,,,,TBF,TBF,train
+2022-12-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,32160.0,,,,LGBM_default,LY_trend,train
+2022-12-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,1260.0,,,,RF_default,RF_default,train
+2022-12-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,15840.0,,,,LGBM_default,LGBM_default,train
+2023-01-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,810.0,,,,TBF,TBF,train
+2023-01-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,65280.0,,,,LGBM_default,LY_trend,train
+2023-01-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,990.0,,,,RF_default,RF_default,train
+2023-01-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,28320.0,,,,LGBM_default,LGBM_default,train
+2023-02-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,2295.0,,,,TBF,TBF,train
+2023-02-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,30240.0,,,,LGBM_default,LY_trend,train
+2023-02-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,1530.0,,,,RF_default,RF_default,train
+2023-02-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,26880.0,,,,LGBM_default,LGBM_default,train
+2023-03-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,2205.0,,,,TBF,TBF,train
+2023-03-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,22074.0,,,,LGBM_default,LY_trend,train
+2023-03-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,4950.0,,,,RF_default,RF_default,train
+2023-03-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,26880.0,,,,LGBM_default,LGBM_default,train
+2023-04-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,3420.0,,,,TBF,TBF,train
+2023-04-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,8640.0,,,,LGBM_default,LY_trend,train
+2023-04-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,14535.0,,,,RF_default,RF_default,train
+2023-04-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,12960.0,,,,LGBM_default,LGBM_default,train
+2023-05-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,675.0,,,,TBF,TBF,train
+2023-05-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,7680.0,,,,LGBM_default,LY_trend,train
+2023-05-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,7605.0,,,,RF_default,RF_default,train
+2023-05-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,12480.0,,,,LGBM_default,LGBM_default,train
+2023-06-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,990.0,,,,TBF,TBF,train
+2023-06-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,12480.0,,,,LGBM_default,LY_trend,train
+2023-06-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,7290.0,,,,RF_default,RF_default,train
+2023-06-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,9168.0,,,,LGBM_default,LGBM_default,train
+2023-07-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,495.0,,,,TBF,TBF,train
+2023-07-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,11040.0,,,,LGBM_default,LY_trend,train
+2023-07-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,9180.0,,,,RF_default,RF_default,train
+2023-07-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,24960.0,,,,LGBM_default,LGBM_default,train
+2023-08-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1125.0,,,,TBF,TBF,train
+2023-08-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,17760.0,,,,LGBM_default,LY_trend,train
+2023-08-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,11160.0,,,,RF_default,RF_default,train
+2023-08-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,54240.0,,,,LGBM_default,LGBM_default,train
+2023-09-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,450.0,,,,TBF,TBF,train
+2023-09-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,40320.0,,,,LGBM_default,LY_trend,train
+2023-09-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,10845.0,,,,RF_default,RF_default,train
+2023-09-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,35520.0,,,,LGBM_default,LGBM_default,train
+2023-10-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1485.0,,,,TBF,TBF,train
+2023-10-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,35040.0,,,,LGBM_default,LY_trend,train
+2023-10-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,16335.0,,,,RF_default,RF_default,train
+2023-10-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,42240.0,,,,LGBM_default,LGBM_default,train
+2023-11-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1035.0,,,,TBF,TBF,train
+2023-11-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,65208.0,,,,LGBM_default,LY_trend,train
+2023-11-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,13905.0,,,,RF_default,RF_default,train
+2023-11-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,12480.0,,,,LGBM_default,LGBM_default,train
+2023-12-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,945.0,,,,TBF,TBF,train
+2023-12-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,141540.0,,,,LGBM_default,LY_trend,train
+2023-12-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,5625.0,,,,RF_default,RF_default,train
+2023-12-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,13440.0,,,,LGBM_default,LGBM_default,train
+2024-01-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1440.0,,,,TBF,TBF,train
+2024-01-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,167040.0,,,,LGBM_default,LY_trend,train
+2024-01-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,9675.0,,,,RF_default,RF_default,train
+2024-01-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,8640.0,,,,LGBM_default,LGBM_default,train
+2024-02-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1665.0,,,,TBF,TBF,train
+2024-02-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,51840.0,,,,LGBM_default,LY_trend,train
+2024-02-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,5130.0,,,,RF_default,RF_default,train
+2024-02-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,4320.0,,,,LGBM_default,LGBM_default,train
+2024-03-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,3195.0,,,,TBF,TBF,train
+2024-03-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,18240.0,,,,LGBM_default,LY_trend,train
+2024-03-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,13275.0,,,,RF_default,RF_default,train
+2024-03-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,8640.0,,,,LGBM_default,LGBM_default,train
+2024-04-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,3780.0,,,,TBF,TBF,train
+2024-04-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,15360.0,,,,LGBM_default,LY_trend,train
+2024-04-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,20340.0,,,,RF_default,RF_default,train
+2024-04-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,12960.0,,,,LGBM_default,LGBM_default,train
+2024-05-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1575.0,,,,TBF,TBF,train
+2024-05-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,26400.0,,,,LGBM_default,LY_trend,train
+2024-05-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,16695.0,,,,RF_default,RF_default,train
+2024-05-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,9600.0,,,,LGBM_default,LGBM_default,train
+2024-06-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,630.0,,,,TBF,TBF,train
+2024-06-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,20160.0,,,,LGBM_default,LY_trend,train
+2024-06-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,10305.0,,,,RF_default,RF_default,train
+2024-06-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,7200.0,,,,LGBM_default,LGBM_default,train
+2024-07-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,765.0,739.0029167093463,739.0029167093463,739.0029167093463,TBF,TBF,validation
+2024-07-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,32400.0,28785.16733848163,28785.16733848163,6149.503041579548,LGBM_default,LY_trend,validation
+2024-07-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,15390.0,12642.3,12642.3,12642.3,RF_default,RF_default,validation
+2024-07-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,36960.0,17400.702668686587,17400.702668686587,17400.702668686587,LGBM_default,LGBM_default,validation
+2024-08-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,2070.0,1508.7976216149154,1508.7976216149154,1508.7976216149154,TBF,TBF,validation
+2024-08-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,26340.0,41666.60561211698,41666.60561211698,9892.678806019274,LGBM_default,LY_trend,validation
+2024-08-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,8775.0,14315.4,14315.4,14315.4,RF_default,RF_default,validation
+2024-08-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,6720.0,11272.563658745903,11272.563658745903,11272.563658745903,LGBM_default,LGBM_default,validation
+2024-09-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1170.0,1478.0058334186926,1478.0058334186926,1478.0058334186926,TBF,TBF,validation
+2024-09-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,31200.0,30674.629320269327,30674.629320269327,22459.054586638347,LGBM_default,LY_trend,validation
+2024-09-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,14805.0,14479.2,14479.2,14479.2,RF_default,RF_default,validation
+2024-09-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,33120.0,16738.219835761367,16738.219835761367,16738.219835761367,LGBM_default,LGBM_default,validation
+2024-10-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1350.0,1266.8472799652357,1266.8472799652357,1266.8472799652357,TBF,TBF,testing
+2024-10-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,71040.0,62269.05806489715,62269.05806489715,41698.46888488874,LGBM_default,LY_trend,testing
+2024-10-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,14085.0,12955.05,12955.05,12955.05,RF_default,RF_default,testing
+2024-10-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,33600.0,18188.580508296087,18188.580508296087,18188.580508296087,LGBM_default,LGBM_default,testing
+2024-11-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,2250.0,1205.0498516742484,1205.0498516742484,1205.0498516742484,TBF,TBF,testing
+2024-11-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,87840.0,62497.04684563602,62497.04684563602,77599.13695907033,LGBM_default,LY_trend,testing
+2024-11-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,8955.0,10302.75,10302.75,10302.75,RF_default,RF_default,testing
+2024-11-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,42720.0,19885.154546922357,19885.154546922357,19885.154546922357,LGBM_default,LGBM_default,testing
+2024-12-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1125.0,1390.4421365472097,1390.4421365472097,1390.4421365472097,TBF,TBF,testing
+2024-12-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,274764.0,49510.02177104411,49510.02177104411,168436.10975933648,LGBM_default,LY_trend,testing
+2024-12-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,4995.0,12679.2,12679.2,12679.2,RF_default,RF_default,testing
+2024-12-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,23520.0,16511.013906146367,16511.013906146367,16511.013906146367,LGBM_default,LGBM_default,testing
+2025-01-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,,1565.8103648933254,1565.8103648933254,1565.8103648933254,TBF,TBF,forecasting
+2025-01-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,,49311.75798832255,49311.75798832255,368012.2339040567,LGBM_default,LY_trend,forecasting
+2025-01-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,,13259.25,13259.25,13259.25,RF_default,RF_default,forecasting
+2025-01-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,,10526.896370363444,10526.896370363444,10526.896370363444,LGBM_default,LGBM_default,forecasting
+2025-02-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,,2250.0,2250.0,2250.0,TBF,TBF,forecasting
+2025-02-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,,24489.156011843923,24489.156011843923,114210.69328056934,LGBM_default,LY_trend,forecasting
+2025-02-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,,16324.65,16324.65,16324.65,RF_default,RF_default,forecasting
+2025-02-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,,9617.545739727137,9617.545739727137,9617.545739727137,LGBM_default,LGBM_default,forecasting
+2025-03-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,,2250.0,2250.0,2250.0,TBF,TBF,forecasting
+2025-03-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,,20562.29540535669,20562.29540535669,40185.243932052166,LGBM_default,LY_trend,forecasting
+2025-03-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,,11498.85,11498.85,11498.85,RF_default,RF_default,forecasting
+2025-03-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,,10124.330228361669,10124.330228361669,10124.330228361669,LGBM_default,LGBM_default,forecasting

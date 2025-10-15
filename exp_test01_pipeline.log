@@ -1,0 +1,541 @@
+2025-10-13 20:07:34 - INFO - Logging configured. Log file: .\exp_Test01_pipeline.log
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_FoodBazaar_South Depot_Meat_PRD0032 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:3, validation:0, test:0
+2025-10-13 20:16:31 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_South Depot_Meat_PRD0032.
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_SuperShop_Central Depot_Frozen Foods_PRD0023 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:1, validation:0, test:0
+2025-10-13 20:16:31 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Central Depot_Frozen Foods_PRD0023.
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_FoodBazaar_Downtown Depot_Meat_PRD0032 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:3, validation:0, test:0
+2025-10-13 20:16:31 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Downtown Depot_Meat_PRD0032.
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_FoodBazaar_Downtown Depot_Meat_PRD0033 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:1, validation:1, test:3
+2025-10-13 20:16:31 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Downtown Depot_Meat_PRD0033. Using Naive fallback based on test data.
+2025-10-13 20:16:31 - INFO - --- Finished processing Key: Retail_FoodBazaar_Downtown Depot_Meat_PRD0033 ---
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_FoodBazaar_Uptown Depot_Meat_PRD0032 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:2, validation:0, test:0
+2025-10-13 20:16:31 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Uptown Depot_Meat_PRD0032.
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_FoodBazaar_Harbor Depot_Meat_PRD0032 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:3, validation:0, test:0
+2025-10-13 20:16:31 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Harbor Depot_Meat_PRD0032.
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_FoodBazaar_West Depot_Meat_PRD0032 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:2, validation:0, test:0
+2025-10-13 20:16:31 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_West Depot_Meat_PRD0032.
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_FoodBazaar_West Depot_Meat_PRD0033 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:2, validation:1, test:3
+2025-10-13 20:16:31 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_West Depot_Meat_PRD0033. Using Naive fallback based on test data.
+2025-10-13 20:16:31 - INFO - --- Finished processing Key: Retail_FoodBazaar_West Depot_Meat_PRD0033 ---
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_FoodBazaar_Central Depot_Meat_PRD0032 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:2, validation:0, test:0
+2025-10-13 20:16:31 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Central Depot_Meat_PRD0032.
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_FoodBazaar_Central Depot_Produce_PRD0019 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:3, validation:0, test:1
+2025-10-13 20:16:31 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Central Depot_Produce_PRD0019. Using Naive fallback based on test data.
+2025-10-13 20:16:31 - INFO - --- Finished processing Key: Retail_FoodBazaar_Central Depot_Produce_PRD0019 ---
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_ValueStore_Lakeside Depot_Household_PRD0027 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:2, validation:1, test:1
+2025-10-13 20:16:31 - WARNING -   Insufficient training/validation data for key Retail_ValueStore_Lakeside Depot_Household_PRD0027. Using Naive fallback based on test data.
+2025-10-13 20:16:31 - INFO - --- Finished processing Key: Retail_ValueStore_Lakeside Depot_Household_PRD0027 ---
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_ValueStore_Lakeside Depot_Household_PRD0030 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:2, validation:1, test:2
+2025-10-13 20:16:31 - WARNING -   Insufficient training/validation data for key Retail_ValueStore_Lakeside Depot_Household_PRD0030. Using Naive fallback based on test data.
+2025-10-13 20:16:31 - INFO - --- Finished processing Key: Retail_ValueStore_Lakeside Depot_Household_PRD0030 ---
+2025-10-13 20:16:31 - INFO - --- Processing Key: Retail_ValueStore_Lakeside Depot_Household_PRD0028 ---
+2025-10-13 20:16:31 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:31 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:31 - INFO -   Data splits -> train:3, validation:1, test:2
+2025-10-13 20:16:32 - INFO -   Best Raw Model (Method A): L3M
+2025-10-13 20:16:32 - INFO -   Best Bias-Adjusted Model (Method B): L3M
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Retail_ValueStore_Lakeside Depot_Household_PRD0028 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_ValueStore_Lakeside Depot_Household_PRD0039 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:3, validation:1, test:2
+2025-10-13 20:16:32 - INFO -   Best Raw Model (Method A): L3M
+2025-10-13 20:16:32 - INFO -   Best Bias-Adjusted Model (Method B): L3M
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Retail_ValueStore_Lakeside Depot_Household_PRD0039 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_FoodBazaar_Lakeside Depot_Produce_PRD0040 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:1, validation:0, test:0
+2025-10-13 20:16:32 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Lakeside Depot_Produce_PRD0040.
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_FoodBazaar_Central Depot_Produce_PRD0040 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:3, validation:0, test:2
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Central Depot_Produce_PRD0040. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Retail_FoodBazaar_Central Depot_Produce_PRD0040 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_FoodBazaar_West Depot_Frozen Foods_PRD0020 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:2, validation:2, test:1
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_West Depot_Frozen Foods_PRD0020. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Retail_FoodBazaar_West Depot_Frozen Foods_PRD0020 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Online_DailyNeeds_East Depot_Confectionery_PRD0044 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:0, validation:2, test:2
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Online_DailyNeeds_East Depot_Confectionery_PRD0044. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Online_DailyNeeds_East Depot_Confectionery_PRD0044 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_QuickPick_Uptown Depot_Household_PRD0031 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:0, validation:1, test:3
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Uptown Depot_Household_PRD0031. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Retail_QuickPick_Uptown Depot_Household_PRD0031 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_FoodBazaar_Central Depot_Meat_PRD0033 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:0, validation:1, test:1
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Central Depot_Meat_PRD0033. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Retail_FoodBazaar_Central Depot_Meat_PRD0033 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Online_DailyNeeds_East Depot_Dairy_PRD0045 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:0, validation:0, test:3
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Online_DailyNeeds_East Depot_Dairy_PRD0045. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Online_DailyNeeds_East Depot_Dairy_PRD0045 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Online_FreshMart_North Depot_Dairy_PRD0045 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:0, validation:0, test:3
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Online_FreshMart_North Depot_Dairy_PRD0045. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Online_FreshMart_North Depot_Dairy_PRD0045 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_QuickPick_Harbor Depot_Household_PRD0047 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Harbor Depot_Household_PRD0047. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Retail_QuickPick_Harbor Depot_Household_PRD0047 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_QuickPick_Harbor Depot_Household_PRD0046 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Harbor Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Retail_QuickPick_Harbor Depot_Household_PRD0046 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_QuickPick_South Depot_Household_PRD0047 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_South Depot_Household_PRD0047. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Retail_QuickPick_South Depot_Household_PRD0047 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_QuickPick_South Depot_Household_PRD0046 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_South Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:32 - INFO - --- Finished processing Key: Retail_QuickPick_South Depot_Household_PRD0046 ---
+2025-10-13 20:16:32 - INFO - --- Processing Key: Retail_FoodBazaar_West Depot_Household_PRD0047 ---
+2025-10-13 20:16:32 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:32 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:32 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:32 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_West Depot_Household_PRD0047. Using Naive fallback based on test data.
+2025-10-13 20:16:33 - INFO - --- Finished processing Key: Retail_FoodBazaar_West Depot_Household_PRD0047 ---
+2025-10-13 20:16:33 - INFO - --- Processing Key: Retail_FoodBazaar_West Depot_Household_PRD0046 ---
+2025-10-13 20:16:33 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:33 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:33 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:33 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_West Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:33 - INFO - --- Finished processing Key: Retail_FoodBazaar_West Depot_Household_PRD0046 ---
+2025-10-13 20:16:33 - INFO - --- Processing Key: Retail_FoodBazaar_Lakeside Depot_Household_PRD0047 ---
+2025-10-13 20:16:33 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:33 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:33 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:33 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Lakeside Depot_Household_PRD0047. Using Naive fallback based on test data.
+2025-10-13 20:16:33 - INFO - --- Finished processing Key: Retail_FoodBazaar_Lakeside Depot_Household_PRD0047 ---
+2025-10-13 20:16:33 - INFO - --- Processing Key: Retail_FoodBazaar_Lakeside Depot_Household_PRD0046 ---
+2025-10-13 20:16:33 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:33 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:33 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:33 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Lakeside Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:33 - INFO - --- Finished processing Key: Retail_FoodBazaar_Lakeside Depot_Household_PRD0046 ---
+2025-10-13 20:16:33 - INFO - --- Processing Key: Retail_FoodBazaar_Harbor Depot_Household_PRD0047 ---
+2025-10-13 20:16:33 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:33 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:33 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:33 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Harbor Depot_Household_PRD0047. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_FoodBazaar_Harbor Depot_Household_PRD0047 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_FoodBazaar_Harbor Depot_Household_PRD0046 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Harbor Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_FoodBazaar_Harbor Depot_Household_PRD0046 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_SuperShop_Lakeside Depot_Household_PRD0027 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_SuperShop_Lakeside Depot_Household_PRD0027. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_SuperShop_Lakeside Depot_Household_PRD0027 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_FoodBazaar_Uptown Depot_Household_PRD0046 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Uptown Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_FoodBazaar_Uptown Depot_Household_PRD0046 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_FoodBazaar_Uptown Depot_Household_PRD0047 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Uptown Depot_Household_PRD0047. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_FoodBazaar_Uptown Depot_Household_PRD0047 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_QuickPick_Uptown Depot_Household_PRD0046 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Uptown Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_QuickPick_Uptown Depot_Household_PRD0046 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_QuickPick_Uptown Depot_Household_PRD0047 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Uptown Depot_Household_PRD0047. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_QuickPick_Uptown Depot_Household_PRD0047 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_FoodBazaar_South Depot_Household_PRD0046 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_South Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_FoodBazaar_South Depot_Household_PRD0046 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_FoodBazaar_South Depot_Household_PRD0047 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:2
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_South Depot_Household_PRD0047. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_FoodBazaar_South Depot_Household_PRD0047 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_QuickPick_Harbor Depot_Household_PRD0050 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Harbor Depot_Household_PRD0050. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_QuickPick_Harbor Depot_Household_PRD0050 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_QuickPick_Harbor Depot_Household_PRD0049 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Harbor Depot_Household_PRD0049. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_QuickPick_Harbor Depot_Household_PRD0049 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_QuickPick_Harbor Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Harbor Depot_Bakery_PRD0051. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_QuickPick_Harbor Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_FoodBazaar_Downtown Depot_Household_PRD0046 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Downtown Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:35 - INFO - --- Finished processing Key: Retail_FoodBazaar_Downtown Depot_Household_PRD0046 ---
+2025-10-13 20:16:35 - INFO - --- Processing Key: Retail_QuickPick_South Depot_Household_PRD0050 ---
+2025-10-13 20:16:35 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:35 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:35 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:35 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_South Depot_Household_PRD0050. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_QuickPick_South Depot_Household_PRD0050 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Online_DailyNeeds_East Depot_Confectionery_PRD0048 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Online_DailyNeeds_East Depot_Confectionery_PRD0048. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Online_DailyNeeds_East Depot_Confectionery_PRD0048 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_FoodBazaar_Uptown Depot_Household_PRD0050 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Uptown Depot_Household_PRD0050. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_FoodBazaar_Uptown Depot_Household_PRD0050 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_FoodBazaar_Uptown Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Uptown Depot_Household_PRD0049. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_FoodBazaar_Uptown Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_QuickPick_South Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_South Depot_Household_PRD0049. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_QuickPick_South Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_SuperShop_Lakeside Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_SuperShop_Lakeside Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_SuperShop_Lakeside Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_SuperShop_South Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_SuperShop_South Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_SuperShop_South Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_SuperShop_Uptown Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_SuperShop_Uptown Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_SuperShop_Uptown Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_SuperShop_Harbor Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_SuperShop_Harbor Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_SuperShop_Harbor Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_SuperShop_West Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_SuperShop_West Depot_Household_PRD0046. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_SuperShop_West Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_QuickPick_South Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_South Depot_Bakery_PRD0051. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_QuickPick_South Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_QuickPick_Uptown Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Uptown Depot_Household_PRD0049. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_QuickPick_Uptown Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_QuickPick_Uptown Depot_Household_PRD0050 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Uptown Depot_Household_PRD0050. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_QuickPick_Uptown Depot_Household_PRD0050 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_QuickPick_Uptown Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Uptown Depot_Bakery_PRD0051. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_QuickPick_Uptown Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_QuickPick_Lakeside Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_QuickPick_Lakeside Depot_Bakery_PRD0051. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_QuickPick_Lakeside Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_FoodBazaar_Harbor Depot_Household_PRD0050 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Harbor Depot_Household_PRD0050. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_FoodBazaar_Harbor Depot_Household_PRD0050 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_FoodBazaar_Harbor Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_Harbor Depot_Household_PRD0049. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_FoodBazaar_Harbor Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_FoodBazaar_South Depot_Household_PRD0050 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_South Depot_Household_PRD0050. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_FoodBazaar_South Depot_Household_PRD0050 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_FoodBazaar_South Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:1
+2025-10-13 20:16:36 - WARNING -   Insufficient training/validation data for key Retail_FoodBazaar_South Depot_Household_PRD0049. Using Naive fallback based on test data.
+2025-10-13 20:16:36 - INFO - --- Finished processing Key: Retail_FoodBazaar_South Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_FoodBazaar_Central Depot_Household_PRD0046 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:36 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Central Depot_Household_PRD0046.
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_FoodBazaar_Central Depot_Household_PRD0047 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:36 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Central Depot_Household_PRD0047.
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_FoodBazaar_South Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:36 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_South Depot_Bakery_PRD0051.
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_SuperShop_West Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:36 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_West Depot_Household_PRD0049.
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_SuperShop_South Depot_Household_PRD0047 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:36 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_South Depot_Household_PRD0047.
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_SuperShop_Uptown Depot_Household_PRD0047 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:36 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Uptown Depot_Household_PRD0047.
+2025-10-13 20:16:36 - INFO - --- Processing Key: Online_DailyNeeds_East Depot_Dairy_PRD0053 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:36 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:36 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Online_DailyNeeds_East Depot_Dairy_PRD0053.
+2025-10-13 20:16:36 - INFO - --- Processing Key: Retail_SuperShop_Lakeside Depot_Household_PRD0049 ---
+2025-10-13 20:16:36 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:36 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Lakeside Depot_Household_PRD0049.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Harbor Depot_Household_PRD0049 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Harbor Depot_Household_PRD0049.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_QuickPick_West Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_QuickPick_West Depot_Bakery_PRD0051.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Uptown Depot_Household_PRD0050 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Uptown Depot_Household_PRD0050.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Central Depot_Household_PRD0046 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Central Depot_Household_PRD0046.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Online_DailyNeeds_East Depot_Dairy_PRD0052 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Online_DailyNeeds_East Depot_Dairy_PRD0052.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_FoodBazaar_Harbor Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Harbor Depot_Bakery_PRD0051.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Uptown Depot_Household_PRD0049 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Uptown Depot_Household_PRD0049.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_FoodBazaar_Uptown Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Uptown Depot_Bakery_PRD0051.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_FoodBazaar_Central Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Central Depot_Bakery_PRD0051.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Lakeside Depot_Household_PRD0047 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Lakeside Depot_Household_PRD0047.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_FoodBazaar_Lakeside Depot_Household_PRD0050 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Lakeside Depot_Household_PRD0050.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_FoodBazaar_Lakeside Depot_Household_PRD0049 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Lakeside Depot_Household_PRD0049.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_West Depot_Household_PRD0047 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_West Depot_Household_PRD0047.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_South Depot_Household_PRD0050 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_South Depot_Household_PRD0050.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_South Depot_Household_PRD0049 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_South Depot_Household_PRD0049.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Harbor Depot_Household_PRD0047 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Harbor Depot_Household_PRD0047.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Central Depot_Household_PRD0047 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Central Depot_Household_PRD0047.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Lakeside Depot_Household_PRD0050 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Lakeside Depot_Household_PRD0050.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_West Depot_Household_PRD0050 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_West Depot_Household_PRD0050.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_FoodBazaar_Downtown Depot_Household_PRD0047 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Downtown Depot_Household_PRD0047.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_FoodBazaar_Downtown Depot_Household_PRD0050 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Downtown Depot_Household_PRD0050.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_FoodBazaar_Downtown Depot_Household_PRD0049 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Downtown Depot_Household_PRD0049.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Central Depot_Household_PRD0050 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Central Depot_Household_PRD0050.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Central Depot_Household_PRD0049 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=Y, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Central Depot_Household_PRD0049.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_SuperShop_Harbor Depot_Household_PRD0050 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_SuperShop_Harbor Depot_Household_PRD0050.
+2025-10-13 20:16:37 - INFO - --- Processing Key: Retail_FoodBazaar_Lakeside Depot_Bakery_PRD0051 ---
+2025-10-13 20:16:37 - INFO -   Metadata -> seasonal=N, hist_range=<6, hist_bucket=<6
+2025-10-13 20:16:37 - INFO -   Models to run: ['L3M', 'Naive']
+2025-10-13 20:16:37 - INFO -   Data splits -> train:0, validation:0, test:0
+2025-10-13 20:16:37 - WARNING -   SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key Retail_FoodBazaar_Lakeside Depot_Bakery_PRD0051.
+2025-10-13 20:16:53 - INFO - Pipeline finished. Saving output files...
+2025-10-13 20:16:53 - INFO - ===================================
+2025-10-13 20:16:53 - INFO - >>> FORECASTING PIPELINE COMPLETE <<<
+2025-10-13 20:16:53 - INFO - ===================================

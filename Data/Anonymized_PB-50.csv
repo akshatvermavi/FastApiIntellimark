@@ -1,0 +1,1455 @@
+Date,Channel,Chain,Depot,SubCat,SKU,UnitsSold,key
+01/01/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1035.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/01/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,1176.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/01/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,120.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/01/22,Retail,QuickPick,Uptown Depot,Household,PRD0027,120.0,Retail_QuickPick_Uptown Depot_Household_PRD0027
+01/01/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,12420.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/01/22,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,135.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/01/22,Online,FreshMart,North Depot,Dairy,PRD0012,144045.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/01/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,1536.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/01/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,15552.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/01/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,15672.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/01/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,1776.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/01/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,20700.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/01/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,2112.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/01/22,Retail,QuickPick,South Depot,Bakery,PRD0016,216.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/01/22,Online,FreshMart,North Depot,Snacks,PRD0007,225.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/01/22,Retail,QuickPick,South Depot,Bakery,PRD0017,240.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/01/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2430.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/01/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,315.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/01/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,32448.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/01/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,360.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/01/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,3600.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/01/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,384.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/01/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,405.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/01/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,48.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/01/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,510030.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/01/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,552.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/01/22,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,585.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/01/22,Online,FreshMart,North Depot,Dairy,PRD0009,61200.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/01/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,765.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/01/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,816.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/01/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,8280.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/02/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1032.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/02/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,1080.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/02/22,Online,FreshMart,North Depot,Dairy,PRD0009,113400.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/02/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,1152.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/02/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,1170.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/02/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,1215.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/02/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,15504.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/02/22,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,180.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/02/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,19575.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/02/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,225.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/02/22,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,225.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/02/22,Online,FreshMart,North Depot,Snacks,PRD0007,2385.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/02/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,2565.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/02/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,2592.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/02/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,270.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/02/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,2925.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/02/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,29904.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/02/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,30510.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/02/22,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,315.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/02/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,336.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/02/22,Retail,FoodBazaar,South Depot,Household,PRD0030,336.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/02/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,360.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/02/22,Online,FreshMart,North Depot,Dairy,PRD0012,393525.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/02/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,40920.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/02/22,Retail,QuickPick,South Depot,Bakery,PRD0016,480.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/02/22,Retail,QuickPick,South Depot,Bakery,PRD0017,480.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/02/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,4896.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/02/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,495.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/02/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,528.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/02/22,Retail,QuickPick,Uptown Depot,Household,PRD0027,600.0,Retail_QuickPick_Uptown Depot_Household_PRD0027
+01/02/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,606240.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/02/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,648.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/02/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,744.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/02/22,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,855.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/02/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,888.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/02/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,960.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/03/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,135.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/03/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1536.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/03/22,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1620.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/03/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,1665.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/03/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,1755.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/03/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1896.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/03/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,1920.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/03/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,2115.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/03/22,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,216.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/03/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,221712.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/03/22,Online,FreshMart,North Depot,Dairy,PRD0009,257490.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/03/22,Online,FreshMart,North Depot,Dairy,PRD0012,287370.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/03/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,3195.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/03/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,31950.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/03/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,353025.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/03/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,3696.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/03/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,3696.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/03/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,3816.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/03/22,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,450.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/03/22,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,450.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/03/22,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,4590.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/03/22,Online,FreshMart,North Depot,Snacks,PRD0007,4905.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/03/22,Retail,FoodBazaar,South Depot,Household,PRD0030,504.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/03/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,50832.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/03/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,51345.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/03/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,5670.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/03/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,576.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/03/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,576.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/03/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,5940.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/03/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,7488.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/03/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,75288.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/03/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,765.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/03/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,816.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/03/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,8544.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/03/22,Retail,QuickPick,South Depot,Bakery,PRD0017,912.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/03/22,Retail,QuickPick,South Depot,Bakery,PRD0016,96.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/04/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,104640.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/04/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,1056.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/04/22,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,1152.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/04/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1272.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/04/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,14490.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/04/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1584.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/04/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,1704.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/04/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1728.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/04/22,Online,FreshMart,North Depot,Dairy,PRD0009,211770.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/04/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,23760.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/04/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2496.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/04/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,2610.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/04/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2712.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/04/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,2760.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/04/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,2835.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/04/22,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,405.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/04/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,405.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/04/22,Online,FreshMart,North Depot,Snacks,PRD0007,4050.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/04/22,Online,FreshMart,North Depot,Dairy,PRD0012,436905.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/04/22,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,450.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/04/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,450.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/04/22,Retail,QuickPick,South Depot,Bakery,PRD0016,456.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/04/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,5952.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/04/22,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,6480.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/04/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,6576.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/04/22,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,720.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/04/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,7335.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/04/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,750240.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/04/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,765.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/04/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,77568.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/04/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,855.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/04/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,87816.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/04/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,912.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/05/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,1125.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/05/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1224.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/05/22,Retail,QuickPick,South Depot,Bakery,PRD0017,1224.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/05/22,Retail,FoodBazaar,South Depot,Household,PRD0030,1248.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/05/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,1260.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/05/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,155472.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/05/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,1704.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/05/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,17100.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/05/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,1800.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/05/22,Retail,QuickPick,South Depot,Bakery,PRD0016,1824.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/05/22,Online,FreshMart,North Depot,Dairy,PRD0009,186075.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/05/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1872.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/05/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,2064.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/05/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2280.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/05/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,2430.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/05/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,2640.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/05/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,26640.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/05/22,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,270.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/05/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,3048.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/05/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,3216.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/05/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,33864.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/05/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,3645.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/05/22,Online,FreshMart,North Depot,Snacks,PRD0007,3735.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/05/22,Online,FreshMart,North Depot,Dairy,PRD0012,427815.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/05/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,432.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/05/22,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,4464.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/05/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,4635.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/05/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,4752.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/05/22,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,5265.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/05/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,630.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/05/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,64224.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/05/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,6750.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/05/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,7056.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/05/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,828720.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/05/22,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,90.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/06/22,Retail,QuickPick,South Depot,Bakery,PRD0016,0.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/06/22,Retail,FoodBazaar,South Depot,Household,PRD0030,1152.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/06/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,119232.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/06/22,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1260.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/06/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,12648.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/06/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,13140.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/06/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,1512.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/06/22,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,180.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/06/22,Online,FreshMart,North Depot,Dairy,PRD0009,210825.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/06/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2208.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/06/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,225.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/06/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,273645.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/06/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,2745.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/06/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,3432.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/06/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,3455.04,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/06/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,360.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/06/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,3870.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/06/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,450.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/06/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,4656.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/06/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,495.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/06/22,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,495.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/06/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,495.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/06/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,528.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/06/22,Retail,QuickPick,South Depot,Bakery,PRD0017,528.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/06/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,5280.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/06/22,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,5850.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/06/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,5985.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/06/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,5999.04,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/06/22,Online,FreshMart,North Depot,Dairy,PRD0012,666450.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/06/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,7440.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/06/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,8550.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/06/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,8595.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/06/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,888.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/06/22,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,8976.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/06/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,9696.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/07/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,0.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/07/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,0.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/07/22,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,11496.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/07/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1200.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/07/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,133605.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/07/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1392.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/07/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,1575.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/07/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,17415.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/07/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,1944.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/07/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2136.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/07/22,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,225.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/07/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,2430.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/07/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,312.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/07/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,315.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/07/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,3690.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/07/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,405.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/07/22,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,4230.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/07/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,432.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/07/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,4344.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/07/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,4545.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/07/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,480.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/07/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,5424.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/07/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,5760.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/07/22,Online,FreshMart,North Depot,Dairy,PRD0009,59355.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/07/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,648.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/07/22,Retail,FoodBazaar,South Depot,Household,PRD0030,696.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/07/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,7608.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/07/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,8055.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/07/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,816.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/07/22,Online,FreshMart,North Depot,Snacks,PRD0007,900.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/07/22,Retail,QuickPick,South Depot,Bakery,PRD0017,912.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/07/22,Online,FreshMart,North Depot,Dairy,PRD0012,98550.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/08/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,0.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/08/22,Online,FreshMart,North Depot,Dairy,PRD0012,105750.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/08/22,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1260.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/08/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,12912.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/08/22,Retail,QuickPick,South Depot,Bakery,PRD0017,1344.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/08/22,Online,FreshMart,North Depot,Dairy,PRD0009,147150.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/08/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,15075.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/08/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,1512.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/08/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,1575.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/08/22,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,16031.04,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/08/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1680.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/08/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,17820.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/08/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,192.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/08/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1944.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/08/22,Retail,FoodBazaar,South Depot,Household,PRD0030,1992.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/08/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2112.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/08/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2112.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/08/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,226710.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/08/22,Retail,QuickPick,South Depot,Bakery,PRD0016,24.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/08/22,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,2835.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/08/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,2928.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/08/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,3150.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/08/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,3240.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/08/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,3384.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/08/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,360.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/08/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,5376.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/08/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,75552.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/08/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,765.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/08/22,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,810.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/08/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,8190.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/08/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,8592.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/08/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,90.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/08/22,Online,FreshMart,North Depot,Snacks,PRD0007,900.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/08/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,9576.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/09/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,0.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/09/22,Retail,QuickPick,South Depot,Bakery,PRD0016,120.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/09/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1215.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/09/22,Online,FreshMart,North Depot,Dairy,PRD0012,158850.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/09/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1656.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/09/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,1755.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/09/22,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,180.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/09/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1800.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/09/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,19890.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/09/22,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,21790.08,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/09/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2250.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/09/22,Retail,QuickPick,South Depot,Bakery,PRD0017,2352.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/09/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,23895.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/09/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,2430.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/09/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,2544.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/09/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2784.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/09/22,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,360.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/09/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,3780.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/09/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,384525.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/09/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,3888.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/09/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,4140.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/09/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,4272.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/09/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,5355.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/09/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,5760.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/09/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,630.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/09/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,696.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/09/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,79056.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/09/22,Retail,FoodBazaar,South Depot,Household,PRD0030,792.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/09/22,Online,FreshMart,North Depot,Dairy,PRD0009,8100.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/09/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,9312.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/09/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,9864.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/09/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,9936.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/10/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,1035.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/10/22,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1035.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/10/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,10530.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/10/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,10896.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/10/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1170.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/10/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,12120.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/10/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1295.04,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/10/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,1344.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/10/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,14669.1,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/10/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,15120.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/10/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1560.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/10/22,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,1620.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/10/22,Retail,QuickPick,South Depot,Bakery,PRD0017,1622.88,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/10/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,16605.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/10/22,Retail,FoodBazaar,South Depot,Household,PRD0030,1704.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/10/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,180.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/10/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,1824.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/10/22,Online,FreshMart,North Depot,Dairy,PRD0012,187245.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/10/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,20250.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/10/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2040.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/10/22,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,20805.12,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/10/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,225.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/10/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,23175.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/10/22,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,315.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/10/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,3600.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/10/22,Retail,QuickPick,South Depot,Bakery,PRD0016,408.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/10/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,468675.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/10/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,480.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/10/22,Online,FreshMart,North Depot,Pantry,PRD0038,5100.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/10/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,54384.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/10/22,Online,FreshMart,North Depot,Dairy,PRD0009,55350.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/10/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,5976.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/10/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,6144.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/10/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,9810.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/11/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,1035.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/11/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,12552.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/11/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1259.1,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/11/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,1260.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/11/22,Online,FreshMart,North Depot,Dairy,PRD0012,134460.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/11/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,14040.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/11/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,14625.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/11/22,Online,FreshMart,North Depot,Dairy,PRD0009,152190.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/11/22,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,16392.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/11/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1776.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/11/22,Online,FreshMart,North Depot,Pantry,PRD0038,18150.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/11/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,18720.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/11/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,1920.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/11/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1920.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/11/22,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,1935.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/11/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2070.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/11/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,225.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/11/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,2256.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/11/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,24.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/11/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,2475.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/11/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2520.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/11/22,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,270.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/11/22,Retail,FoodBazaar,South Depot,Household,PRD0030,3096.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/11/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,31584.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/11/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,3312.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/11/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,3504.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/11/22,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,360.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/11/22,Retail,QuickPick,South Depot,Bakery,PRD0016,360.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/11/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,3936.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/11/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,405.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/11/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,4815.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/11/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,483840.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/11/22,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,495.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/11/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,5640.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/11/22,Online,FreshMart,North Depot,Snacks,PRD0007,675.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/11/22,Retail,QuickPick,South Depot,Bakery,PRD0017,744.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/11/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,768.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/12/22,Online,FreshMart,North Depot,Dairy,PRD0009,0.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/12/22,Retail,SuperShop,West Depot,Produce,PRD0040,10200.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/12/22,Online,DailyNeeds,East Depot,Bakery,PRD0017,10368.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/12/22,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,1215.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/12/22,Online,FreshMart,North Depot,Pantry,PRD0038,12300.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/12/22,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1395.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/12/22,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,15502.08,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/12/22,Online,FreshMart,North Depot,Dairy,PRD0012,156150.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/12/22,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1630.99992,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/12/22,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,16605.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/12/22,Online,DailyNeeds,East Depot,Snacks,PRD0004,16920.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/12/22,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1968.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/12/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,1980.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/12/22,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,2136.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/12/22,Retail,FoodBazaar,South Depot,Bakery,PRD0016,2376.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/12/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2472.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/12/22,Online,DailyNeeds,East Depot,Snacks,PRD0005,26415.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/12/22,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,2745.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/12/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2880.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/12/22,Retail,QuickPick,South Depot,Bakery,PRD0017,2880.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/12/22,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,315.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/12/22,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,315.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/12/22,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,33120.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/12/22,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,432.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/12/22,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,4488.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/12/22,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,45.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/12/22,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,450.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/12/22,Online,DailyNeeds,East Depot,Dairy,PRD0008,475155.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/12/22,Retail,FoodBazaar,South Depot,Household,PRD0030,480.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/12/22,Retail,QuickPick,South Depot,Bakery,PRD0016,480.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/12/22,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,5715.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/12/22,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,585.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/12/22,Retail,ValueStore,Central Depot,Personal Care,PRD0024,6096.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/12/22,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,810.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/12/22,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,810.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/12/22,Retail,ValueStore,South Depot,Personal Care,PRD0024,8592.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/12/22,Online,DailyNeeds,East Depot,Bakery,PRD0016,9264.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/12/22,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,960.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/01/23,Online,FreshMart,North Depot,Pantry,PRD0038,10290.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/01/23,Retail,FoodBazaar,South Depot,Household,PRD0030,1152.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/01/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,11655.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/01/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1248.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/01/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,12624.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/01/23,Online,FreshMart,North Depot,Dairy,PRD0009,128250.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/01/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,13632.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/01/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1632.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/01/23,Retail,SuperShop,West Depot,Produce,PRD0040,1750.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/01/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1800.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/01/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,18810.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/01/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,19392.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/01/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,1980.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/01/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,1992.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/01/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,2016.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/01/23,Retail,QuickPick,South Depot,Bakery,PRD0016,216.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/01/23,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,225.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/01/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,25560.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/01/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2790.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/01/23,Online,FreshMart,North Depot,Dairy,PRD0012,280575.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/01/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,3072.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/01/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,3768.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/01/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,405.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/01/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,495.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/01/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,501390.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/01/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,5040.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/01/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,5310.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/01/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,540.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/01/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,5424.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/01/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,600.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/01/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,630.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/01/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,675.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/01/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,720.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/01/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,720.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/01/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,7470.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/01/23,Retail,QuickPick,South Depot,Bakery,PRD0017,768.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/01/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,8352.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/01/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,855.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/01/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,9576.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/01/23,Online,FreshMart,North Depot,Snacks,PRD0007,990.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/02/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1032.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/02/23,Retail,QuickPick,South Depot,Bakery,PRD0017,1128.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/02/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,12672.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/02/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1440.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/02/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,14850.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/02/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,16536.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/02/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,180.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/02/23,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,180.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/02/23,Retail,SuperShop,West Depot,Produce,PRD0040,1800.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/02/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,18696.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/02/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,2040.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/02/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,2136.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/02/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,22860.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/02/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,23175.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/02/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,2340.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/02/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,24240.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/02/23,Online,FreshMart,North Depot,Pantry,PRD0038,24450.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/02/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2475.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/02/23,Online,FreshMart,North Depot,Dairy,PRD0009,255150.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/02/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,270.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/02/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,3000.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/02/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,3072.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/02/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,315.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/02/23,Online,FreshMart,North Depot,Snacks,PRD0007,3150.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/02/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,360.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/02/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,405.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/02/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,480.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/02/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,504.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/02/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,506745.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/02/23,Online,FreshMart,North Depot,Dairy,PRD0012,521685.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/02/23,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,540.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/02/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,6360.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/02/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,6750.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/02/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,6795.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/02/23,Retail,FoodBazaar,South Depot,Household,PRD0030,6840.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/02/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,71856.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/02/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,720.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/02/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,763.2,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/02/23,Retail,QuickPick,South Depot,Bakery,PRD0016,768.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/02/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,7896.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/02/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,7920.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/02/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,945.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/02/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,990.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/03/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,10392.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/03/23,Online,FreshMart,North Depot,Pantry,PRD0038,10650.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/03/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1128.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/03/23,Retail,QuickPick,South Depot,Bakery,PRD0017,1368.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/03/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1395.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/03/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,164025.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/03/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,166365.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/03/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,166416.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/03/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,1710.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/03/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,19560.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/03/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,2232.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/03/23,Retail,FoodBazaar,South Depot,Household,PRD0030,2304.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/03/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,2340.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/03/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,2400.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/03/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,2472.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/03/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,2520.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/03/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2880.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/03/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,315.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/03/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,31905.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/03/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,32544.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/03/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,32736.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/03/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,360.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/03/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,4095.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/03/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,4176.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/03/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,4224.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/03/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,4368.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/03/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,45810.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/03/23,Online,FreshMart,North Depot,Snacks,PRD0007,4725.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/03/23,Online,FreshMart,North Depot,Dairy,PRD0009,477342.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/03/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,480.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/03/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,4848.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/03/23,Retail,QuickPick,South Depot,Bakery,PRD0016,552.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/03/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,5535.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/03/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,585.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/03/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,6030.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/03/23,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,630.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/03/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,675.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/03/23,Retail,SuperShop,West Depot,Produce,PRD0040,7200.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/03/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,810.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/03/23,Online,FreshMart,North Depot,Dairy,PRD0012,896472.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/03/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,8976.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/03/23,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,945.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/03/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,990.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/04/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1008.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/04/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,11925.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/04/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,12465.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/04/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,13030.00008,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/04/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,15480.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/04/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,16515.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/04/23,Retail,QuickPick,South Depot,Bakery,PRD0017,1656.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/04/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,1680.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/04/23,Retail,QuickPick,South Depot,Bakery,PRD0016,1704.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/04/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,17904.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/04/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,180.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/04/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,1800.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/04/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1872.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/04/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,191040.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/04/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,1992.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/04/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2088.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/04/23,Online,FreshMart,North Depot,Dairy,PRD0009,209520.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/04/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,2295.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/04/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,2385.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/04/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,2430.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/04/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2520.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/04/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,2544.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/04/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,270.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/04/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2745.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/04/23,Retail,FoodBazaar,South Depot,Household,PRD0030,2808.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/04/23,Online,FreshMart,North Depot,Snacks,PRD0007,2925.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/04/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,32808.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/04/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,33075.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/04/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,35775.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/04/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,4005.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/04/23,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,405.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/04/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,449820.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/04/23,Online,FreshMart,North Depot,Pantry,PRD0038,53400.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/04/23,Retail,SuperShop,West Depot,Produce,PRD0040,5400.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/04/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,5448.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/04/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,585.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/04/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,6048.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/04/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,672.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/04/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,67704.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/04/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,744.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/04/23,Online,FreshMart,North Depot,Dairy,PRD0012,822636.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/04/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,8400.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/04/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,90.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/05/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,0.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/05/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,1035.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/05/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,11352.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/05/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1392.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/05/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1530.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/05/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,16032.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/05/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,1776.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/05/23,Retail,QuickPick,South Depot,Bakery,PRD0017,1800.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/05/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1872.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/05/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,1935.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/05/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,20352.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/05/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,2040.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/05/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,225.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/05/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,225.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/05/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2250.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/05/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,24795.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/05/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,2496.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/05/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,2520.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/05/23,Online,FreshMart,North Depot,Dairy,PRD0009,252180.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/05/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,270.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/05/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,2902.00008,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/05/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,30735.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/05/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,3432.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/05/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,3456.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/05/23,Online,FreshMart,North Depot,Pantry,PRD0038,37350.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/05/23,Retail,FoodBazaar,South Depot,Household,PRD0030,3888.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/05/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,3915.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/05/23,Retail,SuperShop,West Depot,Produce,PRD0040,4200.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/05/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,43920.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/05/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,450.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/05/23,Retail,QuickPick,South Depot,Bakery,PRD0016,456.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/05/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,47184.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/05/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,4752.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/05/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,5232.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/05/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,630.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/05/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,765.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/05/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,8100.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/05/23,Online,FreshMart,North Depot,Dairy,PRD0012,870750.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/05/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,967572.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/05/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,984.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/05/23,Online,FreshMart,North Depot,Snacks,PRD0007,990.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/05/23,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,990.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/06/23,Online,FreshMart,North Depot,Pantry,PRD0038,10890.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/06/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,1125.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/06/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1125.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/06/23,Retail,SuperShop,West Depot,Produce,PRD0040,1200.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/06/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,1305.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/06/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1512.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/06/23,Retail,QuickPick,South Depot,Bakery,PRD0017,1632.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/06/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,1665.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/06/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,16740.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/06/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,18096.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/06/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,1896.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/06/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,192.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/06/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,1941.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/06/23,Online,FreshMart,North Depot,Snacks,PRD0007,2025.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/06/23,Online,FreshMart,North Depot,Dairy,PRD0009,215514.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/06/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,2205.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/06/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,2376.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/06/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,25515.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/06/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,25605.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/06/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,2688.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/06/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2835.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/06/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,2880.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/06/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,311688.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/06/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,315.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/06/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,3432.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/06/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,360.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/06/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,360.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/06/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,360.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/06/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,3870.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/06/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,4032.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/06/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,405.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/06/23,Retail,FoodBazaar,South Depot,Household,PRD0030,4128.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/06/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,4248.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/06/23,Retail,QuickPick,South Depot,Bakery,PRD0016,432.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/06/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,4464.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/06/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,4560.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/06/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,4776.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/06/23,Online,FreshMart,North Depot,Dairy,PRD0012,485244.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/06/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,51696.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/06/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,6144.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/06/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,6660.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/06/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,936.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/07/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,10215.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/07/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1034.0001,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/07/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1464.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/07/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,1488.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/07/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,15885.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/07/23,Online,FreshMart,North Depot,Dairy,PRD0012,161190.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/07/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,1620.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/07/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,16224.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/07/23,Online,FreshMart,North Depot,Pantry,PRD0038,1710.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/07/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1824.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/07/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,1845.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/07/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,200448.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/07/23,Retail,QuickPick,South Depot,Bakery,PRD0017,2016.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/07/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,2088.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/07/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,2148.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/07/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,225.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/07/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,2295.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/07/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,2496.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/07/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,264.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/07/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,2736.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/07/23,Retail,QuickPick,South Depot,Bakery,PRD0016,288.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/07/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2880.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/07/23,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,315.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/07/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,35280.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/07/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,360.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/07/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,3780.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/07/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,3870.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/07/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,405.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/07/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,405.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/07/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,4056.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/07/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,4128.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/07/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,4464.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/07/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,45600.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/07/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,4704.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/07/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,5256.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/07/23,Retail,SuperShop,West Depot,Produce,PRD0040,5400.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/07/23,Online,FreshMart,North Depot,Dairy,PRD0009,62100.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/07/23,Online,FreshMart,North Depot,Snacks,PRD0007,675.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/07/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,810.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/07/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,9090.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/07/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,945.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/07/23,Retail,FoodBazaar,South Depot,Household,PRD0030,960.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/08/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,1035.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/08/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,1035.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/08/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,1170.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/08/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1296.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/08/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,1530.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/08/23,Retail,QuickPick,South Depot,Bakery,PRD0017,1632.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/08/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,17278.99992,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/08/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,17640.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/08/23,Online,FreshMart,North Depot,Dairy,PRD0012,18900.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/08/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1920.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/08/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,225.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/08/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,225.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/08/23,Online,FreshMart,North Depot,Pantry,PRD0038,2250.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/08/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,2304.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/08/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,2472.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/08/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,25020.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/08/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,262330.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/08/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,2976.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/08/23,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,315.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/08/23,Retail,FoodBazaar,South Depot,Household,PRD0030,3240.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/08/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,3285.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/08/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,3360.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/08/23,Online,FreshMart,North Depot,Dairy,PRD0009,35532.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/08/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,3825.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/08/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,3840.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/08/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,3960.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/08/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,405.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/08/23,Retail,SuperShop,West Depot,Produce,PRD0040,4200.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/08/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,4222.00008,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/08/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,5040.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/08/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,5110.99992,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/08/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,540.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/08/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,54672.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/08/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,552.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/08/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,5832.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/08/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,7656.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/08/23,Retail,QuickPick,South Depot,Bakery,PRD0016,768.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/08/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,7728.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/08/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,810.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/08/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,90.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/08/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,90.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/08/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,9765.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/09/23,Online,FreshMart,North Depot,Dairy,PRD0012,102725.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/09/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,1080.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/09/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,10896.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/09/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1125.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/09/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1170.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/09/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,135.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/09/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1536.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/09/23,Retail,QuickPick,South Depot,Bakery,PRD0017,1656.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/09/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,180.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/09/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,18405.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/09/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,216.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/09/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,2295.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/09/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,24480.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/09/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2496.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/09/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,2880.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/09/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,29904.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/09/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,3168.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/09/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,3195.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/09/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,333652.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/09/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,34380.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/09/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,3504.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/09/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,3552.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/09/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,3572.99976,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/09/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,360.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/09/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,3792.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/09/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,3825.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/09/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,4185.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/09/23,Online,FreshMart,North Depot,Pantry,PRD0038,450.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/09/23,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,450.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/09/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,5040.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/09/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,51120.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/09/23,Retail,SuperShop,West Depot,Produce,PRD0040,5400.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/09/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,5544.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/09/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,5616.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/09/23,Retail,FoodBazaar,South Depot,Household,PRD0030,5712.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/09/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,585.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/09/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,630.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/09/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,6384.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/09/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,6660.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/09/23,Retail,QuickPick,South Depot,Bakery,PRD0016,744.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/09/23,Online,FreshMart,North Depot,Dairy,PRD0009,92934.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/09/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,9718.00008,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/10/23,Retail,ValueStore,Uptown Depot,Household,PRD0030,120.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/10/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,120.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/10/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,1215.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/10/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,1215.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/10/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,13056.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/10/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1350.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/10/23,Retail,QuickPick,South Depot,Bakery,PRD0016,1536.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/10/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1992.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/10/23,Online,FreshMart,North Depot,Dairy,PRD0009,22925.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/10/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,25695.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/10/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,2688.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/10/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,2688.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/10/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,2970.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/10/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,3096.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/10/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,31320.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/10/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,3240.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/10/23,Online,FreshMart,North Depot,Pantry,PRD0038,3300.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/10/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,33120.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/10/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,3384.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/10/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,33862.99992,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/10/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,3480.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/10/23,Retail,QuickPick,South Depot,Bakery,PRD0017,3552.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/10/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,3576.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/10/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,360.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/10/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,405.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/10/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,450575.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/10/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,456.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/10/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,540.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/10/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,5760.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/10/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,5760.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/10/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,584.0001,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/10/23,Retail,FoodBazaar,South Depot,Household,PRD0030,5928.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/10/23,Online,FreshMart,North Depot,Dairy,PRD0012,59500.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/10/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,6000.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/10/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,6165.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/10/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,62064.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/10/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,6384.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/10/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,855.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/10/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,9336.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/10/23,Retail,SuperShop,West Depot,Produce,PRD0040,9600.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/10/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,9960.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/11/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,10176.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/11/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,1080.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/11/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,11304.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/11/23,Retail,QuickPick,South Depot,Bakery,PRD0016,1176.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/11/23,Online,FreshMart,North Depot,Dairy,PRD0012,126525.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/11/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,13725.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/11/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,1509.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/11/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,16894.99992,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/11/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,1728.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/11/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1848.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/11/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,1890.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/11/23,Retail,QuickPick,South Depot,Bakery,PRD0017,2016.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/11/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,225.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/11/23,Retail,SuperShop,West Depot,Produce,PRD0040,2400.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/11/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,2565.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/11/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2640.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/11/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,26685.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/11/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,29070.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/11/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,2952.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/11/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,315.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/11/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,3408.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/11/23,Online,FreshMart,North Depot,Pantry,PRD0038,3450.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/11/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,3624.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/11/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,3648.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/11/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,38928.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/11/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,399420.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/11/23,Online,FreshMart,North Depot,Dairy,PRD0009,40425.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/11/23,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,405.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/11/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,4275.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/11/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,450.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/11/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,456.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/11/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,5310.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/11/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,540.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/11/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,5856.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/11/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,6120.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/11/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,6255.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/11/23,Retail,FoodBazaar,South Depot,Household,PRD0030,6288.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/11/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,6552.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/11/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,675.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/11/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,720.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/11/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,7872.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/11/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,7896.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/11/23,Retail,ValueStore,Uptown Depot,Household,PRD0030,96.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/12/23,Online,DailyNeeds,East Depot,Bakery,PRD0016,10008.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/12/23,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,1104.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/12/23,Online,DailyNeeds,East Depot,Bakery,PRD0017,11328.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/12/23,Online,FreshMart,North Depot,Dairy,PRD0012,116760.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/12/23,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1246.99992,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/12/23,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1272.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/12/23,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,1315.00008,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/12/23,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1344.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/12/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,14542.00008,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/12/23,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,14670.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/12/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,1755.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/12/23,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,180.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/12/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1800.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/12/23,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,18528.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/12/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,1890.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/12/23,Online,DailyNeeds,East Depot,Snacks,PRD0004,20205.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/12/23,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,2025.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/12/23,Retail,QuickPick,South Depot,Bakery,PRD0017,2470.99992,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/12/23,Online,FreshMart,North Depot,Dairy,PRD0009,26250.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/12/23,Online,DailyNeeds,East Depot,Snacks,PRD0005,27000.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/12/23,Online,FreshMart,North Depot,Pantry,PRD0038,2850.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/12/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,2970.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/12/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,3000.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/12/23,Retail,FoodBazaar,South Depot,Household,PRD0030,3120.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/12/23,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,315.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/12/23,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,3384.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/12/23,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,3510.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/12/23,Retail,ValueStore,South Depot,Personal Care,PRD0024,3552.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/12/23,Retail,ValueStore,Central Depot,Personal Care,PRD0024,3840.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/12/23,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,3960.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/12/23,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,405.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/12/23,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,4176.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/12/23,Online,DailyNeeds,East Depot,Dairy,PRD0008,429105.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/12/23,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,450.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/12/23,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,495.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/12/23,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,495.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/12/23,Retail,QuickPick,South Depot,Bakery,PRD0016,576.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/12/23,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,6072.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/12/23,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,6118.99992,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/12/23,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,720.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/12/23,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,810.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/12/23,Retail,SuperShop,West Depot,Produce,PRD0040,8400.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/01/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1035.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/01/24,Online,FreshMart,North Depot,Dairy,PRD0009,116562.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/01/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1176.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/01/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,1305.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/01/24,Retail,SuperShop,West Depot,Produce,PRD0040,13200.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/01/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,15075.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/01/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1584.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/01/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,16128.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/01/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,16176.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/01/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1680.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/01/24,Online,FreshMart,North Depot,Snacks,PRD0007,1800.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/01/24,Retail,QuickPick,South Depot,Bakery,PRD0017,1824.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/01/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1848.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/01/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,19395.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/01/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,1968.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/01/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,2070.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/01/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,216.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/01/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,2340.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/01/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,2430.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/01/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2568.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/01/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,2925.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/01/24,Retail,FoodBazaar,South Depot,Household,PRD0030,3048.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/01/24,Online,FreshMart,North Depot,Dairy,PRD0012,309852.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/01/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,315.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/01/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,32400.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/01/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,3330.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/01/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,3360.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/01/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,3384.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/01/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,3504.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/01/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,360.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/01/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,3690.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/01/24,Retail,QuickPick,South Depot,Bakery,PRD0016,456.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/01/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,460158.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/01/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,4656.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/01/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,540.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/01/24,Online,FreshMart,North Depot,Pantry,PRD0038,6300.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/01/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,6528.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/01/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,720.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/01/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,7728.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/01/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,8856.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/01/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,900.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/01/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,9240.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/02/24,Retail,ValueStore,Uptown Depot,Household,PRD0030,0.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/02/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,10224.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/02/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,11064.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/02/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1260.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/02/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,12912.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/02/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,1305.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/02/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,135.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/02/24,Online,FreshMart,North Depot,Pantry,PRD0038,16500.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/02/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,1680.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/02/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,180.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/02/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,18360.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/02/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,1846.99992,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/02/24,Retail,QuickPick,South Depot,Bakery,PRD0016,1872.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/02/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2040.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/02/24,Online,FreshMart,North Depot,Dairy,PRD0009,207120.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/02/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,2205.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/02/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,22635.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/02/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,2400.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/02/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,24975.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/02/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2655.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/02/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,2688.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/02/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,26928.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/02/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,3105.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/02/24,Retail,QuickPick,South Depot,Bakery,PRD0017,3240.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/02/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,35325.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/02/24,Retail,SuperShop,West Depot,Produce,PRD0040,3600.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/02/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,3645.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/02/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,3780.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/02/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,432.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/02/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,4368.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/02/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,4392.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/02/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,450.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/02/24,Online,FreshMart,North Depot,Dairy,PRD0012,494400.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/02/24,Retail,FoodBazaar,South Depot,Household,PRD0030,5350.99992,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/02/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,540.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/02/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,5616.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/02/24,Online,FreshMart,North Depot,Snacks,PRD0007,585.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/02/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,6600.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/02/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,6718.08,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/02/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,675.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/02/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,720.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/02/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,7848.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/02/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,884721.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/02/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,990.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/03/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,10215.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/03/24,Online,FreshMart,North Depot,Snacks,PRD0007,1125.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/03/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,11328.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/03/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,11544.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/03/24,Retail,FoodBazaar,South Depot,Household,PRD0030,11568.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/03/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,12384.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/03/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,12984.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/03/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,14175.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/03/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,14496.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/03/24,Retail,QuickPick,South Depot,Bakery,PRD0016,1464.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/03/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,1485.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/03/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,16785.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/03/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1754.0001,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/03/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1800.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/03/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,2205.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/03/24,Online,FreshMart,North Depot,Pantry,PRD0038,23400.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/03/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,23715.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/03/24,Retail,SuperShop,West Depot,Produce,PRD0040,2400.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/03/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,2568.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/03/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,270.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/03/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,2808.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/03/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,29520.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/03/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,3000.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/03/24,Online,FreshMart,North Depot,Dairy,PRD0009,316848.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/03/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,35376.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/03/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,36408.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/03/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,37395.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/03/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,3768.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/03/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,450.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/03/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,4560.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/03/24,Retail,QuickPick,South Depot,Bakery,PRD0017,4560.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/03/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,495.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/03/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,54960.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/03/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,5580.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/03/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,5760.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/03/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,585.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/03/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,5856.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/03/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,648.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/03/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,6480.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/03/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,666684.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/03/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,68490.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/03/24,Online,FreshMart,North Depot,Dairy,PRD0012,772416.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/03/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,9000.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/04/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,10128.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/04/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,11040.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/04/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,11040.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/04/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,11640.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/04/24,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,1260.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/04/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,12624.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/04/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,1395.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/04/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,1485.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/04/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,16248.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/04/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,16470.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/04/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,16872.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/04/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,1710.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/04/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,18288.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/04/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2064.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/04/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,2160.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/04/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,2475.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/04/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,25335.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/04/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,3060.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/04/24,Online,FreshMart,North Depot,Dairy,PRD0009,317472.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/04/24,Retail,FoodBazaar,South Depot,Household,PRD0030,3480.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/04/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,35136.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/04/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,3645.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/04/24,Retail,QuickPick,South Depot,Bakery,PRD0016,3744.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/04/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,3780.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/04/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,3780.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/04/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,4176.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/04/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,42210.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/04/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,4246.00008,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/04/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,4318.99992,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/04/24,Retail,QuickPick,Uptown Depot,Household,PRD0027,456.0,Retail_QuickPick_Uptown Depot_Household_PRD0027
+01/04/24,Online,FreshMart,North Depot,Pantry,PRD0038,46050.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/04/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,630.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/04/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,6480.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/04/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,6480.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/04/24,Retail,SuperShop,West Depot,Produce,PRD0040,6600.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/04/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,675.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/04/24,Online,FreshMart,North Depot,Dairy,PRD0012,711888.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/04/24,Retail,ValueStore,Uptown Depot,Household,PRD0030,7704.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/04/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,782540.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/04/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,79200.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/04/24,Online,FreshMart,North Depot,Snacks,PRD0007,7965.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/04/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,816.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/04/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,84000.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/04/24,Retail,QuickPick,South Depot,Bakery,PRD0017,9720.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/04/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,9765.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/04/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,990.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/05/24,Retail,FoodBazaar,South Depot,Household,PRD0030,11400.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/05/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,12048.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/05/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,1215.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/05/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,13905.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/05/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,15312.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/05/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,1584.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/05/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,15936.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/05/24,Online,FreshMart,North Depot,Dairy,PRD0009,173040.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/05/24,Retail,QuickPick,South Depot,Bakery,PRD0016,1800.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/05/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,18240.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/05/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,1845.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/05/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,18480.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/05/24,Online,FreshMart,North Depot,Pantry,PRD0038,21210.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/05/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,2295.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/05/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,22995.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/05/24,Retail,ValueStore,Uptown Depot,Household,PRD0030,240.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/05/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,2430.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/05/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,26325.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/05/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,28656.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/05/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,2880.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/05/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,2976.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/05/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,315.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/05/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,3480.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/05/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,3690.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/05/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,3825.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/05/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,39648.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/05/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,4128.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/05/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,42345.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/05/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,4455.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/05/24,Online,FreshMart,North Depot,Snacks,PRD0007,450.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/05/24,Online,FreshMart,North Depot,Dairy,PRD0012,481728.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/05/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,514620.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/05/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,5160.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/05/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,528.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/05/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,5398.00008,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/05/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,540.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/05/24,Retail,SuperShop,West Depot,Produce,PRD0040,5400.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/05/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,5856.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/05/24,Retail,QuickPick,South Depot,Bakery,PRD0017,6528.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/05/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,7536.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/05/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,765.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/05/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,8190.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/05/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,8280.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/05/24,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,90.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/05/24,Retail,QuickPick,Uptown Depot,Household,PRD0027,936.0,Retail_QuickPick_Uptown Depot_Household_PRD0027
+01/05/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,990.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/06/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,0.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/06/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1035.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/06/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,1170.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/06/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,1215.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/06/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,12645.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/06/24,Retail,QuickPick,South Depot,Bakery,PRD0016,1392.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/06/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,1395.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/06/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,1530.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/06/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,16320.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/06/24,Retail,QuickPick,Uptown Depot,Household,PRD0027,168.0,Retail_QuickPick_Uptown Depot_Household_PRD0027
+01/06/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,17100.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/06/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1920.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/06/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,214110.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/06/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,21420.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/06/24,Retail,ValueStore,Uptown Depot,Household,PRD0030,216.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/06/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2256.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/06/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,2256.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/06/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,22752.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/06/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,2385.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/06/24,Online,FreshMart,North Depot,Pantry,PRD0038,31200.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/06/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,3330.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/06/24,Online,FreshMart,North Depot,Dairy,PRD0012,333504.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/06/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,3420.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/06/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,3888.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/06/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,39504.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/06/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,405.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/06/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,405.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/06/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,45.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/06/24,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,450.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/06/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,4512.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/06/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,456.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/06/24,Retail,QuickPick,South Depot,Bakery,PRD0017,4920.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/06/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,5112.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/06/24,Retail,FoodBazaar,South Depot,Household,PRD0030,5208.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/06/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,5256.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/06/24,Retail,SuperShop,West Depot,Produce,PRD0040,5400.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/06/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,5760.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/06/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,5832.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/06/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,5856.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/06/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,593.00016,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/06/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,7080.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/06/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,765.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/06/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,7776.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/06/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,8955.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/06/24,Online,FreshMart,North Depot,Snacks,PRD0007,900.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/06/24,Online,FreshMart,North Depot,Dairy,PRD0009,99360.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/07/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,10128.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/07/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,1080.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/07/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,10890.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/07/24,Retail,QuickPick,South Depot,Bakery,PRD0017,1128.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/07/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,11568.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/07/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,1170.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/07/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,11760.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/07/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,1215.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/07/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1215.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/07/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,1272.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/07/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,12735.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/07/24,Retail,QuickPick,Uptown Depot,Household,PRD0027,1368.0,Retail_QuickPick_Uptown Depot_Household_PRD0027
+01/07/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,14544.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/07/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1536.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/07/24,Retail,QuickPick,South Depot,Bakery,PRD0016,1560.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/07/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,1665.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/07/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,17910.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/07/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,2016.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/07/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,216.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/07/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2250.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/07/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,2352.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/07/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2376.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/07/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,2808.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/07/24,Online,FreshMart,North Depot,Dairy,PRD0009,29760.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/07/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,360.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/07/24,Retail,SuperShop,West Depot,Produce,PRD0040,3600.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/07/24,Retail,ValueStore,Uptown Depot,Household,PRD0030,408.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/07/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,4128.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/07/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,4410.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/07/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,4440.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/07/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,4770.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/07/24,Online,FreshMart,North Depot,Dairy,PRD0012,51840.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/07/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,540.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/07/24,Online,FreshMart,North Depot,Pantry,PRD0038,5400.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/07/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,5520.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/07/24,Retail,FoodBazaar,South Depot,Household,PRD0030,6048.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/07/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,61560.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/07/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,6210.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/07/24,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,630.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/07/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,672.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/07/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,675.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/07/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,7176.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/07/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,86.99985,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/07/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,864.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/07/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,9405.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/08/24,Retail,ValueStore,Uptown Depot,Household,PRD0030,0.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/08/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,10575.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/08/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1080.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/08/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,11136.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/08/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1152.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/08/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,11976.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/08/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,1575.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/08/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,1665.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/08/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,16728.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/08/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,180.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/08/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,18576.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/08/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1934.01,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/08/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,197208.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/08/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,2208.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/08/24,Retail,QuickPick,South Depot,Bakery,PRD0016,2208.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/08/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,2256.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/08/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,2385.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/08/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,24264.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/08/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,24525.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/08/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,2616.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/08/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,26235.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/08/24,Online,FreshMart,North Depot,Dairy,PRD0009,28176.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/08/24,Retail,QuickPick,Uptown Depot,Household,PRD0027,2952.0,Retail_QuickPick_Uptown Depot_Household_PRD0027
+01/08/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,315.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/08/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,336.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/08/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,3504.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/08/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,3672.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/08/24,Online,FreshMart,North Depot,Pantry,PRD0038,3750.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/08/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,3840.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/08/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,3840.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/08/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,450.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/08/24,Online,FreshMart,North Depot,Dairy,PRD0012,52896.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/08/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,540.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/08/24,Retail,SuperShop,West Depot,Produce,PRD0040,5400.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/08/24,Retail,QuickPick,South Depot,Bakery,PRD0017,5448.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/08/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,5712.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/08/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,585.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/08/24,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,585.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/08/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,6390.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/08/24,Retail,FoodBazaar,South Depot,Household,PRD0030,6768.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/08/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,6912.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/08/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,720.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/08/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,855.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/08/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,855.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/08/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,9360.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/09/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,10248.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/09/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,10320.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/09/24,Retail,FoodBazaar,South Depot,Household,PRD0030,11352.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/09/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,12384.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/09/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,1395.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/09/24,Online,FreshMart,North Depot,Snacks,PRD0007,1440.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/09/24,Online,FreshMart,North Depot,Dairy,PRD0012,164160.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/09/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1755.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/09/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,17595.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/09/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1776.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/09/24,Retail,QuickPick,South Depot,Bakery,PRD0016,1872.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/09/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,22365.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/09/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,23832.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/09/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,2400.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/09/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,30048.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/09/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,3060.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/09/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,314658.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/09/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,3150.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/09/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,3312.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/09/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,3552.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/09/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,3576.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/09/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,3735.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/09/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,384.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/09/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,3870.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/09/24,Online,FreshMart,North Depot,Pantry,PRD0038,4200.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/09/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,4224.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/09/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,450.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/09/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,45540.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/09/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,4608.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/09/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,495.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/09/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,5040.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/09/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,5490.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/09/24,Online,FreshMart,North Depot,Dairy,PRD0009,54960.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/09/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,6000.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/09/24,Retail,QuickPick,South Depot,Bakery,PRD0017,6072.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/09/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,6165.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/09/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,6210.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/09/24,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,630.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/09/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,6705.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/09/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,7200.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/09/24,Retail,ValueStore,Uptown Depot,Household,PRD0030,744.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/09/24,Retail,SuperShop,West Depot,Produce,PRD0040,7800.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/09/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,810.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/09/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,810.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/09/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,9144.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/10/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,11070.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/10/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1152.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/10/24,Retail,SuperShop,West Depot,Produce,PRD0040,12600.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/10/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,12624.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/10/24,Online,FreshMart,North Depot,Dairy,PRD0012,126720.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/10/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,1395.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/10/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,144.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/10/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,15075.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/10/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,1530.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/10/24,Retail,ValueStore,Uptown Depot,Household,PRD0030,1728.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/10/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,17856.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/10/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,2070.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/10/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,2115.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/10/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,2160.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/10/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,22104.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/10/24,Retail,QuickPick,South Depot,Bakery,PRD0017,2280.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/10/24,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,270.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/10/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,2734.99992,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/10/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,2745.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/10/24,Retail,QuickPick,Uptown Depot,Household,PRD0027,2832.0,Retail_QuickPick_Uptown Depot_Household_PRD0027
+01/10/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,28980.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/10/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,3375.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/10/24,Retail,QuickPick,South Depot,Bakery,PRD0016,3456.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/10/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,3648.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/10/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,38205.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/10/24,Online,FreshMart,North Depot,Pantry,PRD0038,3900.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/10/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,40272.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/10/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,405.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/10/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,4050.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/10/24,Online,FreshMart,North Depot,Dairy,PRD0009,41280.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/10/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,4296.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/10/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,434214.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/10/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,4464.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/10/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,4680.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/10/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,6408.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/10/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,6624.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/10/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,675.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/10/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,675.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/10/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,6888.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/10/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,7128.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/10/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,720.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/10/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,8496.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/10/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,900.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/10/24,Retail,FoodBazaar,South Depot,Household,PRD0030,9600.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/10/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,9768.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/11/24,Retail,ValueStore,Uptown Depot,Household,PRD0030,0.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/11/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,10222.99992,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/11/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,1035.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023
+01/11/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,10440.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/11/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,1080.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/11/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,1176.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/11/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,12768.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/11/24,Online,FreshMart,North Depot,Dairy,PRD0012,133146.0,Online_FreshMart_North Depot_Dairy_PRD0012
+01/11/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,13848.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/11/24,Retail,ValueStore,Downtown Depot,Bakery,PRD0017,144.0,Retail_ValueStore_Downtown Depot_Bakery_PRD0017
+01/11/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,1530.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/11/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,1575.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/11/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,16512.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/11/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,1800.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/11/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,20790.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/11/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,21780.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/11/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,22128.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/11/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,2256.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/11/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,2400.0,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/11/24,Retail,QuickPick,South Depot,Bakery,PRD0016,2496.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/11/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,2745.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/11/24,Retail,QuickPick,Uptown Depot,Household,PRD0049,288.0,Retail_QuickPick_Uptown Depot_Household_PRD0049
+01/11/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,2880.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/11/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,2952.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/11/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,30555.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/11/24,Online,FreshMart,North Depot,Dairy,PRD0009,30780.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/11/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,315.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/11/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,360.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/11/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,3600.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/11/24,Retail,QuickPick,Uptown Depot,Household,PRD0027,3696.0,Retail_QuickPick_Uptown Depot_Household_PRD0027
+01/11/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,4007.016,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/11/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,4008.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/11/24,Online,FreshMart,North Depot,Pantry,PRD0038,4350.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/11/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,4455.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/11/24,Online,FreshMart,North Depot,Snacks,PRD0007,450.0,Online_FreshMart_North Depot_Snacks_PRD0007
+01/11/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,462812.4,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/11/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,4944.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/11/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,540.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/11/24,Retail,SuperShop,West Depot,Produce,PRD0040,6000.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/11/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,6408.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/11/24,Retail,FoodBazaar,South Depot,Household,PRD0030,6912.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/11/24,Retail,QuickPick,South Depot,Bakery,PRD0017,6936.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/11/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,7288.0002,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/11/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,765.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/12/24,Retail,ValueStore,Uptown Depot,Household,PRD0030,0.0,Retail_ValueStore_Uptown Depot_Household_PRD0030
+01/12/24,Retail,FoodBazaar,South Depot,Household,PRD0030,10344.0,Retail_FoodBazaar_South Depot_Household_PRD0030
+01/12/24,Online,FreshMart,North Depot,Dairy,PRD0012,106938.48,Online_FreshMart_North Depot_Dairy_PRD0012
+01/12/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0015,11948.016,Retail_QuickPick_Uptown Depot_Bakery_PRD0015
+01/12/24,Retail,QuickPick,Lakeside Depot,Bakery,PRD0018,12168.0,Retail_QuickPick_Lakeside Depot_Bakery_PRD0018
+01/12/24,Retail,FoodBazaar,Harbor Depot,Frozen Foods,PRD0026,135.0,Retail_FoodBazaar_Harbor Depot_Frozen Foods_PRD0026
+01/12/24,Online,DailyNeeds,East Depot,Snacks,PRD0004,14715.0,Online_DailyNeeds_East Depot_Snacks_PRD0004
+01/12/24,Retail,ValueStore,Central Depot,Personal Care,PRD0024,1632.0,Retail_ValueStore_Central Depot_Personal Care_PRD0024
+01/12/24,Retail,FoodBazaar,South Depot,Bakery,PRD0016,1655.016,Retail_FoodBazaar_South Depot_Bakery_PRD0016
+01/12/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0018,18096.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0018
+01/12/24,Retail,QuickPick,Uptown Depot,Bakery,PRD0016,1848.0,Retail_QuickPick_Uptown Depot_Bakery_PRD0016
+01/12/24,Retail,FoodBazaar,Harbor Depot,Household,PRD0031,2160.0,Retail_FoodBazaar_Harbor Depot_Household_PRD0031
+01/12/24,Retail,QuickPick,Downtown Depot,Frozen Foods,PRD0023,225.0,Retail_QuickPick_Downtown Depot_Frozen Foods_PRD0023
+01/12/24,Retail,QuickPick,Uptown Depot,Household,PRD0049,240.0,Retail_QuickPick_Uptown Depot_Household_PRD0049
+01/12/24,Online,DailyNeeds,East Depot,Dairy,PRD0008,246078.0,Online_DailyNeeds_East Depot_Dairy_PRD0008
+01/12/24,Online,DailyNeeds,East Depot,Snacks,PRD0005,25785.0,Online_DailyNeeds_East Depot_Snacks_PRD0005
+01/12/24,Retail,SuperShop,Harbor Depot,Frozen Foods,PRD0021,2655.0,Retail_SuperShop_Harbor Depot_Frozen Foods_PRD0021
+01/12/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0026,2925.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0026
+01/12/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0026,2970.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0026
+01/12/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0021,3105.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0021
+01/12/24,Retail,SuperShop,West Depot,Produce,PRD0040,31200.0,Retail_SuperShop_West Depot_Produce_PRD0040
+01/12/24,Online,FreshMart,North Depot,Pantry,PRD0038,3180.0,Online_FreshMart_North Depot_Pantry_PRD0038
+01/12/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0014,3216.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0014
+01/12/24,Online,DailyNeeds,East Depot,Bakery,PRD0017,3288.0,Online_DailyNeeds_East Depot_Bakery_PRD0017
+01/12/24,Retail,ValueStore,South Depot,Personal Care,PRD0024,3360.0,Retail_ValueStore_South Depot_Personal Care_PRD0024
+01/12/24,Online,DailyNeeds,East Depot,Bakery,PRD0016,3576.0,Online_DailyNeeds_East Depot_Bakery_PRD0016
+01/12/24,Retail,FoodBazaar,Downtown Depot,Frozen Foods,PRD0026,360.0,Retail_FoodBazaar_Downtown Depot_Frozen Foods_PRD0026
+01/12/24,Retail,ValueStore,South Depot,Frozen Foods,PRD0020,3645.0,Retail_ValueStore_South Depot_Frozen Foods_PRD0020
+01/12/24,Retail,FoodBazaar,West Depot,Frozen Foods,PRD0022,450.0,Retail_FoodBazaar_West Depot_Frozen Foods_PRD0022
+01/12/24,Online,FreshMart,North Depot,Dairy,PRD0009,46026.0,Online_FreshMart_North Depot_Dairy_PRD0009
+01/12/24,Retail,FoodBazaar,Harbor Depot,Bakery,PRD0017,480.0,Retail_FoodBazaar_Harbor Depot_Bakery_PRD0017
+01/12/24,Retail,ValueStore,Harbor Depot,Frozen Foods,PRD0022,5040.0,Retail_ValueStore_Harbor Depot_Frozen Foods_PRD0022
+01/12/24,Retail,ValueStore,West Depot,Frozen Foods,PRD0023,5220.0,Retail_ValueStore_West Depot_Frozen Foods_PRD0023
+01/12/24,Retail,FoodBazaar,Lakeside Depot,Frozen Foods,PRD0023,540.0,Retail_FoodBazaar_Lakeside Depot_Frozen Foods_PRD0023
+01/12/24,Retail,SuperShop,Harbor Depot,Bakery,PRD0014,5496.0,Retail_SuperShop_Harbor Depot_Bakery_PRD0014
+01/12/24,Retail,ValueStore,Harbor Depot,Personal Care,PRD0024,6000.0,Retail_ValueStore_Harbor Depot_Personal Care_PRD0024
+01/12/24,Retail,FoodBazaar,Uptown Depot,Bakery,PRD0015,6168.0,Retail_FoodBazaar_Uptown Depot_Bakery_PRD0015
+01/12/24,Retail,ValueStore,Lakeside Depot,Frozen Foods,PRD0021,630.0,Retail_ValueStore_Lakeside Depot_Frozen Foods_PRD0021
+01/12/24,Retail,FoodBazaar,Downtown Depot,Bakery,PRD0015,744.0,Retail_FoodBazaar_Downtown Depot_Bakery_PRD0015
+01/12/24,Retail,QuickPick,South Depot,Bakery,PRD0017,7632.0,Retail_QuickPick_South Depot_Bakery_PRD0017
+01/12/24,Retail,QuickPick,Harbor Depot,Frozen Foods,PRD0020,810.0,Retail_QuickPick_Harbor Depot_Frozen Foods_PRD0020
+01/12/24,Retail,QuickPick,South Depot,Bakery,PRD0016,840.0,Retail_QuickPick_South Depot_Bakery_PRD0016
+01/12/24,Retail,SuperShop,South Depot,Frozen Foods,PRD0020,90.0,Retail_SuperShop_South Depot_Frozen Foods_PRD0020
+01/12/24,Retail,QuickPick,Uptown Depot,Household,PRD0027,960.0,Retail_QuickPick_Uptown Depot_Household_PRD0027
+01/12/24,Retail,QuickPick,Lakeside Depot,Frozen Foods,PRD0023,990.0,Retail_QuickPick_Lakeside Depot_Frozen Foods_PRD0023

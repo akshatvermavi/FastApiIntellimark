@@ -1,0 +1,180 @@
+import os
+import io
+import logging
+from typing import Optional, Dict
+from fastapi import FastAPI, File, UploadFile, Form, HTTPException
+from fastapi.responses import StreamingResponse
+import pandas as pd
+
+# Import the pipeline function and helper from your file
+from forecasting_pipeline import forecast_pipeline_debug, add_hist_range
+
+app = FastAPI(title="Monthly Forecast API")
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Default parameters used for calling the pipeline
+DEFAULT_PARAMS = {
+    "date_col": "date",
+    "target_col": "unitssold",
+    "key_col": "key",
+    "seasonal_col": "seasonal",
+    "hist_range_col": "hist_range",
+}
+
+
+def _prepare_df(df: pd.DataFrame, params: Dict):
+    """
+    Ensure minimal required columns exist for the forecast pipeline:
+    - date_col exists and is parsed
+    - create 'key' column (if not present) by concatenating dimensions
+    - ensure seasonal_col is present (default 'N')
+    - compute hist_range via add_hist_range (if missing)
+    - remove duplicates and aggregate monthly values
+    Returns cleaned DataFrame.
+    """
+    date_col = params["date_col"]
+    key_col = params["key_col"]
+    seasonal_col = params["seasonal_col"]
+    hist_range_col = params["hist_range_col"]
+
+    # Normalize column names
+    df.columns = [c.lower() for c in df.columns]
+
+    # Parse date
+    if date_col not in df.columns:
+        raise ValueError(f"Date column '{date_col}' not found in uploaded data.")
+    df[date_col] = pd.to_datetime(df[date_col], dayfirst=False, errors="coerce")
+    if df[date_col].isna().all():
+        raise ValueError(f"Could not parse dates in column '{date_col}'. Please ensure a valid date format.")
+
+    # If key column not in df, create key by concatenating categorical columns available
+    if key_col not in df.columns:
+        candidates = [c for c in ["channel", "chain", "depot", "subcat", "sku"] if c in df.columns]
+        if not candidates:
+            df[key_col] = "GLOBAL"
+        else:
+            df[key_col] = df[candidates].astype(str).agg("_".join, axis=1)
+
+    # Ensure target_col exists and numeric
+    target_col = params["target_col"]
+    if target_col not in df.columns:
+        raise ValueError(f"Target column '{target_col}' not found in uploaded data.")
+    df[target_col] = pd.to_numeric(df[target_col], errors="coerce")
+
+    # Seasonal column: if missing, default to 'N'; else fill missing
+    if seasonal_col not in df.columns:
+        df[seasonal_col] = "N"
+    else:
+        df[seasonal_col] = df[seasonal_col].fillna("N")
+
+    # Convert dates to month start (pipeline expects monthly frequency)
+    df[date_col] = df[date_col].dt.to_period("M").dt.to_timestamp()
+
+    # Aggregate duplicate date/key rows (sum target_col)
+    df = df.groupby([key_col, date_col], as_index=False)[target_col].sum()
+
+    # Hist_range column: if missing, compute using add_hist_range helper
+    if hist_range_col not in df.columns:
+        temp = df.rename(columns={date_col: "date", key_col: "key", target_col: "actual_value"})
+        temp = add_hist_range(temp, key_col='key', date_col='date')
+        if 'hist_range' in temp.columns:
+            hist_map = temp[['key','hist_range']].drop_duplicates().set_index('key')['hist_range'].to_dict()
+            df[hist_range_col] = df[key_col].map(hist_map)
+        # fallback for missing hist_range
+        df[hist_range_col] = df.get(hist_range_col, "<6").fillna("<6")
+    else:
+        df[hist_range_col] = df[hist_range_col].fillna("<6")
+
+    # Drop exact duplicates after all processing
+    df = df.drop_duplicates()
+
+    return df
+
+
+@app.post("/forecast")
+async def run_forecast(
+    csv_path: Optional[str] = Form(None),
+    file: Optional[UploadFile] = File(None),
+    date_col: str = Form(DEFAULT_PARAMS["date_col"]),
+    target_col: str = Form(DEFAULT_PARAMS["target_col"]),
+    key_col: str = Form(DEFAULT_PARAMS["key_col"]),
+    seasonal_col: str = Form(DEFAULT_PARAMS["seasonal_col"]),
+    hist_range_col: str = Form(DEFAULT_PARAMS["hist_range_col"]),
+    validation_cutoff: str = Form(...),
+    test_cutoff: str = Form(...),
+    forecast_cutoff: str = Form(...),
+    forecasting_horizon: int = Form(3),
+    debug_keys: Optional[str] = Form(None)
+):
+    """
+    Run forecast pipeline.
+    - Either upload a CSV file or provide csv_path.
+    - Required: validation_cutoff, test_cutoff, forecast_cutoff.
+    - Optional: forecasting_horizon (default 3)
+    """
+    # Load dataframe
+    if file is not None:
+        contents = await file.read()
+        try:
+            df = pd.read_csv(io.BytesIO(contents))
+        except Exception as e:
+            raise HTTPException(status_code=400, detail=f"Failed to read uploaded CSV: {e}")
+    elif csv_path:
+        if not os.path.exists(csv_path):
+            raise HTTPException(status_code=400, detail=f"csv_path not found: {csv_path}")
+        df = pd.read_csv(csv_path)
+    else:
+        raise HTTPException(status_code=400, detail="Please supply an uploaded file or a csv_path.")
+
+    # Prepare params dict
+    params = {
+        "date_col": date_col,
+        "target_col": target_col,
+        "key_col": key_col,
+        "seasonal_col": seasonal_col,
+        "hist_range_col": hist_range_col,
+    }
+
+    # Prepare/clean df
+    try:
+        df_prepared = _prepare_df(df, params)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+    # Handle debug_keys
+    debug_keys_list = None
+    if debug_keys:
+        debug_keys_list = [k.strip() for k in debug_keys.split(",") if k.strip()]
+
+    # Run pipeline
+    try:
+        result = forecast_pipeline_debug(
+            df=df_prepared,
+            parameters=params,
+            validation_cutoff=validation_cutoff,
+            test_cutoff=test_cutoff,
+            forecast_cutoff=forecast_cutoff,
+            forecasting_horizon=forecasting_horizon,
+            debug_keys=debug_keys_list
+        )
+        # If it returns a tuple, take the first element as the DataFrame
+        if isinstance(result, tuple):
+            result_df = result[0]
+        else:
+            result_df = result
+
+    except Exception as e:
+        logger.exception("Pipeline execution failed")
+        raise HTTPException(status_code=500, detail=f"Forecast pipeline failed: {e}")
+
+    # Return CSV stream
+    out_buf = io.StringIO()
+    result_df.to_csv(out_buf, index=False)
+    out_buf.seek(0)
+    csv_bytes = out_buf.getvalue().encode('utf-8')
+
+    return StreamingResponse(io.BytesIO(csv_bytes),
+                             media_type="text/csv",
+                             headers={"Content-Disposition": "attachment; filename=forecast_results.csv"})
