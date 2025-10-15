@@ -1,0 +1,26 @@
+# Core data manipulation and analysis
+pandas
+numpy
+
+# Machine learning libraries
+scikit-learn
+xgboost
+lightgbm
+
+# Time series forecasting
+prophet
+pmdarima
+statsmodels
+
+# Optimization
+optuna
+
+# Scientific computing
+scipy
+
+# Excel file support
+openpyxl
+
+# Jupyter notebook support (if running in notebooks)
+jupyter
+ipykernel
