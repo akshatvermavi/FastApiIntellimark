@@ -1401,6 +1401,13 @@ def forecast_pipeline_debug(
 
     all_results, all_feature_importances = [], []
     all_model_names = ["SARIMA", "HoltWinters", "Prophet", "L3M", "L6M", "RF", "XGB", "LY_trend", "TBF", "Naive", "LGBM", "RF_default", "XGB_default", "LGBM_default"]
+    
+    # Define once, early, so it always exists regardless of later control flow
+    feature_cols_to_add = [
+        "trend", "seasonality", "lag1", "lag2", "lag3",
+        "rolling_mean_3m", "rolling_mean_6m", "rolling_std_3m",
+        "year", "month", "quarter", "monthly_ratio"
+    ]
 
     keys = list(df[key_col].unique())
     if debug_keys is not None:
@@ -1650,10 +1657,7 @@ def forecast_pipeline_debug(
             logger.error(f"!!! CRITICAL ERROR processing key {key}. Skipping to next key. Error: {e}", exc_info=True)
             # file_handler.flush()
             continue # Move to the next key
-        feature_cols_to_add = [
-        "trend", "seasonality", "lag1", "lag2", "lag3", "rolling_mean_3m", 
-        "rolling_mean_6m", "rolling_std_3m", "year", "month", "quarter", "monthly_ratio"
-    ]
+        # feature_cols_to_add defined at top of function
 
     if all_results:
         processed_results = []
@@ -1693,6 +1697,18 @@ def forecast_pipeline_debug(
             # 5. Merge features back into the key's result DataFrame
             feature_df.drop(columns=['target'], inplace=True)
             updated_key_df = key_df.merge(feature_df[feature_cols_to_add].reset_index(), on='date', how='left')
+            # # --- Safety check: ensure feature_cols_to_add is defined ---
+            # if 'feature_cols_to_add' not in locals(): #avi1
+            #     if 'feature_df' in locals():
+            #         feature_cols_to_add = [c for c in feature_df.columns if c not in ['date']]
+            #     else:
+            #         feature_cols_to_add = []   
+            # try:        
+            #     updated_key_df = key_df.merge(feature_df[feature_cols_to_add].reset_index(), on='date', how='left')
+            # except Exception as e:
+            #     logger.warning(f"⚠️ Feature merge failed for key {key}: {e}")
+            #     updated_key_df = key_df.copy()   #avi1
+                
             processed_results.append(updated_key_df)
 
         final_results = pd.concat(processed_results, ignore_index=True)

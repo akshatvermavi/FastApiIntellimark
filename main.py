@@ -70,27 +70,58 @@ def _prepare_df(df: pd.DataFrame, params: Dict):
         df[seasonal_col] = df[seasonal_col].fillna("N")
 
     # Convert dates to month start (pipeline expects monthly frequency)
+    # NOTE: Period.to_timestamp expects a period frequency (e.g., 'M'), not a date-offset like 'MS'.
+    # Using 'MS' here raises: "MS is not supported as period frequency".
     df[date_col] = df[date_col].dt.to_period("M").dt.to_timestamp()
 
-    # Aggregate duplicate date/key rows (sum target_col)
-    df = df.groupby([key_col, date_col], as_index=False)[target_col].sum()
+    # Aggregate duplicate rows but RETAIN seasonal by grouping with it
+    # This ensures downstream pipeline has 'seasonal' available per key
+    if seasonal_col not in df.columns:
+        df[seasonal_col] = "N"
+    df = (
+        df.groupby([key_col, seasonal_col, date_col], as_index=False)[target_col]
+          .sum()
+    )
 
-    # Hist_range column: if missing, compute using add_hist_range helper
+    # Hist_range column: compute using helper (per key) and map back
     if hist_range_col not in df.columns:
         temp = df.rename(columns={date_col: "date", key_col: "key", target_col: "actual_value"})
         temp = add_hist_range(temp, key_col='key', date_col='date')
         if 'hist_range' in temp.columns:
-            hist_map = temp[['key','hist_range']].drop_duplicates().set_index('key')['hist_range'].to_dict()
+            hist_map = (
+                temp[["key", "hist_range"]]
+                .drop_duplicates()
+                .set_index("key")["hist_range"].to_dict()
+            )
             df[hist_range_col] = df[key_col].map(hist_map)
-        # fallback for missing hist_range
         df[hist_range_col] = df.get(hist_range_col, "<6").fillna("<6")
     else:
         df[hist_range_col] = df[hist_range_col].fillna("<6")
 
-    # Drop exact duplicates after all processing
-    df = df.drop_duplicates()
+    # Final clean-up
+    df = df.drop_duplicates().reset_index(drop=True)
 
     return df
+        # Hist_range column: compute if missing
+    # if hist_range_col not in df.columns:
+    #     temp = df.rename(columns={date_col: "date", key_col: "key", target_col: "actual_value"})
+    #     temp = add_hist_range(temp, key_col='key', date_col='date')
+    #     hist_map = temp[['key','hist_range']].drop_duplicates().set_index('key')['hist_range'].to_dict()
+    #     df[hist_range_col] = df[key_col].map(hist_map)
+    # df[hist_range_col] = df[hist_range_col].fillna("<6")
+
+    # # Ensure seasonal column exists
+    # if seasonal_col not in df.columns:
+    #     df[seasonal_col] = "N"
+    # else:
+    #     df[seasonal_col] = df[seasonal_col].fillna("N")
+
+    # # Drop duplicates at the end
+    # df = df.drop_duplicates()
+
+    # logger.info(f"✅ Added/verified seasonal and hist_range columns.")
+    # return df
+
 
 
 @app.post("/forecast")
@@ -140,6 +171,10 @@ async def run_forecast(
     # Prepare/clean df
     try:
         df_prepared = _prepare_df(df, params)
+        logger.info(f"Prepared DataFrame shape: {df_prepared.shape}")
+        logger.info(f"Columns: {list(df_prepared.columns)}")
+        logger.info(f"First few rows: {df_prepared.head(3).to_dict(orient='records')}")
+
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
