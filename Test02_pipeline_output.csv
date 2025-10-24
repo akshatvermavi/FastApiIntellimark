@@ -1,152 +1,185 @@
 date,key,seasonal,hist_range,actual_value,fcst_best_raw_model_unadjusted,fcst_best_raw_model_adjusted,fcst_best_adj_model_adjusted,best_model_raw,best_model_bias_adj,period
-2022-01-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1170.0,,,,TBF,TBF,train
-2022-01-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,2880.0,,,,RF_default,RF_default,train
-2022-01-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,7200.0,,,,LGBM_default,LGBM_default,train
-2022-02-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1035.0,,,,TBF,TBF,train
-2022-02-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,90.0,,,,RF_default,RF_default,train
-2022-02-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,15360.0,,,,LGBM_default,LGBM_default,train
-2022-03-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1080.0,,,,TBF,TBF,train
-2022-03-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,45.0,,,,RF_default,RF_default,train
-2022-03-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,16800.0,,,,LGBM_default,LGBM_default,train
-2022-04-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,270.0,,,,TBF,TBF,train
-2022-04-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,45.0,,,,RF_default,RF_default,train
-2022-04-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,12960.0,,,,LGBM_default,LGBM_default,train
-2022-05-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1125.0,,,,TBF,TBF,train
-2022-05-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,45.0,,,,RF_default,RF_default,train
-2022-05-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,22080.0,,,,LGBM_default,LGBM_default,train
-2022-06-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,2070.0,,,,TBF,TBF,train
-2022-06-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,480.0,,,,LGBM_default,LY_trend,train
-2022-06-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,,,,,RF_default,RF_default,train
-2022-06-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,6720.0,,,,LGBM_default,LGBM_default,train
-2022-07-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,585.0,,,,TBF,TBF,train
-2022-07-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,2400.0,,,,LGBM_default,LY_trend,train
-2022-07-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,360.0,,,,RF_default,RF_default,train
-2022-07-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,2880.0,,,,LGBM_default,LGBM_default,train
-2022-08-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1080.0,,,,TBF,TBF,train
-2022-08-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,960.0,,,,LGBM_default,LY_trend,train
-2022-08-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,720.0,,,,RF_default,RF_default,train
-2022-08-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,19200.0,,,,LGBM_default,LGBM_default,train
-2022-09-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1710.0,,,,TBF,TBF,train
-2022-09-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,4800.0,,,,LGBM_default,LY_trend,train
-2022-09-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,1035.0,,,,RF_default,RF_default,train
-2022-09-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,18720.0,,,,LGBM_default,LGBM_default,train
-2022-10-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,360.0,,,,TBF,TBF,train
-2022-10-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,7200.0,,,,LGBM_default,LY_trend,train
-2022-10-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,3465.0,,,,RF_default,RF_default,train
-2022-10-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,30720.0,,,,LGBM_default,LGBM_default,train
-2022-11-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,720.0,,,,TBF,TBF,train
-2022-11-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,14400.0,,,,LGBM_default,LY_trend,train
-2022-11-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,6255.0,,,,RF_default,RF_default,train
-2022-11-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,20160.0,,,,LGBM_default,LGBM_default,train
-2022-12-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1080.0,,,,TBF,TBF,train
-2022-12-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,32160.0,,,,LGBM_default,LY_trend,train
-2022-12-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,1260.0,,,,RF_default,RF_default,train
-2022-12-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,15840.0,,,,LGBM_default,LGBM_default,train
-2023-01-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,810.0,,,,TBF,TBF,train
-2023-01-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,65280.0,,,,LGBM_default,LY_trend,train
-2023-01-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,990.0,,,,RF_default,RF_default,train
-2023-01-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,28320.0,,,,LGBM_default,LGBM_default,train
-2023-02-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,2295.0,,,,TBF,TBF,train
-2023-02-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,30240.0,,,,LGBM_default,LY_trend,train
-2023-02-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,1530.0,,,,RF_default,RF_default,train
-2023-02-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,26880.0,,,,LGBM_default,LGBM_default,train
-2023-03-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,2205.0,,,,TBF,TBF,train
-2023-03-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,22074.0,,,,LGBM_default,LY_trend,train
-2023-03-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,4950.0,,,,RF_default,RF_default,train
-2023-03-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,26880.0,,,,LGBM_default,LGBM_default,train
-2023-04-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,3420.0,,,,TBF,TBF,train
-2023-04-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,8640.0,,,,LGBM_default,LY_trend,train
-2023-04-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,14535.0,,,,RF_default,RF_default,train
-2023-04-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,12960.0,,,,LGBM_default,LGBM_default,train
-2023-05-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,675.0,,,,TBF,TBF,train
-2023-05-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,7680.0,,,,LGBM_default,LY_trend,train
-2023-05-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,7605.0,,,,RF_default,RF_default,train
-2023-05-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,12480.0,,,,LGBM_default,LGBM_default,train
-2023-06-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,990.0,,,,TBF,TBF,train
-2023-06-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,12480.0,,,,LGBM_default,LY_trend,train
-2023-06-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,7290.0,,,,RF_default,RF_default,train
-2023-06-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,9168.0,,,,LGBM_default,LGBM_default,train
-2023-07-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,495.0,,,,TBF,TBF,train
-2023-07-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,11040.0,,,,LGBM_default,LY_trend,train
-2023-07-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,9180.0,,,,RF_default,RF_default,train
-2023-07-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,24960.0,,,,LGBM_default,LGBM_default,train
-2023-08-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1125.0,,,,TBF,TBF,train
-2023-08-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,17760.0,,,,LGBM_default,LY_trend,train
-2023-08-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,11160.0,,,,RF_default,RF_default,train
-2023-08-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,54240.0,,,,LGBM_default,LGBM_default,train
-2023-09-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,450.0,,,,TBF,TBF,train
-2023-09-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,40320.0,,,,LGBM_default,LY_trend,train
-2023-09-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,10845.0,,,,RF_default,RF_default,train
-2023-09-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,35520.0,,,,LGBM_default,LGBM_default,train
-2023-10-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1485.0,,,,TBF,TBF,train
-2023-10-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,35040.0,,,,LGBM_default,LY_trend,train
-2023-10-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,16335.0,,,,RF_default,RF_default,train
-2023-10-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,42240.0,,,,LGBM_default,LGBM_default,train
-2023-11-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1035.0,,,,TBF,TBF,train
-2023-11-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,65208.0,,,,LGBM_default,LY_trend,train
-2023-11-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,13905.0,,,,RF_default,RF_default,train
-2023-11-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,12480.0,,,,LGBM_default,LGBM_default,train
-2023-12-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,945.0,,,,TBF,TBF,train
-2023-12-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,141540.0,,,,LGBM_default,LY_trend,train
-2023-12-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,5625.0,,,,RF_default,RF_default,train
-2023-12-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,13440.0,,,,LGBM_default,LGBM_default,train
-2024-01-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1440.0,,,,TBF,TBF,train
-2024-01-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,167040.0,,,,LGBM_default,LY_trend,train
-2024-01-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,9675.0,,,,RF_default,RF_default,train
-2024-01-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,8640.0,,,,LGBM_default,LGBM_default,train
-2024-02-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1665.0,,,,TBF,TBF,train
-2024-02-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,51840.0,,,,LGBM_default,LY_trend,train
-2024-02-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,5130.0,,,,RF_default,RF_default,train
-2024-02-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,4320.0,,,,LGBM_default,LGBM_default,train
-2024-03-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,3195.0,,,,TBF,TBF,train
-2024-03-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,18240.0,,,,LGBM_default,LY_trend,train
-2024-03-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,13275.0,,,,RF_default,RF_default,train
-2024-03-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,8640.0,,,,LGBM_default,LGBM_default,train
-2024-04-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,3780.0,,,,TBF,TBF,train
-2024-04-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,15360.0,,,,LGBM_default,LY_trend,train
-2024-04-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,20340.0,,,,RF_default,RF_default,train
-2024-04-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,12960.0,,,,LGBM_default,LGBM_default,train
-2024-05-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1575.0,,,,TBF,TBF,train
-2024-05-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,26400.0,,,,LGBM_default,LY_trend,train
-2024-05-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,16695.0,,,,RF_default,RF_default,train
-2024-05-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,9600.0,,,,LGBM_default,LGBM_default,train
-2024-06-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,630.0,,,,TBF,TBF,train
-2024-06-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,20160.0,,,,LGBM_default,LY_trend,train
-2024-06-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,10305.0,,,,RF_default,RF_default,train
-2024-06-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,7200.0,,,,LGBM_default,LGBM_default,train
-2024-07-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,765.0,739.0029167093463,739.0029167093463,739.0029167093463,TBF,TBF,validation
-2024-07-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,32400.0,28785.16733848163,28785.16733848163,6149.503041579548,LGBM_default,LY_trend,validation
-2024-07-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,15390.0,12642.3,12642.3,12642.3,RF_default,RF_default,validation
-2024-07-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,36960.0,17400.702668686587,17400.702668686587,17400.702668686587,LGBM_default,LGBM_default,validation
-2024-08-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,2070.0,1508.7976216149154,1508.7976216149154,1508.7976216149154,TBF,TBF,validation
-2024-08-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,26340.0,41666.60561211698,41666.60561211698,9892.678806019274,LGBM_default,LY_trend,validation
-2024-08-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,8775.0,14315.4,14315.4,14315.4,RF_default,RF_default,validation
-2024-08-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,6720.0,11272.563658745903,11272.563658745903,11272.563658745903,LGBM_default,LGBM_default,validation
-2024-09-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1170.0,1478.0058334186926,1478.0058334186926,1478.0058334186926,TBF,TBF,validation
-2024-09-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,31200.0,30674.629320269327,30674.629320269327,22459.054586638347,LGBM_default,LY_trend,validation
-2024-09-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,14805.0,14479.2,14479.2,14479.2,RF_default,RF_default,validation
-2024-09-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,33120.0,16738.219835761367,16738.219835761367,16738.219835761367,LGBM_default,LGBM_default,validation
-2024-10-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1350.0,1266.8472799652357,1266.8472799652357,1266.8472799652357,TBF,TBF,testing
-2024-10-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,71040.0,62269.05806489715,62269.05806489715,41698.46888488874,LGBM_default,LY_trend,testing
-2024-10-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,14085.0,12955.05,12955.05,12955.05,RF_default,RF_default,testing
-2024-10-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,33600.0,18188.580508296087,18188.580508296087,18188.580508296087,LGBM_default,LGBM_default,testing
-2024-11-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,2250.0,1205.0498516742484,1205.0498516742484,1205.0498516742484,TBF,TBF,testing
-2024-11-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,87840.0,62497.04684563602,62497.04684563602,77599.13695907033,LGBM_default,LY_trend,testing
-2024-11-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,8955.0,10302.75,10302.75,10302.75,RF_default,RF_default,testing
-2024-11-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,42720.0,19885.154546922357,19885.154546922357,19885.154546922357,LGBM_default,LGBM_default,testing
-2024-12-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,1125.0,1390.4421365472097,1390.4421365472097,1390.4421365472097,TBF,TBF,testing
-2024-12-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,274764.0,49510.02177104411,49510.02177104411,168436.10975933648,LGBM_default,LY_trend,testing
-2024-12-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,4995.0,12679.2,12679.2,12679.2,RF_default,RF_default,testing
-2024-12-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,23520.0,16511.013906146367,16511.013906146367,16511.013906146367,LGBM_default,LGBM_default,testing
-2025-01-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,,1565.8103648933254,1565.8103648933254,1565.8103648933254,TBF,TBF,forecasting
-2025-01-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,,49311.75798832255,49311.75798832255,368012.2339040567,LGBM_default,LY_trend,forecasting
-2025-01-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,,13259.25,13259.25,13259.25,RF_default,RF_default,forecasting
-2025-01-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,,10526.896370363444,10526.896370363444,10526.896370363444,LGBM_default,LGBM_default,forecasting
-2025-02-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,,2250.0,2250.0,2250.0,TBF,TBF,forecasting
-2025-02-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,,24489.156011843923,24489.156011843923,114210.69328056934,LGBM_default,LY_trend,forecasting
-2025-02-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,,16324.65,16324.65,16324.65,RF_default,RF_default,forecasting
-2025-02-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,,9617.545739727137,9617.545739727137,9617.545739727137,LGBM_default,LGBM_default,forecasting
-2025-03-01,Retail_FoodBazaar_Uptown Depot_Frozen Foods_PRD0026,N,36+,,2250.0,2250.0,2250.0,TBF,TBF,forecasting
-2025-03-01,Retail_SuperShop_Harbor Depot_Produce_PRD0019,N,25–36,,20562.29540535669,20562.29540535669,40185.243932052166,LGBM_default,LY_trend,forecasting
-2025-03-01,Retail_ValueStore_Harbor Depot_Snacks_PRD0005,Y,25–36,,11498.85,11498.85,11498.85,RF_default,RF_default,forecasting
-2025-03-01,Retail_ValueStore_Uptown Depot_Produce_PRD0019,Y,36+,,10124.330228361669,10124.330228361669,10124.330228361669,LGBM_default,LGBM_default,forecasting
+2022-01-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,31095.0,,,,TBF,TBF,train
+2022-01-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,61200.0,,,,SARIMA,SARIMA,train
+2022-01-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,144045.0,,,,LGBM_default,LGBM_default,train
+2022-01-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,25065.0,,,,LY_trend,LY_trend,train
+2022-02-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,37125.0,,,,TBF,TBF,train
+2022-02-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,113400.0,,,,SARIMA,SARIMA,train
+2022-02-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,393525.0,,,,LGBM_default,LGBM_default,train
+2022-02-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,274500.0,,,,LY_trend,LY_trend,train
+2022-03-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,78480.0,,,,TBF,TBF,train
+2022-03-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,257490.0,,,,SARIMA,SARIMA,train
+2022-03-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,287370.0,,,,LGBM_default,LGBM_default,train
+2022-03-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,125325.0,,,,LY_trend,LY_trend,train
+2022-04-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,110385.0,,,,TBF,TBF,train
+2022-04-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,211770.0,,,,SARIMA,SARIMA,train
+2022-04-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,436905.0,,,,LGBM_default,LGBM_default,train
+2022-04-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,275085.0,,,,LY_trend,LY_trend,train
+2022-05-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,4140.0,,,,TBF,TBF,train
+2022-05-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,186075.0,,,,SARIMA,SARIMA,train
+2022-05-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,427815.0,,,,LGBM_default,LGBM_default,train
+2022-05-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,227115.0,,,,LY_trend,LY_trend,train
+2022-06-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,56070.0,,,,TBF,TBF,train
+2022-06-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,210825.0,,,,SARIMA,SARIMA,train
+2022-06-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,666450.0,,,,LGBM_default,LGBM_default,train
+2022-06-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,218115.0,,,,LY_trend,LY_trend,train
+2022-07-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,12904.2,,,,TBF,TBF,train
+2022-07-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,59355.0,,,,SARIMA,SARIMA,train
+2022-07-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,98550.0,,,,LGBM_default,LGBM_default,train
+2022-07-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,76500.0,,,,LY_trend,LY_trend,train
+2022-08-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,22230.0,,,,TBF,TBF,train
+2022-08-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,147150.0,,,,SARIMA,SARIMA,train
+2022-08-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,105750.0,,,,LGBM_default,LGBM_default,train
+2022-08-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,66150.0,,,,LY_trend,LY_trend,train
+2022-09-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,29160.0,,,,TBF,TBF,train
+2022-09-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,8100.0,,,,SARIMA,SARIMA,train
+2022-09-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,158850.0,,,,LGBM_default,LGBM_default,train
+2022-09-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,175140.0,,,,LY_trend,LY_trend,train
+2022-10-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,35055.0,,,,TBF,TBF,train
+2022-10-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,55350.0,,,,SARIMA,SARIMA,train
+2022-10-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,187245.0,,,,LGBM_default,LGBM_default,train
+2022-10-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,86850.0,,,,LY_trend,LY_trend,train
+2022-11-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,29790.0,,,,TBF,TBF,train
+2022-11-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,152190.0,,,,SARIMA,SARIMA,train
+2022-11-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,134460.0,,,,LGBM_default,LGBM_default,train
+2022-11-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,84240.0,,,,LY_trend,LY_trend,train
+2022-12-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,36720.0,,,,TBF,TBF,train
+2022-12-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,0.0,,,,SARIMA,SARIMA,train
+2022-12-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,156150.0,,,,LGBM_default,LGBM_default,train
+2022-12-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,37260.0,,,,LY_trend,LY_trend,train
+2022-12-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,18240.0,,,,Prophet,Prophet,train
+2023-01-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,41490.0,,,,TBF,TBF,train
+2023-01-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,128250.0,,,,SARIMA,SARIMA,train
+2023-01-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,280575.0,,,,LGBM_default,LGBM_default,train
+2023-01-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,181035.0,,,,LY_trend,LY_trend,train
+2023-01-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,49920.0,,,,Prophet,Prophet,train
+2023-02-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,59580.0,,,,TBF,TBF,train
+2023-02-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,255150.0,,,,SARIMA,SARIMA,train
+2023-02-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,521685.0,,,,LGBM_default,LGBM_default,train
+2023-02-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,199350.0,,,,LY_trend,LY_trend,train
+2023-02-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,20640.0,,,,Prophet,Prophet,train
+2023-03-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,116775.0,,,,TBF,TBF,train
+2023-03-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,477342.0,,,,SARIMA,SARIMA,train
+2023-03-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,896472.0,,,,LGBM_default,LGBM_default,train
+2023-03-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,171810.0,,,,LY_trend,LY_trend,train
+2023-03-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,44160.0,,,,Prophet,Prophet,train
+2023-04-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,90495.0,,,,TBF,TBF,train
+2023-04-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,209520.0,,,,SARIMA,SARIMA,train
+2023-04-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,822636.0,,,,LGBM_default,LGBM_default,train
+2023-04-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,347760.0,,,,LY_trend,LY_trend,train
+2023-04-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,40206.0,,,,Prophet,Prophet,train
+2023-05-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,80460.0,,,,TBF,TBF,train
+2023-05-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,252180.0,,,,SARIMA,SARIMA,train
+2023-05-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,870750.0,,,,LGBM_default,LGBM_default,train
+2023-05-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,150120.0,,,,LY_trend,LY_trend,train
+2023-05-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,40320.0,,,,Prophet,Prophet,train
+2023-06-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,39015.0,,,,TBF,TBF,train
+2023-06-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,215514.0,,,,SARIMA,SARIMA,train
+2023-06-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,485244.0,,,,LGBM_default,LGBM_default,train
+2023-06-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,0.0,,,,LY_trend,LY_trend,train
+2023-06-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,23520.0,,,,Prophet,Prophet,train
+2023-07-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,22365.0,,,,TBF,TBF,train
+2023-07-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,62100.0,,,,SARIMA,SARIMA,train
+2023-07-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,161190.0,,,,LGBM_default,LGBM_default,train
+2023-07-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,51138.0,,,,LY_trend,LY_trend,train
+2023-07-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,41760.0,,,,Prophet,Prophet,train
+2023-08-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,26910.0,,,,TBF,TBF,train
+2023-08-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,35532.0,,,,SARIMA,SARIMA,train
+2023-08-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,18900.0,,,,LGBM_default,LGBM_default,train
+2023-08-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,69336.0,,,,LY_trend,LY_trend,train
+2023-08-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,60000.0,,,,Prophet,Prophet,train
+2023-09-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,43650.0,,,,TBF,TBF,train
+2023-09-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,92934.0,,,,SARIMA,SARIMA,train
+2023-09-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,102725.0,,,,LGBM_default,LGBM_default,train
+2023-09-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,113015.0,,,,LY_trend,LY_trend,train
+2023-09-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,21120.0,,,,Prophet,Prophet,train
+2023-10-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,49860.0,,,,TBF,TBF,train
+2023-10-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,22925.0,,,,SARIMA,SARIMA,train
+2023-10-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,59500.0,,,,LGBM_default,LGBM_default,train
+2023-10-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,15960.0,,,,LY_trend,LY_trend,train
+2023-10-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,40320.0,,,,Prophet,Prophet,train
+2023-11-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,34515.0,,,,TBF,TBF,train
+2023-11-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,40425.0,,,,SARIMA,SARIMA,train
+2023-11-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,126525.0,,,,LGBM_default,LGBM_default,train
+2023-11-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,54950.0,,,,LY_trend,LY_trend,train
+2023-11-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,37920.0,,,,Prophet,Prophet,train
+2023-12-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,40410.0,,,,TBF,TBF,train
+2023-12-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,26250.0,,,,SARIMA,SARIMA,train
+2023-12-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,116760.0,,,,LGBM_default,LGBM_default,train
+2023-12-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,24780.0,,,,LY_trend,LY_trend,train
+2023-12-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,58560.0,,,,Prophet,Prophet,train
+2024-01-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,50760.0,,,,TBF,TBF,train
+2024-01-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,116562.0,,,,SARIMA,SARIMA,train
+2024-01-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,309852.0,,,,LGBM_default,LGBM_default,train
+2024-01-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,11550.0,,,,LY_trend,LY_trend,train
+2024-01-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,31680.0,,,,Prophet,Prophet,train
+2024-02-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,57150.0,,,,TBF,TBF,train
+2024-02-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,207120.0,,,,SARIMA,SARIMA,train
+2024-02-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,494400.0,,,,LGBM_default,LGBM_default,train
+2024-02-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,48144.0,,,,LY_trend,LY_trend,train
+2024-02-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,50400.0,,,,Prophet,Prophet,train
+2024-03-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,59940.0,,,,TBF,TBF,train
+2024-03-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,316848.0,,,,SARIMA,SARIMA,train
+2024-03-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,772416.0,,,,LGBM_default,LGBM_default,train
+2024-03-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,370656.0,,,,LY_trend,LY_trend,train
+2024-03-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,32640.0,,,,Prophet,Prophet,train
+2024-04-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,67500.0,,,,TBF,TBF,train
+2024-04-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,317472.0,,,,SARIMA,SARIMA,train
+2024-04-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,711888.0,,,,LGBM_default,LGBM_default,train
+2024-04-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,100560.0,,,,LY_trend,LY_trend,train
+2024-04-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,27840.0,,,,Prophet,Prophet,train
+2024-05-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,64935.0,,,,TBF,TBF,train
+2024-05-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,173040.0,,,,SARIMA,SARIMA,train
+2024-05-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,481728.0,,,,LGBM_default,LGBM_default,train
+2024-05-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,274224.0,,,,LY_trend,LY_trend,train
+2024-05-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,48000.0,,,,Prophet,Prophet,train
+2024-06-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,26055.0,,,,TBF,TBF,train
+2024-06-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,99360.0,,,,SARIMA,SARIMA,train
+2024-06-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,333504.0,,,,LGBM_default,LGBM_default,train
+2024-06-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,32400.0,,,,LY_trend,LY_trend,train
+2024-06-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,49440.0,,,,Prophet,Prophet,train
+2024-07-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,25425.0,26055.0,26055.0,26055.0,TBF,TBF,validation
+2024-07-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,29760.0,,,,SARIMA,SARIMA,validation
+2024-07-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,51840.0,109488.75710089921,109488.75710089921,109488.75710089921,LGBM_default,LGBM_default,validation
+2024-07-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,68640.0,42180.08719454151,42180.08719454151,42180.08719454151,LY_trend,LY_trend,validation
+2024-07-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,54720.0,40462.21235157706,40462.21235157706,40462.21235157706,Prophet,Prophet,validation
+2024-08-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,27855.0,27855.70451357976,27855.70451357976,27855.70451357976,TBF,TBF,validation
+2024-08-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,28176.0,,,,SARIMA,SARIMA,validation
+2024-08-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,52896.0,90753.36295215582,90753.36295215582,90753.36295215582,LGBM_default,LGBM_default,validation
+2024-08-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,5472.0,57190.318857224185,57190.318857224185,57190.318857224185,LY_trend,LY_trend,validation
+2024-08-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,13440.0,40527.18526112406,40527.18526112406,40527.18526112406,Prophet,Prophet,validation
+2024-09-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,35415.0,41273.37903202568,41273.37903202568,41273.37903202568,TBF,TBF,validation
+2024-09-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,54960.0,,,,SARIMA,SARIMA,validation
+2024-09-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,164160.0,109632.23182967563,109632.23182967563,109632.23182967563,LGBM_default,LGBM_default,validation
+2024-09-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,61920.0,93218.00919650962,93218.00919650962,93218.00919650962,LY_trend,LY_trend,validation
+2024-09-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,102720.0,58729.27998590805,58729.27998590805,58729.27998590805,Prophet,Prophet,validation
+2024-10-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,53505.0,42891.94278912398,41429.884271438095,41429.884271438095,TBF,TBF,testing
+2024-10-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,41280.0,12111.036573861871,12111.036573861871,12111.036573861871,SARIMA,SARIMA,testing
+2024-10-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,126720.0,114756.05608882883,114756.05608882883,114756.05608882883,LGBM_default,LGBM_default,testing
+2024-10-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,38640.0,7624.443800919716,7624.443800919716,7624.443800919716,LY_trend,LY_trend,testing
+2024-10-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,15360.0,28421.064422815914,28421.064422815914,28421.064422815914,Prophet,Prophet,testing
+2024-11-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,39105.0,32481.49774544683,31374.300277628532,31374.300277628532,TBF,TBF,testing
+2024-11-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,30780.0,47222.12720741982,47222.12720741982,47222.12720741982,SARIMA,SARIMA,testing
+2024-11-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,133146.0,136743.85355576774,136743.85355576774,136743.85355576774,LGBM_default,LGBM_default,testing
+2024-11-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,33792.0,26250.826244394633,26250.826244394633,26250.826244394633,LY_trend,LY_trend,testing
+2024-11-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,59520.0,71165.1371982416,71165.1371982416,71165.1371982416,Prophet,Prophet,testing
+2024-12-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,29925.0,38959.61311105379,37631.59599430042,37631.59599430042,TBF,TBF,testing
+2024-12-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,46026.0,5597.658680056709,5597.658680056709,5597.658680056709,SARIMA,SARIMA,testing
+2024-12-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,106938.48,234527.6109642887,234527.6109642887,234527.6109642887,LGBM_default,LGBM_default,testing
+2024-12-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,10800.0,11837.952217217451,11837.952217217451,11837.952217217451,LY_trend,LY_trend,testing
+2024-12-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,68118.0,42715.32974950709,42715.32974950709,42715.32974950709,Prophet,Prophet,testing
+2025-01-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,,39254.927264752485,37916.84376849444,37916.84376849444,TBF,TBF,forecasting
+2025-01-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,,116498.625,116498.625,116498.625,SARIMA,SARIMA,forecasting
+2025-01-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,,382041.4903551143,382041.4903551143,382041.4903551143,LGBM_default,LGBM_default,forecasting
+2025-01-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,,2786.077836389954,2786.077836389954,2786.077836389954,LY_trend,LY_trend,forecasting
+2025-01-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,,213280.31247228995,213280.31247228995,213280.31247228995,Prophet,Prophet,forecasting
+2025-02-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,,48964.82901064895,47295.76389802353,47295.76389802353,TBF,TBF,forecasting
+2025-02-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,,207056.625,207056.625,207056.625,SARIMA,SARIMA,forecasting
+2025-02-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,,645070.5101714246,645070.5101714246,645070.5101714246,LGBM_default,LGBM_default,forecasting
+2025-02-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,,11613.240809970384,11613.240809970384,11613.240809970384,LY_trend,LY_trend,forecasting
+2025-02-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,,76955.60113468935,76955.60113468935,76955.60113468935,Prophet,Prophet,forecasting
+2025-03-01,Online_DailyNeeds_East Depot_Snacks_PRD0002,N,36+,,53505.0,51681.17398742266,51681.17398742266,TBF,TBF,forecasting
+2025-03-01,Online_FreshMart_North Depot_Dairy_PRD0009,Y,36+,,316784.625,316784.625,316784.625,SARIMA,SARIMA,forecasting
+2025-03-01,Online_FreshMart_North Depot_Dairy_PRD0012,N,36+,,508900.8988889642,508900.8988889642,508900.8988889642,LGBM_default,LGBM_default,forecasting
+2025-03-01,Online_FreshMart_North Depot_Dairy_PRD0013,Y,36+,,89409.21788094846,89409.21788094846,89409.21788094846,LY_trend,LY_trend,forecasting
+2025-03-01,Retail_FoodBazaar_Lakeside Depot_Produce_PRD0019,N,25–36,,114501.84291456843,114501.84291456843,114501.84291456843,Prophet,Prophet,forecasting

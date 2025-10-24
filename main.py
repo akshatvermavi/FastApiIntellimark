@@ -1,6 +1,7 @@
 import os
 import io
 import logging
+import re
 from typing import Optional, Dict
 from fastapi import FastAPI, File, UploadFile, Form, HTTPException
 from fastapi.responses import StreamingResponse
@@ -21,6 +22,7 @@ DEFAULT_PARAMS = {
     "key_col": "key",
     "seasonal_col": "seasonal",
     "hist_range_col": "hist_range",
+    "key_components": None,  # optional: comma or 'x'-separated list of columns to build key
 }
 
 
@@ -41,23 +43,48 @@ def _prepare_df(df: pd.DataFrame, params: Dict):
 
     # Normalize column names
     df.columns = [c.lower() for c in df.columns]
-
+    # print("✅ df completed")
+    # df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/input_df4.csv", index=False)
     # Parse date
     if date_col not in df.columns:
         raise ValueError(f"Date column '{date_col}' not found in uploaded data.")
-    df[date_col] = pd.to_datetime(df[date_col], dayfirst=False, errors="coerce")
+    # df[date_col] = pd.to_datetime(df[date_col], dayfirst=False, errors="coerce")
+    # df[date_col] = pd.to_datetime(df[date_col])
+    df[date_col] = pd.to_datetime(df[date_col], dayfirst=True)
+    # print("✅ df completed")
+    # df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/input_df5.csv", index=False)
     if df[date_col].isna().all():
         raise ValueError(f"Could not parse dates in column '{date_col}'. Please ensure a valid date format.")
 
-    # If key column not in df, create key by concatenating categorical columns available
+    # If key column not in df, create key by concatenating provided components or fallbacks
     if key_col not in df.columns:
-        candidates = [c for c in ["channel", "chain", "depot", "subcat", "sku"] if c in df.columns]
-        if not candidates:
-            df[key_col] = "GLOBAL"
-        else:
-            df[key_col] = df[candidates].astype(str).agg("_".join, axis=1)
+        key_components = params.get("key_components")
+        if not key_components:
+            raise ValueError("Key column not found in the data. Provide 'key_components' to build it or include 'key_col' in the CSV.")
+        parts = [p.strip().lower() for p in re.split(r"x|,|\+|\||;", key_components) if p.strip()]
+        missing = [p for p in parts if p not in df.columns]
+        if missing:
+            raise ValueError(f"Missing key component columns: {missing}. Available: {list(df.columns)}")
+        df[key_col] = df[parts].astype(str).agg("_".join, axis=1)
+
+        # candidates: list[str] = []
+        # if key_components:
+        #     # split on 'x' or commas and normalize case/spaces
+        #     parts = [p.strip().lower() for p in re.split(r"x|,|\+|\||;", key_components) if p.strip()]
+        #     missing = [p for p in parts if p not in df.columns]
+        #     if missing:
+        #         raise ValueError(f"Missing key component columns: {missing}. Available: {list(df.columns)}")
+        #     candidates = parts
+        # else:  
+        #     candidates = [c for c in ["channel", "chain", "depot", "subcat", "sku"] if c in df.columns]
+        # if not candidates:
+        #     df[key_col] = "GLOBAL"
+        # else:
+        #     df[key_col] = df[candidates].astype(str).agg("_".join, axis=1)
 
     # Ensure target_col exists and numeric
+    # print("✅ df completed")
+    # df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/input_df6.csv", index=False)
     target_col = params["target_col"]
     if target_col not in df.columns:
         raise ValueError(f"Target column '{target_col}' not found in uploaded data.")
@@ -68,12 +95,14 @@ def _prepare_df(df: pd.DataFrame, params: Dict):
         df[seasonal_col] = "N"
     else:
         df[seasonal_col] = df[seasonal_col].fillna("N")
-
+    # print("✅ df completed")        
+    # df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/input_df7.csv", index=False)
     # Convert dates to month start (pipeline expects monthly frequency)
     # NOTE: Period.to_timestamp expects a period frequency (e.g., 'M'), not a date-offset like 'MS'.
     # Using 'MS' here raises: "MS is not supported as period frequency".
     df[date_col] = df[date_col].dt.to_period("M").dt.to_timestamp()
-
+    # print("✅ df completed")
+    # df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/input_df8.csv", index=False)
     # Aggregate duplicate rows but RETAIN seasonal by grouping with it
     # This ensures downstream pipeline has 'seasonal' available per key
     if seasonal_col not in df.columns:
@@ -82,7 +111,8 @@ def _prepare_df(df: pd.DataFrame, params: Dict):
         df.groupby([key_col, seasonal_col, date_col], as_index=False)[target_col]
           .sum()
     )
-
+    # print("✅ df completed")
+    # df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/input_df9.csv", index=False)
     # Hist_range column: compute using helper (per key) and map back
     if hist_range_col not in df.columns:
         temp = df.rename(columns={date_col: "date", key_col: "key", target_col: "actual_value"})
@@ -99,8 +129,9 @@ def _prepare_df(df: pd.DataFrame, params: Dict):
         df[hist_range_col] = df[hist_range_col].fillna("<6")
 
     # Final clean-up
-    df = df.drop_duplicates().reset_index(drop=True)
-
+    #df = df.drop_duplicates().reset_index(drop=True)
+    # print("✅ df completed")
+    # df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/input_df10.csv", index=False)
     return df
         # Hist_range column: compute if missing
     # if hist_range_col not in df.columns:
@@ -137,7 +168,8 @@ async def run_forecast(
     test_cutoff: str = Form(...),
     forecast_cutoff: str = Form(...),
     forecasting_horizon: int = Form(3),
-    debug_keys: Optional[str] = Form(None)
+    debug_keys: Optional[str] = Form(None),
+    key_components: Optional[str] = Form(DEFAULT_PARAMS["key_components"])
 ):
     """
     Run forecast pipeline.
@@ -166,6 +198,7 @@ async def run_forecast(
         "key_col": key_col,
         "seasonal_col": seasonal_col,
         "hist_range_col": hist_range_col,
+        "key_components": key_components,
     }
 
     # Prepare/clean df
