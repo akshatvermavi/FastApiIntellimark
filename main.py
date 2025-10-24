@@ -169,8 +169,24 @@ async def run_forecast(
     forecast_cutoff: str = Form(...),
     forecasting_horizon: int = Form(3),
     debug_keys: Optional[str] = Form(None),
-    key_components: Optional[str] = Form(DEFAULT_PARAMS["key_components"])
+    key_components: Optional[str] = Form(DEFAULT_PARAMS["key_components"]),
+    seasonal_flag: Optional[str] = Form(None)  # 🆕 New optional form param
 ):
+# async def run_forecast(
+#     csv_path: Optional[str] = Form(None),
+#     file: Optional[UploadFile] = File(None),
+#     date_col: str = Form(DEFAULT_PARAMS["date_col"]),
+#     target_col: str = Form(DEFAULT_PARAMS["target_col"]),
+#     key_col: str = Form(DEFAULT_PARAMS["key_col"]),
+#     seasonal_col: str = Form(DEFAULT_PARAMS["seasonal_col"]),
+#     hist_range_col: str = Form(DEFAULT_PARAMS["hist_range_col"]),
+#     validation_cutoff: str = Form(...),
+#     test_cutoff: str = Form(...),
+#     forecast_cutoff: str = Form(...),
+#     forecasting_horizon: int = Form(3),
+#     debug_keys: Optional[str] = Form(None),
+#     key_components: Optional[str] = Form(DEFAULT_PARAMS["key_components"])
+# ):
     """
     Run forecast pipeline.
     - Either upload a CSV file or provide csv_path.
@@ -178,6 +194,7 @@ async def run_forecast(
     - Optional: forecasting_horizon (default 3)
     """
     # Load dataframe
+    #df.columns = [c.lower() for c in df.columns]
     if file is not None:
         contents = await file.read()
         try:
@@ -206,7 +223,33 @@ async def run_forecast(
         df_prepared = _prepare_df(df, params)
         logger.info(f"Prepared DataFrame shape: {df_prepared.shape}")
         logger.info(f"Columns: {list(df_prepared.columns)}")
-        logger.info(f"First few rows: {df_prepared.head(3).to_dict(orient='records')}")
+        # ✅ Add this block here — seasonal override logic
+        # if seasonal_flag:
+        #     logger.info(f"Overriding seasonal flag with user input: {seasonal_flag}")
+        #     df_prepared["seasonal"] = seasonal_flag.upper()
+        # else:
+        #     # If user didn't pass seasonal_flag, ensure seasonal defaults to 'N'
+        #     if "seasonal" not in df_prepared.columns:
+        #         df_prepared["seasonal"] = "N"
+        #     df_prepared["seasonal"] = df_prepared["seasonal"].fillna("N")
+        # Detect if seasonal flag exists in CSV
+        # --- Handle seasonal flag robustly ---
+  # === Handle Seasonal Column Logic ===
+        possible_seasonal_cols = ["seasonal", "seasonal_flag", "season_flag", "season"]
+        existing = [c for c in possible_seasonal_cols if c in df.columns]
+
+        if existing:
+        # use existing column
+            df.rename(columns={existing[0]: seasonal_col}, inplace=True)
+            df[seasonal_col] = df[seasonal_col].fillna("N").astype(str).str.upper()
+        else:
+        # No seasonal column in CSV → use user override flag or set to N
+            if seasonal_flag:
+                df[seasonal_col] = seasonal_flag.upper()
+            else:
+                df[seasonal_col] = "N"
+
+
 
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))

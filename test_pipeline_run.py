@@ -19,6 +19,8 @@ params = {
 # print("✅ df completed2")
 # df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/input_df2.csv", index=False)
 df_prepared = _prepare_df(df, params)
+df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/debug_prepared_df.csv", index=False)
+
 # print("✅ df completed")
 # print(df)
 #print("✅ forecast_direct.csv generated successfully!")
