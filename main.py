@@ -214,6 +214,14 @@ async def run_forecast(
         raise HTTPException(status_code=400, detail="Please supply an uploaded file or a csv_path.")
 
     # Prepare params dict
+    date_col = date_col.lower()
+    target_col = target_col.lower()
+    key_col = key_col.lower()
+    seasonal_col = seasonal_col.lower()
+    hist_range_col = hist_range_col.lower()
+    if key_components:
+        key_components = key_components.lower()
+        
     params = {
         "date_col": date_col,
         "target_col": target_col,
