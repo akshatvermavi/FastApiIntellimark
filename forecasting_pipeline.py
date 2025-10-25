@@ -1426,7 +1426,9 @@ def forecast_pipeline_debug(
                 logger.error(f"Missing seasonal/hist_range for key {key}; skipping.")
                 continue
 
-            seasonal = group[seasonal_col].iloc[0]
+            # Normalize seasonal flag to 'Y'/'N' regardless of input values
+            seasonal_raw = group[seasonal_col].iloc[0]
+            seasonal = 'Y' if str(seasonal_raw).upper().startswith('Y') else 'N'
             hist_range = group[hist_range_col].iloc[0]
             hier_values = {c: group[c].iloc[0] if c in group.columns else None for c in hierarchy_cols}
 

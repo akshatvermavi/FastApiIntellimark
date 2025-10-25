@@ -23,6 +23,7 @@ DEFAULT_PARAMS = {
     "seasonal_col": "seasonal",
     "hist_range_col": "hist_range",
     "key_components": None,  # optional: comma or 'x'-separated list of columns to build key
+    "seasonal_default": "NA",  # user can override; will be normalized to Y/N internally
 }
 
 
@@ -90,11 +91,15 @@ def _prepare_df(df: pd.DataFrame, params: Dict):
         raise ValueError(f"Target column '{target_col}' not found in uploaded data.")
     df[target_col] = pd.to_numeric(df[target_col], errors="coerce")
 
-    # Seasonal column: if missing, default to 'N'; else fill missing
+    # Seasonal column: if missing, create with provided default; normalize to Y/N
+    seasonal_default = str(params.get("seasonal_default", "NA")).upper()
     if seasonal_col not in df.columns:
-        df[seasonal_col] = "N"
+        df[seasonal_col] = seasonal_default
     else:
-        df[seasonal_col] = df[seasonal_col].fillna("N")
+        df[seasonal_col] = df[seasonal_col].fillna(seasonal_default)
+    # normalize values so pipeline rules work (NA -> N)
+    df[seasonal_col] = df[seasonal_col].astype(str).str.upper().str.strip()
+    df[seasonal_col] = df[seasonal_col].apply(lambda v: "Y" if v.startswith("Y") else ("N" if v.startswith("N") else "N"))
     # print("✅ df completed")        
     # df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/input_df7.csv", index=False)
     # Convert dates to month start (pipeline expects monthly frequency)
@@ -170,7 +175,7 @@ async def run_forecast(
     forecasting_horizon: int = Form(3),
     debug_keys: Optional[str] = Form(None),
     key_components: Optional[str] = Form(DEFAULT_PARAMS["key_components"]),
-    seasonal_flag: Optional[str] = Form(None)  # 🆕 New optional form param
+    seasonal_default: str = Form(DEFAULT_PARAMS["seasonal_default"])  # e.g., Y/N/NA
 ):
 # async def run_forecast(
 #     csv_path: Optional[str] = Form(None),
@@ -216,6 +221,7 @@ async def run_forecast(
         "seasonal_col": seasonal_col,
         "hist_range_col": hist_range_col,
         "key_components": key_components,
+        "seasonal_default": seasonal_default,
     }
 
     # Prepare/clean df
