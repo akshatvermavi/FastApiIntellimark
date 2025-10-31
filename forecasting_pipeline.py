@@ -1401,6 +1401,13 @@ def forecast_pipeline_debug(
 
     all_results, all_feature_importances = [], []
     all_model_names = ["SARIMA", "HoltWinters", "Prophet", "L3M", "L6M", "RF", "XGB", "LY_trend", "TBF", "Naive", "LGBM", "RF_default", "XGB_default", "LGBM_default"]
+    
+    # Define once, early, so it always exists regardless of later control flow
+    feature_cols_to_add = [
+        "trend", "seasonality", "lag1", "lag2", "lag3",
+        "rolling_mean_3m", "rolling_mean_6m", "rolling_std_3m",
+        "year", "month", "quarter", "monthly_ratio"
+    ]
 
     keys = list(df[key_col].unique())
     if debug_keys is not None:
@@ -1419,7 +1426,9 @@ def forecast_pipeline_debug(
                 logger.error(f"Missing seasonal/hist_range for key {key}; skipping.")
                 continue
 
-            seasonal = group[seasonal_col].iloc[0]
+            # Normalize seasonal flag to 'Y'/'N' regardless of input values
+            seasonal_raw = group[seasonal_col].iloc[0]
+            seasonal = 'Y' if str(seasonal_raw).upper().startswith('Y') else 'N'
             hist_range = group[hist_range_col].iloc[0]
             hier_values = {c: group[c].iloc[0] if c in group.columns else None for c in hierarchy_cols}
 
@@ -1458,43 +1467,35 @@ def forecast_pipeline_debug(
             logger.info(f"  Data splits -> train:{len(train_data)}, validation:{len(validation_data)}, test:{len(test_data)}")
 
             if len(train_data) < 3 or validation_data.empty:
-                # Fallback is only triggered if there's recent data in the test period.
-                if not test_data.dropna().empty:
-                    logger.warning(f"  Insufficient training/validation data for key {key}. Using Naive fallback based on test data.")
-                    
-                    # Fallback logic: Use Naive model based on the latest available data, even from the test period.
-                    full_history_series = group[target_col]
-                    min_date = full_history_series.index.min() if not full_history_series.empty else forecast_cutoff
-                    full_dates = pd.date_range(min_date, future_dates.max(), freq="MS")
-                    
-                    base_df = pd.DataFrame({"date": full_dates, key_col: key, seasonal_col: seasonal, hist_range_col: hist_range, **hier_values})
-                    base_df = base_df.merge(full_history_series.to_frame(name="actual_value"), left_on="date", right_index=True, how="left")
+                # Always produce a fallback forecast, even if test data is empty
+                logger.warning(f"  Insufficient training/validation data for key {key}. Using Naive fallback.")
+                
+                full_history_series = group[target_col]
+                min_date = full_history_series.index.min() if not full_history_series.empty else forecast_cutoff
+                full_dates = pd.date_range(min_date, future_dates.max(), freq="MS")
+                
+                base_df = pd.DataFrame({"date": full_dates, key_col: key, seasonal_col: seasonal, hist_range_col: hist_range, **hier_values})
+                base_df = base_df.merge(full_history_series.to_frame(name="actual_value"), left_on="date", right_index=True, how="left")
 
-                    # Forecast future using all available historical data (train  val  test)
-                    series_for_forecast = full_history_series[full_history_series.index <= forecast_cutoff]
-                    if not series_for_forecast.dropna().empty:
-                        preds_future = run_naive(series_for_forecast, forecasting_horizon)
-                        # Assign forecast only to the final unadjusted column
-                        base_df.loc[base_df["date"].isin(future_dates), "fcst_best_raw_model_unadjusted"] = preds_future.values
+                # Forecast future using all available historical data up to forecast_cutoff
+                series_for_forecast = full_history_series[full_history_series.index <= forecast_cutoff]
+                if not series_for_forecast.dropna().empty:
+                    preds_future = run_naive(series_for_forecast, forecasting_horizon)
+                    base_df.loc[base_df["date"].isin(future_dates), "fcst_best_raw_model_unadjusted"] = preds_future.values
 
-                    # Mark columns to indicate Naive was used and copy forecast to other 'best' columns
-                    base_df['best_model_raw'] = 'Naive'
-                    base_df['best_model_bias_adj'] = 'Naive'
-                    base_df['fcst_best_raw_model_adjusted'] = base_df['fcst_best_raw_model_unadjusted']
-                    base_df['fcst_best_adj_model_adjusted'] = base_df['fcst_best_raw_model_unadjusted']
+                base_df['best_model_raw'] = 'Naive'
+                base_df['best_model_bias_adj'] = 'Naive'
+                base_df['fcst_best_raw_model_adjusted'] = base_df['fcst_best_raw_model_unadjusted']
+                base_df['fcst_best_adj_model_adjusted'] = base_df['fcst_best_raw_model_unadjusted']
 
-                    val_mask = base_df["date"].isin(validation_dates)
-                    test_mask = base_df["date"].isin(test_dates)
-                    future_mask = base_df["date"].isin(future_dates)
-                    base_df['period'] = np.select([val_mask, test_mask, future_mask], ['validation', 'testing', 'forecasting'], default='train')
-                    
-                    all_results.append(base_df)
-                    logger.info(f"--- Finished processing Key: {key} ---")
-                    continue
-                else:
-                    # If training/validation is insufficient AND there is no recent data, skip the key.
-                    logger.warning(f"  SKIP: Insufficient training data (<3) or empty validation, and no recent data in test period for key {key}.")
-                    continue
+                val_mask = base_df["date"].isin(validation_dates)
+                test_mask = base_df["date"].isin(test_dates)
+                future_mask = base_df["date"].isin(future_dates)
+                base_df['period'] = np.select([val_mask, test_mask, future_mask], ['validation', 'testing', 'forecasting'], default='train')
+                
+                all_results.append(base_df)
+                logger.info(f"--- Finished processing Key: {key} ---")
+                continue
 
             tuned_params = {}
             if 'RF' in models_to_run:
@@ -1650,10 +1651,7 @@ def forecast_pipeline_debug(
             logger.error(f"!!! CRITICAL ERROR processing key {key}. Skipping to next key. Error: {e}", exc_info=True)
             # file_handler.flush()
             continue # Move to the next key
-        feature_cols_to_add = [
-        "trend", "seasonality", "lag1", "lag2", "lag3", "rolling_mean_3m", 
-        "rolling_mean_6m", "rolling_std_3m", "year", "month", "quarter", "monthly_ratio"
-    ]
+        # feature_cols_to_add defined at top of function
 
     if all_results:
         processed_results = []
@@ -1693,6 +1691,18 @@ def forecast_pipeline_debug(
             # 5. Merge features back into the key's result DataFrame
             feature_df.drop(columns=['target'], inplace=True)
             updated_key_df = key_df.merge(feature_df[feature_cols_to_add].reset_index(), on='date', how='left')
+            # # --- Safety check: ensure feature_cols_to_add is defined ---
+            # if 'feature_cols_to_add' not in locals(): #avi1
+            #     if 'feature_df' in locals():
+            #         feature_cols_to_add = [c for c in feature_df.columns if c not in ['date']]
+            #     else:
+            #         feature_cols_to_add = []   
+            # try:        
+            #     updated_key_df = key_df.merge(feature_df[feature_cols_to_add].reset_index(), on='date', how='left')
+            # except Exception as e:
+            #     logger.warning(f"⚠️ Feature merge failed for key {key}: {e}")
+            #     updated_key_df = key_df.copy()   #avi1
+                
             processed_results.append(updated_key_df)
 
         final_results = pd.concat(processed_results, ignore_index=True)
