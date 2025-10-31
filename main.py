@@ -6,11 +6,24 @@ from typing import Optional, Dict
 from fastapi import FastAPI, File, UploadFile, Form, HTTPException
 from fastapi.responses import StreamingResponse
 import pandas as pd
+import numpy as np
+import secrets
+from datetime import datetime
+
+# Token store path
+TOKEN_CSV_PATH = os.path.join(os.path.dirname(__file__), 'Token', 'user_token.csv')
 
 # Import the pipeline function and helper from your file
 from forecasting_pipeline import forecast_pipeline_debug, add_hist_range
 
 app = FastAPI(title="Monthly Forecast API")
+
+# Mount token generation routes
+try:
+    from accesstoken import router as token_router
+    app.include_router(token_router)
+except Exception as e:
+    logging.getLogger(__name__).warning(f"Token router not mounted: {e}")
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -138,6 +151,78 @@ def _prepare_df(df: pd.DataFrame, params: Dict):
     # print("✅ df completed")
     # df.to_csv("C:/Users/aksha/OneDrive/Desktop/FastOutputTest/input_df10.csv", index=False)
     return df
+
+
+def _create_new_credentials(tdf: pd.DataFrame, base_username: Optional[str]) -> str:
+    """Append a new username/token with counter=0 and return the username used."""
+    # Ensure columns
+    needed = ['username', 'token', 'counter']
+    for col in needed:
+        if col not in tdf.columns:
+            tdf[col] = pd.Series(dtype=object)
+    # Generate unique username/token
+    uname_base = (str(base_username).strip() if base_username else 'user')
+    uname = f"{uname_base}_{datetime.utcnow().strftime('%Y%m%d%H%M%S')}"
+    # Ensure unique token
+    existing_tokens = set(tdf['token'].astype(str)) if 'token' in tdf.columns else set()
+    tok = secrets.token_urlsafe(24)
+    while tok in existing_tokens:
+        tok = secrets.token_urlsafe(24)
+    # Append
+    new_row = pd.DataFrame({'username': [uname], 'token': [tok], 'counter': [100]})
+    tdf = pd.concat([tdf, new_row], ignore_index=True)
+    os.makedirs(os.path.dirname(TOKEN_CSV_PATH), exist_ok=True)
+    tdf.to_csv(TOKEN_CSV_PATH, index=False)
+    return uname
+
+
+def _load_token_store() -> pd.DataFrame:
+    os.makedirs(os.path.dirname(TOKEN_CSV_PATH), exist_ok=True)
+    if not os.path.exists(TOKEN_CSV_PATH):
+        pd.DataFrame(columns=['username','token','counter']).to_csv(TOKEN_CSV_PATH, index=False)
+    df = pd.read_csv(TOKEN_CSV_PATH)
+    df.columns = [c.lower() for c in df.columns]
+    for col in ['username','token','counter']:
+        if col not in df.columns:
+            df[col] = pd.Series(dtype=object)
+    return df
+
+
+def _require_token(token: str) -> tuple[pd.DataFrame, int, str, int]:
+    """Ensure token exists and has remaining credits (>0).
+    Returns (store_df, row_index, username, remaining_credits).
+    """
+    df = _load_token_store()
+    mask = df['token'].astype(str) == str(token)
+    if not mask.any():
+        raise HTTPException(status_code=401, detail="Invalid token")
+    idx = df.index[mask][0]
+    # Remaining credits in 'counter'
+    try:
+        remaining = int(df.at[idx,'counter']) if pd.notna(df.at[idx,'counter']) else 0
+    except Exception:
+        remaining = 0
+    if remaining <= 0:
+        raise HTTPException(status_code=401, detail="Token expired (no remaining credits)")
+    uname = str(df.at[idx,'username']) if 'username' in df.columns and pd.notna(df.at[idx,'username']) else 'anonymous'
+    return df, idx, uname, remaining
+
+
+def _decrement_token(token: str, amount: int) -> int:
+    """Subtract amount from token counter and persist. Returns new remaining credits (>=0)."""
+    df = _load_token_store()
+    mask = df['token'].astype(str) == str(token)
+    if not mask.any():
+        raise HTTPException(status_code=401, detail="Invalid token")
+    idx = df.index[mask][0]
+    try:
+        current = int(df.at[idx,'counter']) if pd.notna(df.at[idx,'counter']) else 0
+    except Exception:
+        current = 0
+    new_val = max(current - max(amount, 0), 0)
+    df.at[idx,'counter'] = new_val
+    df.to_csv(TOKEN_CSV_PATH, index=False)
+    return new_val
         # Hist_range column: compute if missing
     # if hist_range_col not in df.columns:
     #     temp = df.rename(columns={date_col: "date", key_col: "key", target_col: "actual_value"})
@@ -176,6 +261,8 @@ async def run_forecast(
     debug_keys: Optional[str] = Form(None),
     key_components: Optional[str] = Form(DEFAULT_PARAMS["key_components"]),
     seasonal_default: str = Form(DEFAULT_PARAMS["seasonal_default"])  # e.g., Y/N/NA
+    , token: str = Form(...),
+    username: Optional[str] = Form(None)
 ):
 # async def run_forecast(
 #     csv_path: Optional[str] = Form(None),
@@ -198,6 +285,12 @@ async def run_forecast(
     - Required: validation_cutoff, test_cutoff, forecast_cutoff.
     - Optional: forecasting_horizon (default 3)
     """
+    # Validate token (must have remaining credits)
+    token_store, token_idx, store_username, credits_before = _require_token(token=token)
+    # If client didn't pass username, use the one bound to token for output folder naming
+    if not username:
+        username = store_username
+
     # Load dataframe
     #df.columns = [c.lower() for c in df.columns]
     if file is not None:
@@ -246,22 +339,7 @@ async def run_forecast(
         #     if "seasonal" not in df_prepared.columns:
         #         df_prepared["seasonal"] = "N"
         #     df_prepared["seasonal"] = df_prepared["seasonal"].fillna("N")
-        # Detect if seasonal flag exists in CSV
-        # --- Handle seasonal flag robustly ---
-  # === Handle Seasonal Column Logic ===
-        possible_seasonal_cols = ["seasonal", "seasonal_flag", "season_flag", "season"]
-        existing = [c for c in possible_seasonal_cols if c in df.columns]
-
-        if existing:
-        # use existing column
-            df.rename(columns={existing[0]: seasonal_col}, inplace=True)
-            df[seasonal_col] = df[seasonal_col].fillna("N").astype(str).str.upper()
-        else:
-        # No seasonal column in CSV → use user override flag or set to N
-            if seasonal_flag:
-                df[seasonal_col] = seasonal_flag.upper()
-            else:
-                df[seasonal_col] = "N"
+        # Seasonal handling is performed inside _prepare_df; nothing to do here.
 
 
 
@@ -294,7 +372,25 @@ async def run_forecast(
         logger.exception("Pipeline execution failed")
         raise HTTPException(status_code=500, detail=f"Forecast pipeline failed: {e}")
 
-    # Return CSV stream
+    # Persist under user_data/<username>/ and stream back
+    # Decrement credits by number of unique keys processed
+    try:
+        unique_keys_processed = int(result_df['key'].nunique()) if 'key' in result_df.columns else int(df_prepared[key_col].nunique())
+    except Exception:
+        unique_keys_processed = 1
+    new_remaining = _decrement_token(token=token, amount=unique_keys_processed)
+
+    safe_user = (username or 'anonymous')
+    out_dir = os.path.join(os.path.dirname(__file__), 'user_data', safe_user)
+    os.makedirs(out_dir, exist_ok=True)
+    ts = pd.Timestamp.utcnow().strftime('%Y%m%d_%H%M%S')
+    server_filename = f'forecast_{safe_user}_{ts}.csv'
+    server_path = os.path.join(out_dir, server_filename)
+    try:
+        result_df.to_csv(server_path, index=False)
+    except Exception as e:
+        logger.warning(f'Failed to save server copy to {server_path}: {e}')
+
     out_buf = io.StringIO()
     result_df.to_csv(out_buf, index=False)
     out_buf.seek(0)
@@ -302,4 +398,4 @@ async def run_forecast(
 
     return StreamingResponse(io.BytesIO(csv_bytes),
                              media_type="text/csv",
-                             headers={"Content-Disposition": "attachment; filename=forecast_results.csv"})
+                             headers={"Content-Disposition": f"attachment; filename={server_filename}"})

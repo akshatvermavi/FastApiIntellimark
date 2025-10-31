@@ -1,0 +1,1130 @@
+date,key,seasonal,hist_range,actual_value,fcst_best_raw_model_unadjusted,fcst_best_raw_model_adjusted,fcst_best_adj_model_adjusted,best_model_raw,best_model_bias_adj,period
+2022-04-01,Bhiwandi_EV1180G_Eva ,N,36+,359.0,,,,LY_trend,LY_trend,train
+2022-04-01,Bhiwandi_EV1210G_Eva ,N,36+,171.0,,,,TBF,TBF,train
+2022-04-01,Bhiwandi_HW0001G_Hawai,N,36+,1829.0,,,,L6M,TBF,train
+2022-04-01,Bhiwandi_HW0002G_Hawai,N,36+,690.0,,,,LGBM_default,LGBM_default,train
+2022-04-01,Bhiwandi_HW0003L_Hawai,N,36+,546.0,,,,TBF,TBF,train
+2022-04-01,Bhiwandi_PU6685G_PU,Y,36+,1234.0,,,,SARIMA,SARIMA,train
+2022-04-01,Bhiwandi_PU8750G_PU,Y,36+,340.0,,,,TBF,TBF,train
+2022-04-01,Bhiwandi_PU8805G_PU,Y,36+,761.0,,,,HoltWinters,HoltWinters,train
+2022-04-01,Bhiwandi_PU8850G_PU,Y,36+,442.0,,,,RF_default,RF_default,train
+2022-04-01,Bhiwandi_PU8885G_PU,Y,36+,769.0,,,,TBF,TBF,train
+2022-04-01,Bhiwandi_PV0400G_PVC,Y,36+,578.0,,,,TBF,TBF,train
+2022-04-01,Nagpur_EV1210G_Eva ,N,36+,5753.0,,,,L3M,L3M,train
+2022-04-01,Nagpur_FB9050G_Fabrictd,Y,36+,308.0,,,,RF_default,RF_default,train
+2022-04-01,Nagpur_HW0001G_Hawai,N,36+,724.0,,,,RF_default,RF_default,train
+2022-04-01,Nagpur_HW0003L_Hawai,N,36+,631.0,,,,L6M,L6M,train
+2022-04-01,Nagpur_PU6775G_PU,Y,36+,515.0,,,,LGBM_default,LGBM_default,train
+2022-04-01,Pune_EV1180G_Eva ,N,36+,192.0,,,,TBF,TBF,train
+2022-04-01,Pune_EV1210G_Eva ,N,36+,2247.0,,,,L3M,L3M,train
+2022-04-01,Pune_FB9050G_Fabrictd,Y,36+,369.0,,,,TBF,TBF,train
+2022-04-01,Pune_HW0001G_Hawai,N,36+,937.0,,,,L6M,L6M,train
+2022-04-01,Pune_HW0003L_Hawai,N,36+,1787.0,,,,XGB_default,XGB_default,train
+2022-04-01,Pune_HW0028G_Eva Hwi,N,36+,396.0,,,,LGBM_default,LGBM_default,train
+2022-04-01,Pune_PU6662G_PU,Y,36+,438.0,,,,TBF,TBF,train
+2022-04-01,Pune_PU6685G_PU,Y,36+,452.0,,,,TBF,TBF,train
+2022-04-01,Pune_PU6721G_PU,Y,36+,480.0,,,,HoltWinters,HoltWinters,train
+2022-04-01,Pune_PU6775G_PU,Y,36+,460.0,,,,HoltWinters,SARIMA,train
+2022-05-01,Bhiwandi_EV1180G_Eva ,N,36+,1008.0,,,,LY_trend,LY_trend,train
+2022-05-01,Bhiwandi_EV1210G_Eva ,N,36+,3664.0,,,,TBF,TBF,train
+2022-05-01,Bhiwandi_HW0001G_Hawai,N,36+,1400.0,,,,L6M,TBF,train
+2022-05-01,Bhiwandi_HW0002G_Hawai,N,36+,514.0,,,,LGBM_default,LGBM_default,train
+2022-05-01,Bhiwandi_HW0003L_Hawai,N,36+,661.0,,,,TBF,TBF,train
+2022-05-01,Bhiwandi_PU6685G_PU,Y,36+,1195.0,,,,SARIMA,SARIMA,train
+2022-05-01,Bhiwandi_PU8750G_PU,Y,36+,970.0,,,,TBF,TBF,train
+2022-05-01,Bhiwandi_PU8805G_PU,Y,36+,2151.0,,,,HoltWinters,HoltWinters,train
+2022-05-01,Bhiwandi_PU8850G_PU,Y,36+,853.0,,,,RF_default,RF_default,train
+2022-05-01,Bhiwandi_PU8885G_PU,Y,36+,1654.0,,,,TBF,TBF,train
+2022-05-01,Bhiwandi_PV0400G_PVC,Y,36+,1495.0,,,,TBF,TBF,train
+2022-05-01,Nagpur_EV1210G_Eva ,N,36+,5939.0,,,,L3M,L3M,train
+2022-05-01,Nagpur_FB9050G_Fabrictd,Y,36+,303.0,,,,RF_default,RF_default,train
+2022-05-01,Nagpur_HW0001G_Hawai,N,36+,649.0,,,,RF_default,RF_default,train
+2022-05-01,Nagpur_HW0003L_Hawai,N,36+,592.0,,,,L6M,L6M,train
+2022-05-01,Nagpur_PU6775G_PU,Y,36+,451.0,,,,LGBM_default,LGBM_default,train
+2022-05-01,Pune_EV1180G_Eva ,N,36+,874.0,,,,TBF,TBF,train
+2022-05-01,Pune_EV1210G_Eva ,N,36+,4978.0,,,,L3M,L3M,train
+2022-05-01,Pune_FB9050G_Fabrictd,Y,36+,392.0,,,,TBF,TBF,train
+2022-05-01,Pune_HW0001G_Hawai,N,36+,1480.0,,,,L6M,L6M,train
+2022-05-01,Pune_HW0003L_Hawai,N,36+,1658.0,,,,XGB_default,XGB_default,train
+2022-05-01,Pune_HW0028G_Eva Hwi,N,36+,376.0,,,,LGBM_default,LGBM_default,train
+2022-05-01,Pune_PU6662G_PU,Y,36+,541.0,,,,TBF,TBF,train
+2022-05-01,Pune_PU6685G_PU,Y,36+,782.0,,,,TBF,TBF,train
+2022-05-01,Pune_PU6721G_PU,Y,36+,587.0,,,,HoltWinters,HoltWinters,train
+2022-05-01,Pune_PU6775G_PU,Y,36+,593.0,,,,HoltWinters,SARIMA,train
+2022-06-01,Bhiwandi_EV1180G_Eva ,N,36+,1424.0,,,,LY_trend,LY_trend,train
+2022-06-01,Bhiwandi_EV1210G_Eva ,N,36+,367.0,,,,TBF,TBF,train
+2022-06-01,Bhiwandi_HW0001G_Hawai,N,36+,1706.0,,,,L6M,TBF,train
+2022-06-01,Bhiwandi_HW0002G_Hawai,N,36+,493.0,,,,LGBM_default,LGBM_default,train
+2022-06-01,Bhiwandi_HW0003L_Hawai,N,36+,601.0,,,,TBF,TBF,train
+2022-06-01,Bhiwandi_PU6685G_PU,Y,36+,1001.0,,,,SARIMA,SARIMA,train
+2022-06-01,Bhiwandi_PU8750G_PU,Y,36+,570.0,,,,TBF,TBF,train
+2022-06-01,Bhiwandi_PU8805G_PU,Y,36+,1573.0,,,,HoltWinters,HoltWinters,train
+2022-06-01,Bhiwandi_PU8850G_PU,Y,36+,814.0,,,,RF_default,RF_default,train
+2022-06-01,Bhiwandi_PU8885G_PU,Y,36+,1415.0,,,,TBF,TBF,train
+2022-06-01,Bhiwandi_PV0400G_PVC,Y,36+,1339.0,,,,TBF,TBF,train
+2022-06-01,Nagpur_EV1210G_Eva ,N,36+,3019.0,,,,L3M,L3M,train
+2022-06-01,Nagpur_FB9050G_Fabrictd,Y,36+,224.0,,,,RF_default,RF_default,train
+2022-06-01,Nagpur_HW0001G_Hawai,N,36+,844.0,,,,RF_default,RF_default,train
+2022-06-01,Nagpur_HW0003L_Hawai,N,36+,661.0,,,,L6M,L6M,train
+2022-06-01,Nagpur_PU6775G_PU,Y,36+,410.0,,,,LGBM_default,LGBM_default,train
+2022-06-01,Pune_EV1180G_Eva ,N,36+,1336.0,,,,TBF,TBF,train
+2022-06-01,Pune_EV1210G_Eva ,N,36+,6124.0,,,,L3M,L3M,train
+2022-06-01,Pune_FB9050G_Fabrictd,Y,36+,430.0,,,,TBF,TBF,train
+2022-06-01,Pune_HW0001G_Hawai,N,36+,1169.0,,,,L6M,L6M,train
+2022-06-01,Pune_HW0003L_Hawai,N,36+,1776.0,,,,XGB_default,XGB_default,train
+2022-06-01,Pune_HW0028G_Eva Hwi,N,36+,420.0,,,,LGBM_default,LGBM_default,train
+2022-06-01,Pune_PU6662G_PU,Y,36+,429.0,,,,TBF,TBF,train
+2022-06-01,Pune_PU6685G_PU,Y,36+,398.0,,,,TBF,TBF,train
+2022-06-01,Pune_PU6721G_PU,Y,36+,488.0,,,,HoltWinters,HoltWinters,train
+2022-06-01,Pune_PU6775G_PU,Y,36+,379.0,,,,HoltWinters,SARIMA,train
+2022-07-01,Bhiwandi_EV1180G_Eva ,N,36+,760.0,,,,LY_trend,LY_trend,train
+2022-07-01,Bhiwandi_EV1210G_Eva ,N,36+,166.0,,,,TBF,TBF,train
+2022-07-01,Bhiwandi_HW0001G_Hawai,N,36+,1362.0,,,,L6M,TBF,train
+2022-07-01,Bhiwandi_HW0002G_Hawai,N,36+,623.0,,,,LGBM_default,LGBM_default,train
+2022-07-01,Bhiwandi_HW0003L_Hawai,N,36+,460.0,,,,TBF,TBF,train
+2022-07-01,Bhiwandi_PU6685G_PU,Y,36+,561.0,,,,SARIMA,SARIMA,train
+2022-07-01,Bhiwandi_PU8750G_PU,Y,36+,482.0,,,,TBF,TBF,train
+2022-07-01,Bhiwandi_PU8805G_PU,Y,36+,631.0,,,,HoltWinters,HoltWinters,train
+2022-07-01,Bhiwandi_PU8850G_PU,Y,36+,546.0,,,,RF_default,RF_default,train
+2022-07-01,Bhiwandi_PU8885G_PU,Y,36+,628.0,,,,TBF,TBF,train
+2022-07-01,Bhiwandi_PV0400G_PVC,Y,36+,413.0,,,,TBF,TBF,train
+2022-07-01,Nagpur_EV1210G_Eva ,N,36+,1945.0,,,,L3M,L3M,train
+2022-07-01,Nagpur_FB9050G_Fabrictd,Y,36+,229.0,,,,RF_default,RF_default,train
+2022-07-01,Nagpur_HW0001G_Hawai,N,36+,411.0,,,,RF_default,RF_default,train
+2022-07-01,Nagpur_HW0003L_Hawai,N,36+,482.0,,,,L6M,L6M,train
+2022-07-01,Nagpur_PU6775G_PU,Y,36+,304.0,,,,LGBM_default,LGBM_default,train
+2022-07-01,Pune_EV1180G_Eva ,N,36+,1213.0,,,,TBF,TBF,train
+2022-07-01,Pune_EV1210G_Eva ,N,36+,3054.0,,,,L3M,L3M,train
+2022-07-01,Pune_FB9050G_Fabrictd,Y,36+,360.0,,,,TBF,TBF,train
+2022-07-01,Pune_HW0001G_Hawai,N,36+,1510.0,,,,L6M,L6M,train
+2022-07-01,Pune_HW0003L_Hawai,N,36+,2038.0,,,,XGB_default,XGB_default,train
+2022-07-01,Pune_HW0028G_Eva Hwi,N,36+,371.0,,,,LGBM_default,LGBM_default,train
+2022-07-01,Pune_PU6662G_PU,Y,36+,429.0,,,,TBF,TBF,train
+2022-07-01,Pune_PU6685G_PU,Y,36+,500.0,,,,TBF,TBF,train
+2022-07-01,Pune_PU6721G_PU,Y,36+,475.0,,,,HoltWinters,HoltWinters,train
+2022-07-01,Pune_PU6775G_PU,Y,36+,463.0,,,,HoltWinters,SARIMA,train
+2022-08-01,Bhiwandi_EV1180G_Eva ,N,36+,232.0,,,,LY_trend,LY_trend,train
+2022-08-01,Bhiwandi_EV1210G_Eva ,N,36+,131.0,,,,TBF,TBF,train
+2022-08-01,Bhiwandi_HW0001G_Hawai,N,36+,1073.0,,,,L6M,TBF,train
+2022-08-01,Bhiwandi_HW0002G_Hawai,N,36+,354.0,,,,LGBM_default,LGBM_default,train
+2022-08-01,Bhiwandi_HW0003L_Hawai,N,36+,307.0,,,,TBF,TBF,train
+2022-08-01,Bhiwandi_PU6685G_PU,Y,36+,581.0,,,,SARIMA,SARIMA,train
+2022-08-01,Bhiwandi_PU8750G_PU,Y,36+,324.0,,,,TBF,TBF,train
+2022-08-01,Bhiwandi_PU8805G_PU,Y,36+,456.0,,,,HoltWinters,HoltWinters,train
+2022-08-01,Bhiwandi_PU8850G_PU,Y,36+,443.0,,,,RF_default,RF_default,train
+2022-08-01,Bhiwandi_PU8885G_PU,Y,36+,425.0,,,,TBF,TBF,train
+2022-08-01,Bhiwandi_PV0400G_PVC,Y,36+,245.0,,,,TBF,TBF,train
+2022-08-01,Nagpur_EV1210G_Eva ,N,36+,1349.0,,,,L3M,L3M,train
+2022-08-01,Nagpur_FB9050G_Fabrictd,Y,36+,249.0,,,,RF_default,RF_default,train
+2022-08-01,Nagpur_HW0001G_Hawai,N,36+,375.0,,,,RF_default,RF_default,train
+2022-08-01,Nagpur_HW0003L_Hawai,N,36+,211.0,,,,L6M,L6M,train
+2022-08-01,Nagpur_PU6775G_PU,Y,36+,463.0,,,,LGBM_default,LGBM_default,train
+2022-08-01,Pune_EV1180G_Eva ,N,36+,675.0,,,,TBF,TBF,train
+2022-08-01,Pune_EV1210G_Eva ,N,36+,2364.0,,,,L3M,L3M,train
+2022-08-01,Pune_FB9050G_Fabrictd,Y,36+,368.0,,,,TBF,TBF,train
+2022-08-01,Pune_HW0001G_Hawai,N,36+,842.0,,,,L6M,L6M,train
+2022-08-01,Pune_HW0003L_Hawai,N,36+,959.0,,,,XGB_default,XGB_default,train
+2022-08-01,Pune_HW0028G_Eva Hwi,N,36+,318.0,,,,LGBM_default,LGBM_default,train
+2022-08-01,Pune_PU6662G_PU,Y,36+,420.0,,,,TBF,TBF,train
+2022-08-01,Pune_PU6685G_PU,Y,36+,323.0,,,,TBF,TBF,train
+2022-08-01,Pune_PU6721G_PU,Y,36+,497.0,,,,HoltWinters,HoltWinters,train
+2022-08-01,Pune_PU6775G_PU,Y,36+,361.0,,,,HoltWinters,SARIMA,train
+2022-09-01,Bhiwandi_EV1180G_Eva ,N,36+,226.0,,,,LY_trend,LY_trend,train
+2022-09-01,Bhiwandi_EV1210G_Eva ,N,36+,324.0,,,,TBF,TBF,train
+2022-09-01,Bhiwandi_HW0001G_Hawai,N,36+,1479.0,,,,L6M,TBF,train
+2022-09-01,Bhiwandi_HW0002G_Hawai,N,36+,601.0,,,,LGBM_default,LGBM_default,train
+2022-09-01,Bhiwandi_HW0003L_Hawai,N,36+,497.0,,,,TBF,TBF,train
+2022-09-01,Bhiwandi_PU6685G_PU,Y,36+,898.0,,,,SARIMA,SARIMA,train
+2022-09-01,Bhiwandi_PU8750G_PU,Y,36+,755.0,,,,TBF,TBF,train
+2022-09-01,Bhiwandi_PU8805G_PU,Y,36+,724.0,,,,HoltWinters,HoltWinters,train
+2022-09-01,Bhiwandi_PU8850G_PU,Y,36+,595.0,,,,RF_default,RF_default,train
+2022-09-01,Bhiwandi_PU8885G_PU,Y,36+,662.0,,,,TBF,TBF,train
+2022-09-01,Bhiwandi_PV0400G_PVC,Y,36+,382.0,,,,TBF,TBF,train
+2022-09-01,Nagpur_EV1210G_Eva ,N,36+,920.0,,,,L3M,L3M,train
+2022-09-01,Nagpur_FB9050G_Fabrictd,Y,36+,303.0,,,,RF_default,RF_default,train
+2022-09-01,Nagpur_HW0001G_Hawai,N,36+,454.0,,,,RF_default,RF_default,train
+2022-09-01,Nagpur_HW0003L_Hawai,N,36+,365.0,,,,L6M,L6M,train
+2022-09-01,Nagpur_PU6775G_PU,Y,36+,329.0,,,,LGBM_default,LGBM_default,train
+2022-09-01,Pune_EV1180G_Eva ,N,36+,585.0,,,,TBF,TBF,train
+2022-09-01,Pune_EV1210G_Eva ,N,36+,1807.0,,,,L3M,L3M,train
+2022-09-01,Pune_FB9050G_Fabrictd,Y,36+,482.0,,,,TBF,TBF,train
+2022-09-01,Pune_HW0001G_Hawai,N,36+,1171.0,,,,L6M,L6M,train
+2022-09-01,Pune_HW0003L_Hawai,N,36+,1196.0,,,,XGB_default,XGB_default,train
+2022-09-01,Pune_HW0028G_Eva Hwi,N,36+,339.0,,,,LGBM_default,LGBM_default,train
+2022-09-01,Pune_PU6662G_PU,Y,36+,417.0,,,,TBF,TBF,train
+2022-09-01,Pune_PU6685G_PU,Y,36+,518.0,,,,TBF,TBF,train
+2022-09-01,Pune_PU6721G_PU,Y,36+,431.0,,,,HoltWinters,HoltWinters,train
+2022-09-01,Pune_PU6775G_PU,Y,36+,392.0,,,,HoltWinters,SARIMA,train
+2022-10-01,Bhiwandi_EV1180G_Eva ,N,36+,201.0,,,,LY_trend,LY_trend,train
+2022-10-01,Bhiwandi_EV1210G_Eva ,N,36+,517.0,,,,TBF,TBF,train
+2022-10-01,Bhiwandi_HW0001G_Hawai,N,36+,1799.0,,,,L6M,TBF,train
+2022-10-01,Bhiwandi_HW0002G_Hawai,N,36+,792.0,,,,LGBM_default,LGBM_default,train
+2022-10-01,Bhiwandi_HW0003L_Hawai,N,36+,771.0,,,,TBF,TBF,train
+2022-10-01,Bhiwandi_PU6685G_PU,Y,36+,2236.0,,,,SARIMA,SARIMA,train
+2022-10-01,Bhiwandi_PU8750G_PU,Y,36+,520.0,,,,TBF,TBF,train
+2022-10-01,Bhiwandi_PU8805G_PU,Y,36+,754.0,,,,HoltWinters,HoltWinters,train
+2022-10-01,Bhiwandi_PU8850G_PU,Y,36+,646.0,,,,RF_default,RF_default,train
+2022-10-01,Bhiwandi_PU8885G_PU,Y,36+,590.0,,,,TBF,TBF,train
+2022-10-01,Bhiwandi_PV0400G_PVC,Y,36+,455.0,,,,TBF,TBF,train
+2022-10-01,Nagpur_EV1210G_Eva ,N,36+,2718.0,,,,L3M,L3M,train
+2022-10-01,Nagpur_FB9050G_Fabrictd,Y,36+,457.0,,,,RF_default,RF_default,train
+2022-10-01,Nagpur_HW0001G_Hawai,N,36+,657.0,,,,RF_default,RF_default,train
+2022-10-01,Nagpur_HW0003L_Hawai,N,36+,688.0,,,,L6M,L6M,train
+2022-10-01,Nagpur_PU6775G_PU,Y,36+,653.0,,,,LGBM_default,LGBM_default,train
+2022-10-01,Pune_EV1180G_Eva ,N,36+,553.0,,,,TBF,TBF,train
+2022-10-01,Pune_EV1210G_Eva ,N,36+,3092.0,,,,L3M,L3M,train
+2022-10-01,Pune_FB9050G_Fabrictd,Y,36+,610.0,,,,TBF,TBF,train
+2022-10-01,Pune_HW0001G_Hawai,N,36+,1390.0,,,,L6M,L6M,train
+2022-10-01,Pune_HW0003L_Hawai,N,36+,1682.0,,,,XGB_default,XGB_default,train
+2022-10-01,Pune_HW0028G_Eva Hwi,N,36+,341.0,,,,LGBM_default,LGBM_default,train
+2022-10-01,Pune_PU6662G_PU,Y,36+,545.0,,,,TBF,TBF,train
+2022-10-01,Pune_PU6685G_PU,Y,36+,576.0,,,,TBF,TBF,train
+2022-10-01,Pune_PU6721G_PU,Y,36+,368.0,,,,HoltWinters,HoltWinters,train
+2022-10-01,Pune_PU6775G_PU,Y,36+,512.0,,,,HoltWinters,SARIMA,train
+2022-11-01,Bhiwandi_EV1180G_Eva ,N,36+,230.0,,,,LY_trend,LY_trend,train
+2022-11-01,Bhiwandi_EV1210G_Eva ,N,36+,390.0,,,,TBF,TBF,train
+2022-11-01,Bhiwandi_HW0001G_Hawai,N,36+,1565.0,,,,L6M,TBF,train
+2022-11-01,Bhiwandi_HW0002G_Hawai,N,36+,622.0,,,,LGBM_default,LGBM_default,train
+2022-11-01,Bhiwandi_HW0003L_Hawai,N,36+,785.0,,,,TBF,TBF,train
+2022-11-01,Bhiwandi_PU6685G_PU,Y,36+,588.0,,,,SARIMA,SARIMA,train
+2022-11-01,Bhiwandi_PU8750G_PU,Y,36+,387.0,,,,TBF,TBF,train
+2022-11-01,Bhiwandi_PU8805G_PU,Y,36+,489.0,,,,HoltWinters,HoltWinters,train
+2022-11-01,Bhiwandi_PU8850G_PU,Y,36+,451.0,,,,RF_default,RF_default,train
+2022-11-01,Bhiwandi_PU8885G_PU,Y,36+,500.0,,,,TBF,TBF,train
+2022-11-01,Bhiwandi_PV0400G_PVC,Y,36+,188.0,,,,TBF,TBF,train
+2022-11-01,Nagpur_EV1210G_Eva ,N,36+,3038.0,,,,L3M,L3M,train
+2022-11-01,Nagpur_FB9050G_Fabrictd,Y,36+,385.0,,,,RF_default,RF_default,train
+2022-11-01,Nagpur_HW0001G_Hawai,N,36+,607.0,,,,RF_default,RF_default,train
+2022-11-01,Nagpur_HW0003L_Hawai,N,36+,374.0,,,,L6M,L6M,train
+2022-11-01,Nagpur_PU6775G_PU,Y,36+,408.0,,,,LGBM_default,LGBM_default,train
+2022-11-01,Pune_EV1180G_Eva ,N,36+,654.0,,,,TBF,TBF,train
+2022-11-01,Pune_EV1210G_Eva ,N,36+,4154.0,,,,L3M,L3M,train
+2022-11-01,Pune_FB9050G_Fabrictd,Y,36+,291.0,,,,TBF,TBF,train
+2022-11-01,Pune_HW0001G_Hawai,N,36+,1114.0,,,,L6M,L6M,train
+2022-11-01,Pune_HW0003L_Hawai,N,36+,1941.0,,,,XGB_default,XGB_default,train
+2022-11-01,Pune_HW0028G_Eva Hwi,N,36+,331.0,,,,LGBM_default,LGBM_default,train
+2022-11-01,Pune_PU6662G_PU,Y,36+,364.0,,,,TBF,TBF,train
+2022-11-01,Pune_PU6685G_PU,Y,36+,400.0,,,,TBF,TBF,train
+2022-11-01,Pune_PU6721G_PU,Y,36+,408.0,,,,HoltWinters,HoltWinters,train
+2022-11-01,Pune_PU6775G_PU,Y,36+,319.0,,,,HoltWinters,SARIMA,train
+2022-12-01,Bhiwandi_EV1180G_Eva ,N,36+,383.0,,,,LY_trend,LY_trend,train
+2022-12-01,Bhiwandi_EV1210G_Eva ,N,36+,666.0,,,,TBF,TBF,train
+2022-12-01,Bhiwandi_HW0001G_Hawai,N,36+,1883.0,,,,L6M,TBF,train
+2022-12-01,Bhiwandi_HW0002G_Hawai,N,36+,691.0,,,,LGBM_default,LGBM_default,train
+2022-12-01,Bhiwandi_HW0003L_Hawai,N,36+,869.0,,,,TBF,TBF,train
+2022-12-01,Bhiwandi_PU6685G_PU,Y,36+,755.0,,,,SARIMA,SARIMA,train
+2022-12-01,Bhiwandi_PU8750G_PU,Y,36+,324.0,,,,TBF,TBF,train
+2022-12-01,Bhiwandi_PU8805G_PU,Y,36+,719.0,,,,HoltWinters,HoltWinters,train
+2022-12-01,Bhiwandi_PU8850G_PU,Y,36+,351.0,,,,RF_default,RF_default,train
+2022-12-01,Bhiwandi_PU8885G_PU,Y,36+,379.0,,,,TBF,TBF,train
+2022-12-01,Bhiwandi_PV0400G_PVC,Y,36+,206.0,,,,TBF,TBF,train
+2022-12-01,Nagpur_EV1210G_Eva ,N,36+,3188.0,,,,L3M,L3M,train
+2022-12-01,Nagpur_FB9050G_Fabrictd,Y,36+,243.0,,,,RF_default,RF_default,train
+2022-12-01,Nagpur_HW0001G_Hawai,N,36+,676.0,,,,RF_default,RF_default,train
+2022-12-01,Nagpur_HW0003L_Hawai,N,36+,594.0,,,,L6M,L6M,train
+2022-12-01,Nagpur_PU6775G_PU,Y,36+,519.0,,,,LGBM_default,LGBM_default,train
+2022-12-01,Pune_EPUGI6101_PU,Y,25–36,75.0,,,,TBF,TBF,train
+2022-12-01,Pune_EPUGI6102_PU,Y,25–36,11.0,,,,LY_trend,LY_trend,train
+2022-12-01,Pune_EV1180G_Eva ,N,36+,724.0,,,,TBF,TBF,train
+2022-12-01,Pune_EV1210G_Eva ,N,36+,3693.0,,,,L3M,L3M,train
+2022-12-01,Pune_FB9050G_Fabrictd,Y,36+,338.0,,,,TBF,TBF,train
+2022-12-01,Pune_HW0001G_Hawai,N,36+,1333.0,,,,L6M,L6M,train
+2022-12-01,Pune_HW0003L_Hawai,N,36+,1695.0,,,,XGB_default,XGB_default,train
+2022-12-01,Pune_HW0028G_Eva Hwi,N,36+,420.0,,,,LGBM_default,LGBM_default,train
+2022-12-01,Pune_PU6662G_PU,Y,36+,419.0,,,,TBF,TBF,train
+2022-12-01,Pune_PU6685G_PU,Y,36+,479.0,,,,TBF,TBF,train
+2022-12-01,Pune_PU6721G_PU,Y,36+,517.0,,,,HoltWinters,HoltWinters,train
+2022-12-01,Pune_PU6775G_PU,Y,36+,312.0,,,,HoltWinters,SARIMA,train
+2023-01-01,Bhiwandi_EV1180G_Eva ,N,36+,432.0,,,,LY_trend,LY_trend,train
+2023-01-01,Bhiwandi_EV1210G_Eva ,N,36+,755.0,,,,TBF,TBF,train
+2023-01-01,Bhiwandi_HW0001G_Hawai,N,36+,1740.0,,,,L6M,TBF,train
+2023-01-01,Bhiwandi_HW0002G_Hawai,N,36+,717.0,,,,LGBM_default,LGBM_default,train
+2023-01-01,Bhiwandi_HW0003L_Hawai,N,36+,789.0,,,,TBF,TBF,train
+2023-01-01,Bhiwandi_PU6685G_PU,Y,36+,719.0,,,,SARIMA,SARIMA,train
+2023-01-01,Bhiwandi_PU8750G_PU,Y,36+,356.0,,,,TBF,TBF,train
+2023-01-01,Bhiwandi_PU8805G_PU,Y,36+,506.0,,,,HoltWinters,HoltWinters,train
+2023-01-01,Bhiwandi_PU8850G_PU,Y,36+,330.0,,,,RF_default,RF_default,train
+2023-01-01,Bhiwandi_PU8885G_PU,Y,36+,354.0,,,,TBF,TBF,train
+2023-01-01,Bhiwandi_PV0400G_PVC,Y,36+,369.0,,,,TBF,TBF,train
+2023-01-01,Nagpur_EV1210G_Eva ,N,36+,2870.0,,,,L3M,L3M,train
+2023-01-01,Nagpur_FB9050G_Fabrictd,Y,36+,151.0,,,,RF_default,RF_default,train
+2023-01-01,Nagpur_HW0001G_Hawai,N,36+,552.0,,,,RF_default,RF_default,train
+2023-01-01,Nagpur_HW0003L_Hawai,N,36+,457.0,,,,L6M,L6M,train
+2023-01-01,Nagpur_PU6775G_PU,Y,36+,368.0,,,,LGBM_default,LGBM_default,train
+2023-01-01,Pune_EPUGI6101_PU,Y,25–36,127.0,,,,TBF,TBF,train
+2023-01-01,Pune_EPUGI6102_PU,Y,25–36,86.0,,,,LY_trend,LY_trend,train
+2023-01-01,Pune_EV1180G_Eva ,N,36+,723.0,,,,TBF,TBF,train
+2023-01-01,Pune_EV1210G_Eva ,N,36+,3373.0,,,,L3M,L3M,train
+2023-01-01,Pune_FB9050G_Fabrictd,Y,36+,315.0,,,,TBF,TBF,train
+2023-01-01,Pune_HW0001G_Hawai,N,36+,1199.0,,,,L6M,L6M,train
+2023-01-01,Pune_HW0003L_Hawai,N,36+,1652.0,,,,XGB_default,XGB_default,train
+2023-01-01,Pune_HW0028G_Eva Hwi,N,36+,400.0,,,,LGBM_default,LGBM_default,train
+2023-01-01,Pune_PU6662G_PU,Y,36+,381.0,,,,TBF,TBF,train
+2023-01-01,Pune_PU6685G_PU,Y,36+,400.0,,,,TBF,TBF,train
+2023-01-01,Pune_PU6721G_PU,Y,36+,391.0,,,,HoltWinters,HoltWinters,train
+2023-01-01,Pune_PU6775G_PU,Y,36+,321.0,,,,HoltWinters,SARIMA,train
+2023-02-01,Bhiwandi_EV1180G_Eva ,N,36+,654.0,,,,LY_trend,LY_trend,train
+2023-02-01,Bhiwandi_EV1210G_Eva ,N,36+,844.0,,,,TBF,TBF,train
+2023-02-01,Bhiwandi_HW0001G_Hawai,N,36+,2160.0,,,,L6M,TBF,train
+2023-02-01,Bhiwandi_HW0002G_Hawai,N,36+,826.0,,,,LGBM_default,LGBM_default,train
+2023-02-01,Bhiwandi_HW0003L_Hawai,N,36+,936.0,,,,TBF,TBF,train
+2023-02-01,Bhiwandi_PU6685G_PU,Y,36+,1680.0,,,,SARIMA,SARIMA,train
+2023-02-01,Bhiwandi_PU8750G_PU,Y,36+,576.0,,,,TBF,TBF,train
+2023-02-01,Bhiwandi_PU8805G_PU,Y,36+,817.0,,,,HoltWinters,HoltWinters,train
+2023-02-01,Bhiwandi_PU8850G_PU,Y,36+,577.0,,,,RF_default,RF_default,train
+2023-02-01,Bhiwandi_PU8885G_PU,Y,36+,700.0,,,,TBF,TBF,train
+2023-02-01,Bhiwandi_PV0400G_PVC,Y,36+,380.0,,,,TBF,TBF,train
+2023-02-01,Nagpur_EV1210G_Eva ,N,36+,9073.0,,,,L3M,L3M,train
+2023-02-01,Nagpur_FB9050G_Fabrictd,Y,36+,556.0,,,,RF_default,RF_default,train
+2023-02-01,Nagpur_HW0001G_Hawai,N,36+,724.0,,,,RF_default,RF_default,train
+2023-02-01,Nagpur_HW0003L_Hawai,N,36+,627.0,,,,L6M,L6M,train
+2023-02-01,Nagpur_PU6775G_PU,Y,36+,989.0,,,,LGBM_default,LGBM_default,train
+2023-02-01,Pune_EPUGI6101_PU,Y,25–36,130.0,,,,TBF,TBF,train
+2023-02-01,Pune_EPUGI6102_PU,Y,25–36,57.0,,,,LY_trend,LY_trend,train
+2023-02-01,Pune_EV1180G_Eva ,N,36+,687.0,,,,TBF,TBF,train
+2023-02-01,Pune_EV1210G_Eva ,N,36+,3286.0,,,,L3M,L3M,train
+2023-02-01,Pune_FB9050G_Fabrictd,Y,36+,447.0,,,,TBF,TBF,train
+2023-02-01,Pune_HW0001G_Hawai,N,36+,1784.0,,,,L6M,L6M,train
+2023-02-01,Pune_HW0003L_Hawai,N,36+,1910.0,,,,XGB_default,XGB_default,train
+2023-02-01,Pune_HW0028G_Eva Hwi,N,36+,410.0,,,,LGBM_default,LGBM_default,train
+2023-02-01,Pune_PU6662G_PU,Y,36+,504.0,,,,TBF,TBF,train
+2023-02-01,Pune_PU6685G_PU,Y,36+,604.0,,,,TBF,TBF,train
+2023-02-01,Pune_PU6721G_PU,Y,36+,656.0,,,,HoltWinters,HoltWinters,train
+2023-02-01,Pune_PU6775G_PU,Y,36+,547.0,,,,HoltWinters,SARIMA,train
+2023-03-01,Bhiwandi_EV1180G_Eva ,N,36+,922.0,,,,LY_trend,LY_trend,train
+2023-03-01,Bhiwandi_EV1210G_Eva ,N,36+,947.0,,,,TBF,TBF,train
+2023-03-01,Bhiwandi_HW0001G_Hawai,N,36+,2463.0,,,,L6M,TBF,train
+2023-03-01,Bhiwandi_HW0002G_Hawai,N,36+,861.0,,,,LGBM_default,LGBM_default,train
+2023-03-01,Bhiwandi_HW0003L_Hawai,N,36+,859.0,,,,TBF,TBF,train
+2023-03-01,Bhiwandi_PU6685G_PU,Y,36+,1014.0,,,,SARIMA,SARIMA,train
+2023-03-01,Bhiwandi_PU8750G_PU,Y,36+,742.0,,,,TBF,TBF,train
+2023-03-01,Bhiwandi_PU8805G_PU,Y,36+,1545.0,,,,HoltWinters,HoltWinters,train
+2023-03-01,Bhiwandi_PU8850G_PU,Y,36+,539.0,,,,RF_default,RF_default,train
+2023-03-01,Bhiwandi_PU8885G_PU,Y,36+,1571.0,,,,TBF,TBF,train
+2023-03-01,Bhiwandi_PV0400G_PVC,Y,36+,1185.0,,,,TBF,TBF,train
+2023-03-01,Nagpur_EV1210G_Eva ,N,36+,4615.0,,,,L3M,L3M,train
+2023-03-01,Nagpur_FB9050G_Fabrictd,Y,36+,282.0,,,,RF_default,RF_default,train
+2023-03-01,Nagpur_HW0001G_Hawai,N,36+,625.0,,,,RF_default,RF_default,train
+2023-03-01,Nagpur_HW0003L_Hawai,N,36+,411.0,,,,L6M,L6M,train
+2023-03-01,Nagpur_PU6775G_PU,Y,36+,412.0,,,,LGBM_default,LGBM_default,train
+2023-03-01,Pune_EPUGI6101_PU,Y,25–36,394.0,,,,TBF,TBF,train
+2023-03-01,Pune_EPUGI6102_PU,Y,25–36,81.0,,,,LY_trend,LY_trend,train
+2023-03-01,Pune_EV1180G_Eva ,N,36+,1436.0,,,,TBF,TBF,train
+2023-03-01,Pune_EV1210G_Eva ,N,36+,8995.0,,,,L3M,L3M,train
+2023-03-01,Pune_FB9050G_Fabrictd,Y,36+,540.0,,,,TBF,TBF,train
+2023-03-01,Pune_HW0001G_Hawai,N,36+,1952.0,,,,L6M,L6M,train
+2023-03-01,Pune_HW0003L_Hawai,N,36+,2608.0,,,,XGB_default,XGB_default,train
+2023-03-01,Pune_HW0028G_Eva Hwi,N,36+,1084.0,,,,LGBM_default,LGBM_default,train
+2023-03-01,Pune_PU6662G_PU,Y,36+,805.0,,,,TBF,TBF,train
+2023-03-01,Pune_PU6685G_PU,Y,36+,1390.0,,,,TBF,TBF,train
+2023-03-01,Pune_PU6721G_PU,Y,36+,1422.0,,,,HoltWinters,HoltWinters,train
+2023-03-01,Pune_PU6775G_PU,Y,36+,694.0,,,,HoltWinters,SARIMA,train
+2023-04-01,Bhiwandi_EV1180G_Eva ,N,36+,110.0,,,,LY_trend,LY_trend,train
+2023-04-01,Bhiwandi_EV1210G_Eva ,N,36+,253.0,,,,TBF,TBF,train
+2023-04-01,Bhiwandi_HW0001G_Hawai,N,36+,585.0,,,,L6M,TBF,train
+2023-04-01,Bhiwandi_HW0002G_Hawai,N,36+,406.0,,,,LGBM_default,LGBM_default,train
+2023-04-01,Bhiwandi_HW0003L_Hawai,N,36+,256.0,,,,TBF,TBF,train
+2023-04-01,Bhiwandi_PU6685G_PU,Y,36+,528.0,,,,SARIMA,SARIMA,train
+2023-04-01,Bhiwandi_PU8750G_PU,Y,36+,332.0,,,,TBF,TBF,train
+2023-04-01,Bhiwandi_PU8805G_PU,Y,36+,394.0,,,,HoltWinters,HoltWinters,train
+2023-04-01,Bhiwandi_PU8850G_PU,Y,36+,435.0,,,,RF_default,RF_default,train
+2023-04-01,Bhiwandi_PU8885G_PU,Y,36+,299.0,,,,TBF,TBF,train
+2023-04-01,Bhiwandi_PV0400G_PVC,Y,36+,177.0,,,,TBF,TBF,train
+2023-04-01,Nagpur_EV1210G_Eva ,N,36+,1339.0,,,,L3M,L3M,train
+2023-04-01,Nagpur_FB9050G_Fabrictd,Y,36+,229.0,,,,RF_default,RF_default,train
+2023-04-01,Nagpur_HW0001G_Hawai,N,36+,455.0,,,,RF_default,RF_default,train
+2023-04-01,Nagpur_HW0003L_Hawai,N,36+,334.0,,,,L6M,L6M,train
+2023-04-01,Nagpur_PU6775G_PU,Y,36+,322.0,,,,LGBM_default,LGBM_default,train
+2023-04-01,Pune_EPUGI6101_PU,Y,25–36,70.0,,,,TBF,TBF,train
+2023-04-01,Pune_EPUGI6102_PU,Y,25–36,76.0,,,,LY_trend,LY_trend,train
+2023-04-01,Pune_EV1180G_Eva ,N,36+,170.0,,,,TBF,TBF,train
+2023-04-01,Pune_EV1210G_Eva ,N,36+,450.0,,,,L3M,L3M,train
+2023-04-01,Pune_FB9050G_Fabrictd,Y,36+,225.0,,,,TBF,TBF,train
+2023-04-01,Pune_HW0001G_Hawai,N,36+,1069.0,,,,L6M,L6M,train
+2023-04-01,Pune_HW0003L_Hawai,N,36+,570.0,,,,XGB_default,XGB_default,train
+2023-04-01,Pune_HW0028G_Eva Hwi,N,36+,107.0,,,,LGBM_default,LGBM_default,train
+2023-04-01,Pune_PU6662G_PU,Y,36+,170.0,,,,TBF,TBF,train
+2023-04-01,Pune_PU6685G_PU,Y,36+,96.0,,,,TBF,TBF,train
+2023-04-01,Pune_PU6721G_PU,Y,36+,75.0,,,,HoltWinters,HoltWinters,train
+2023-04-01,Pune_PU6767G_PU,Y,25–36,29.0,,,,XGB_default,XGB_default,train
+2023-04-01,Pune_PU6775G_PU,Y,36+,112.0,,,,HoltWinters,SARIMA,train
+2023-05-01,Bhiwandi_EV1180G_Eva ,N,36+,771.0,,,,LY_trend,LY_trend,train
+2023-05-01,Bhiwandi_EV1210G_Eva ,N,36+,1249.0,,,,TBF,TBF,train
+2023-05-01,Bhiwandi_HW0001G_Hawai,N,36+,1104.0,,,,L6M,TBF,train
+2023-05-01,Bhiwandi_HW0002G_Hawai,N,36+,503.0,,,,LGBM_default,LGBM_default,train
+2023-05-01,Bhiwandi_HW0003L_Hawai,N,36+,538.0,,,,TBF,TBF,train
+2023-05-01,Bhiwandi_PU6685G_PU,Y,36+,1300.0,,,,SARIMA,SARIMA,train
+2023-05-01,Bhiwandi_PU6767G_PU,Y,25–36,3.0,,,,Prophet,Prophet,train
+2023-05-01,Bhiwandi_PU8750G_PU,Y,36+,511.0,,,,TBF,TBF,train
+2023-05-01,Bhiwandi_PU8805G_PU,Y,36+,1449.0,,,,HoltWinters,HoltWinters,train
+2023-05-01,Bhiwandi_PU8850G_PU,Y,36+,764.0,,,,RF_default,RF_default,train
+2023-05-01,Bhiwandi_PU8885G_PU,Y,36+,992.0,,,,TBF,TBF,train
+2023-05-01,Bhiwandi_PV0400G_PVC,Y,36+,897.0,,,,TBF,TBF,train
+2023-05-01,Nagpur_EV1210G_Eva ,N,36+,5541.0,,,,L3M,L3M,train
+2023-05-01,Nagpur_FB9050G_Fabrictd,Y,36+,383.0,,,,RF_default,RF_default,train
+2023-05-01,Nagpur_HW0001G_Hawai,N,36+,815.0,,,,RF_default,RF_default,train
+2023-05-01,Nagpur_HW0003L_Hawai,N,36+,644.0,,,,L6M,L6M,train
+2023-05-01,Nagpur_PU6775G_PU,Y,36+,741.0,,,,LGBM_default,LGBM_default,train
+2023-05-01,Pune_EPUGI6101_PU,Y,25–36,286.0,,,,TBF,TBF,train
+2023-05-01,Pune_EPUGI6102_PU,Y,25–36,106.0,,,,LY_trend,LY_trend,train
+2023-05-01,Pune_EV1180G_Eva ,N,36+,449.0,,,,TBF,TBF,train
+2023-05-01,Pune_EV1210G_Eva ,N,36+,3118.0,,,,L3M,L3M,train
+2023-05-01,Pune_FB9050G_Fabrictd,Y,36+,455.0,,,,TBF,TBF,train
+2023-05-01,Pune_HW0001G_Hawai,N,36+,652.0,,,,L6M,L6M,train
+2023-05-01,Pune_HW0003L_Hawai,N,36+,1222.0,,,,XGB_default,XGB_default,train
+2023-05-01,Pune_HW0028G_Eva Hwi,N,36+,252.0,,,,LGBM_default,LGBM_default,train
+2023-05-01,Pune_PU6662G_PU,Y,36+,537.0,,,,TBF,TBF,train
+2023-05-01,Pune_PU6685G_PU,Y,36+,335.0,,,,TBF,TBF,train
+2023-05-01,Pune_PU6721G_PU,Y,36+,242.0,,,,HoltWinters,HoltWinters,train
+2023-05-01,Pune_PU6767G_PU,Y,25–36,54.0,,,,XGB_default,XGB_default,train
+2023-05-01,Pune_PU6775G_PU,Y,36+,538.0,,,,HoltWinters,SARIMA,train
+2023-06-01,Bhiwandi_EV1180G_Eva ,N,36+,1140.0,,,,LY_trend,LY_trend,train
+2023-06-01,Bhiwandi_EV1210G_Eva ,N,36+,2136.0,,,,TBF,TBF,train
+2023-06-01,Bhiwandi_HW0001G_Hawai,N,36+,1257.0,,,,L6M,TBF,train
+2023-06-01,Bhiwandi_HW0002G_Hawai,N,36+,632.0,,,,LGBM_default,LGBM_default,train
+2023-06-01,Bhiwandi_HW0003L_Hawai,N,36+,647.0,,,,TBF,TBF,train
+2023-06-01,Bhiwandi_PU6685G_PU,Y,36+,1372.0,,,,SARIMA,SARIMA,train
+2023-06-01,Bhiwandi_PU6767G_PU,Y,25–36,351.0,,,,Prophet,Prophet,train
+2023-06-01,Bhiwandi_PU8750G_PU,Y,36+,961.0,,,,TBF,TBF,train
+2023-06-01,Bhiwandi_PU8805G_PU,Y,36+,1194.0,,,,HoltWinters,HoltWinters,train
+2023-06-01,Bhiwandi_PU8850G_PU,Y,36+,1246.0,,,,RF_default,RF_default,train
+2023-06-01,Bhiwandi_PU8885G_PU,Y,36+,1117.0,,,,TBF,TBF,train
+2023-06-01,Bhiwandi_PV0400G_PVC,Y,36+,558.0,,,,TBF,TBF,train
+2023-06-01,Nagpur_EV1210G_Eva ,N,36+,9922.0,,,,L3M,L3M,train
+2023-06-01,Nagpur_FB9050G_Fabrictd,Y,36+,423.0,,,,RF_default,RF_default,train
+2023-06-01,Nagpur_HW0001G_Hawai,N,36+,201.0,,,,RF_default,RF_default,train
+2023-06-01,Nagpur_HW0003L_Hawai,N,36+,572.0,,,,L6M,L6M,train
+2023-06-01,Nagpur_PU6775G_PU,Y,36+,660.0,,,,LGBM_default,LGBM_default,train
+2023-06-01,Pune_EPUGI6101_PU,Y,25–36,387.0,,,,TBF,TBF,train
+2023-06-01,Pune_EPUGI6102_PU,Y,25–36,154.0,,,,LY_trend,LY_trend,train
+2023-06-01,Pune_EV1180G_Eva ,N,36+,1830.0,,,,TBF,TBF,train
+2023-06-01,Pune_EV1210G_Eva ,N,36+,8436.0,,,,L3M,L3M,train
+2023-06-01,Pune_FB9050G_Fabrictd,Y,36+,734.0,,,,TBF,TBF,train
+2023-06-01,Pune_HW0001G_Hawai,N,36+,1091.0,,,,L6M,L6M,train
+2023-06-01,Pune_HW0003L_Hawai,N,36+,2106.0,,,,XGB_default,XGB_default,train
+2023-06-01,Pune_HW0028G_Eva Hwi,N,36+,610.0,,,,LGBM_default,LGBM_default,train
+2023-06-01,Pune_PU6662G_PU,Y,36+,722.0,,,,TBF,TBF,train
+2023-06-01,Pune_PU6685G_PU,Y,36+,787.0,,,,TBF,TBF,train
+2023-06-01,Pune_PU6721G_PU,Y,36+,314.0,,,,HoltWinters,HoltWinters,train
+2023-06-01,Pune_PU6767G_PU,Y,25–36,487.0,,,,XGB_default,XGB_default,train
+2023-06-01,Pune_PU6775G_PU,Y,36+,697.0,,,,HoltWinters,SARIMA,train
+2023-07-01,Bhiwandi_EV1180G_Eva ,N,36+,712.0,,,,LY_trend,LY_trend,train
+2023-07-01,Bhiwandi_EV1210G_Eva ,N,36+,1459.0,,,,TBF,TBF,train
+2023-07-01,Bhiwandi_HW0001G_Hawai,N,36+,743.0,,,,L6M,TBF,train
+2023-07-01,Bhiwandi_HW0002G_Hawai,N,36+,444.0,,,,LGBM_default,LGBM_default,train
+2023-07-01,Bhiwandi_HW0003L_Hawai,N,36+,417.0,,,,TBF,TBF,train
+2023-07-01,Bhiwandi_PU6685G_PU,Y,36+,569.0,,,,SARIMA,SARIMA,train
+2023-07-01,Bhiwandi_PU6767G_PU,Y,25–36,399.0,,,,Prophet,Prophet,train
+2023-07-01,Bhiwandi_PU8750G_PU,Y,36+,477.0,,,,TBF,TBF,train
+2023-07-01,Bhiwandi_PU8805G_PU,Y,36+,533.0,,,,HoltWinters,HoltWinters,train
+2023-07-01,Bhiwandi_PU8850G_PU,Y,36+,877.0,,,,RF_default,RF_default,train
+2023-07-01,Bhiwandi_PU8885G_PU,Y,36+,514.0,,,,TBF,TBF,train
+2023-07-01,Bhiwandi_PV0400G_PVC,Y,36+,245.0,,,,TBF,TBF,train
+2023-07-01,Nagpur_EV1210G_Eva ,N,36+,3154.0,,,,L3M,L3M,train
+2023-07-01,Nagpur_FB9050G_Fabrictd,Y,36+,299.0,,,,RF_default,RF_default,train
+2023-07-01,Nagpur_HW0001G_Hawai,N,36+,174.0,,,,RF_default,RF_default,train
+2023-07-01,Nagpur_HW0003L_Hawai,N,36+,383.0,,,,L6M,L6M,train
+2023-07-01,Nagpur_PU6775G_PU,Y,36+,378.0,,,,LGBM_default,LGBM_default,train
+2023-07-01,Pune_EPUGI6101_PU,Y,25–36,878.0,,,,TBF,TBF,train
+2023-07-01,Pune_EPUGI6102_PU,Y,25–36,300.0,,,,LY_trend,LY_trend,train
+2023-07-01,Pune_EV1180G_Eva ,N,36+,717.0,,,,TBF,TBF,train
+2023-07-01,Pune_EV1210G_Eva ,N,36+,3736.0,,,,L3M,L3M,train
+2023-07-01,Pune_FB9050G_Fabrictd,Y,36+,199.0,,,,TBF,TBF,train
+2023-07-01,Pune_HW0001G_Hawai,N,36+,528.0,,,,L6M,L6M,train
+2023-07-01,Pune_HW0003L_Hawai,N,36+,620.0,,,,XGB_default,XGB_default,train
+2023-07-01,Pune_HW0028G_Eva Hwi,N,36+,221.0,,,,LGBM_default,LGBM_default,train
+2023-07-01,Pune_PU6662G_PU,Y,36+,216.0,,,,TBF,TBF,train
+2023-07-01,Pune_PU6685G_PU,Y,36+,236.0,,,,TBF,TBF,train
+2023-07-01,Pune_PU6721G_PU,Y,36+,183.0,,,,HoltWinters,HoltWinters,train
+2023-07-01,Pune_PU6767G_PU,Y,25–36,524.0,,,,XGB_default,XGB_default,train
+2023-07-01,Pune_PU6775G_PU,Y,36+,215.0,,,,HoltWinters,SARIMA,train
+2023-08-01,Bhiwandi_EV1180G_Eva ,N,36+,278.0,,,,LY_trend,LY_trend,train
+2023-08-01,Bhiwandi_EV1210G_Eva ,N,36+,469.0,,,,TBF,TBF,train
+2023-08-01,Bhiwandi_HW0001G_Hawai,N,36+,1106.0,,,,L6M,TBF,train
+2023-08-01,Bhiwandi_HW0002G_Hawai,N,36+,525.0,,,,LGBM_default,LGBM_default,train
+2023-08-01,Bhiwandi_HW0003L_Hawai,N,36+,321.0,,,,TBF,TBF,train
+2023-08-01,Bhiwandi_PU6685G_PU,Y,36+,464.0,,,,SARIMA,SARIMA,train
+2023-08-01,Bhiwandi_PU6767G_PU,Y,25–36,623.0,,,,Prophet,Prophet,train
+2023-08-01,Bhiwandi_PU8750G_PU,Y,36+,325.0,,,,TBF,TBF,train
+2023-08-01,Bhiwandi_PU8805G_PU,Y,36+,323.0,,,,HoltWinters,HoltWinters,train
+2023-08-01,Bhiwandi_PU8850G_PU,Y,36+,587.0,,,,RF_default,RF_default,train
+2023-08-01,Bhiwandi_PU8885G_PU,Y,36+,360.0,,,,TBF,TBF,train
+2023-08-01,Bhiwandi_PV0400G_PVC,Y,36+,108.0,,,,TBF,TBF,train
+2023-08-01,Nagpur_EV1210G_Eva ,N,36+,1981.0,,,,L3M,L3M,train
+2023-08-01,Nagpur_FB9050G_Fabrictd,Y,36+,273.0,,,,RF_default,RF_default,train
+2023-08-01,Nagpur_HW0001G_Hawai,N,36+,164.0,,,,RF_default,RF_default,train
+2023-08-01,Nagpur_HW0003L_Hawai,N,36+,153.0,,,,L6M,L6M,train
+2023-08-01,Nagpur_PU6775G_PU,Y,36+,370.0,,,,LGBM_default,LGBM_default,train
+2023-08-01,Pune_EPUGI6101_PU,Y,25–36,773.0,,,,TBF,TBF,train
+2023-08-01,Pune_EPUGI6102_PU,Y,25–36,245.0,,,,LY_trend,LY_trend,train
+2023-08-01,Pune_EV1180G_Eva ,N,36+,590.0,,,,TBF,TBF,train
+2023-08-01,Pune_EV1210G_Eva ,N,36+,3562.0,,,,L3M,L3M,train
+2023-08-01,Pune_FB9050G_Fabrictd,Y,36+,343.0,,,,TBF,TBF,train
+2023-08-01,Pune_HW0001G_Hawai,N,36+,643.0,,,,L6M,L6M,train
+2023-08-01,Pune_HW0003L_Hawai,N,36+,693.0,,,,XGB_default,XGB_default,train
+2023-08-01,Pune_HW0028G_Eva Hwi,N,36+,238.0,,,,LGBM_default,LGBM_default,train
+2023-08-01,Pune_PU6662G_PU,Y,36+,433.0,,,,TBF,TBF,train
+2023-08-01,Pune_PU6685G_PU,Y,36+,273.0,,,,TBF,TBF,train
+2023-08-01,Pune_PU6721G_PU,Y,36+,178.0,,,,HoltWinters,HoltWinters,train
+2023-08-01,Pune_PU6767G_PU,Y,25–36,671.0,,,,XGB_default,XGB_default,train
+2023-08-01,Pune_PU6775G_PU,Y,36+,251.0,,,,HoltWinters,SARIMA,train
+2023-09-01,Bhiwandi_EV1180G_Eva ,N,36+,363.0,,,,LY_trend,LY_trend,train
+2023-09-01,Bhiwandi_EV1210G_Eva ,N,36+,412.0,,,,TBF,TBF,train
+2023-09-01,Bhiwandi_HW0001G_Hawai,N,36+,1175.0,,,,L6M,TBF,train
+2023-09-01,Bhiwandi_HW0002G_Hawai,N,36+,670.0,,,,LGBM_default,LGBM_default,train
+2023-09-01,Bhiwandi_HW0003L_Hawai,N,36+,334.0,,,,TBF,TBF,train
+2023-09-01,Bhiwandi_PU6685G_PU,Y,36+,1116.0,,,,SARIMA,SARIMA,train
+2023-09-01,Bhiwandi_PU6767G_PU,Y,25–36,764.0,,,,Prophet,Prophet,train
+2023-09-01,Bhiwandi_PU8750G_PU,Y,36+,620.0,,,,TBF,TBF,train
+2023-09-01,Bhiwandi_PU8805G_PU,Y,36+,678.0,,,,HoltWinters,HoltWinters,train
+2023-09-01,Bhiwandi_PU8850G_PU,Y,36+,543.0,,,,RF_default,RF_default,train
+2023-09-01,Bhiwandi_PU8885G_PU,Y,36+,534.0,,,,TBF,TBF,train
+2023-09-01,Bhiwandi_PV0400G_PVC,Y,36+,215.0,,,,TBF,TBF,train
+2023-09-01,Nagpur_EV1210G_Eva ,N,36+,2994.0,,,,L3M,L3M,train
+2023-09-01,Nagpur_FB9050G_Fabrictd,Y,36+,247.0,,,,RF_default,RF_default,train
+2023-09-01,Nagpur_HW0001G_Hawai,N,36+,163.0,,,,RF_default,RF_default,train
+2023-09-01,Nagpur_HW0003L_Hawai,N,36+,182.0,,,,L6M,L6M,train
+2023-09-01,Nagpur_PU6775G_PU,Y,36+,438.0,,,,LGBM_default,LGBM_default,train
+2023-09-01,Pune_EPUGI6101_PU,Y,25–36,1327.0,,,,TBF,TBF,train
+2023-09-01,Pune_EPUGI6102_PU,Y,25–36,323.0,,,,LY_trend,LY_trend,train
+2023-09-01,Pune_EV1180G_Eva ,N,36+,433.0,,,,TBF,TBF,train
+2023-09-01,Pune_EV1210G_Eva ,N,36+,2235.0,,,,L3M,L3M,train
+2023-09-01,Pune_FB9050G_Fabrictd,Y,36+,216.0,,,,TBF,TBF,train
+2023-09-01,Pune_HW0001G_Hawai,N,36+,1163.0,,,,L6M,L6M,train
+2023-09-01,Pune_HW0003L_Hawai,N,36+,886.0,,,,XGB_default,XGB_default,train
+2023-09-01,Pune_HW0028G_Eva Hwi,N,36+,302.0,,,,LGBM_default,LGBM_default,train
+2023-09-01,Pune_PU6662G_PU,Y,36+,217.0,,,,TBF,TBF,train
+2023-09-01,Pune_PU6685G_PU,Y,36+,421.0,,,,TBF,TBF,train
+2023-09-01,Pune_PU6721G_PU,Y,36+,167.0,,,,HoltWinters,HoltWinters,train
+2023-09-01,Pune_PU6767G_PU,Y,25–36,226.0,,,,XGB_default,XGB_default,train
+2023-09-01,Pune_PU6775G_PU,Y,36+,343.0,,,,HoltWinters,SARIMA,train
+2023-10-01,Bhiwandi_EV1180G_Eva ,N,36+,374.0,,,,LY_trend,LY_trend,train
+2023-10-01,Bhiwandi_EV1210G_Eva ,N,36+,474.0,,,,TBF,TBF,train
+2023-10-01,Bhiwandi_HW0001G_Hawai,N,36+,977.0,,,,L6M,TBF,train
+2023-10-01,Bhiwandi_HW0002G_Hawai,N,36+,513.0,,,,LGBM_default,LGBM_default,train
+2023-10-01,Bhiwandi_HW0003L_Hawai,N,36+,531.0,,,,TBF,TBF,train
+2023-10-01,Bhiwandi_PU6685G_PU,Y,36+,929.0,,,,SARIMA,SARIMA,train
+2023-10-01,Bhiwandi_PU6767G_PU,Y,25–36,839.0,,,,Prophet,Prophet,train
+2023-10-01,Bhiwandi_PU8750G_PU,Y,36+,384.0,,,,TBF,TBF,train
+2023-10-01,Bhiwandi_PU8805G_PU,Y,36+,469.0,,,,HoltWinters,HoltWinters,train
+2023-10-01,Bhiwandi_PU8850G_PU,Y,36+,542.0,,,,RF_default,RF_default,train
+2023-10-01,Bhiwandi_PU8885G_PU,Y,36+,371.0,,,,TBF,TBF,train
+2023-10-01,Bhiwandi_PV0400G_PVC,Y,36+,187.0,,,,TBF,TBF,train
+2023-10-01,Nagpur_EV1210G_Eva ,N,36+,3669.0,,,,L3M,L3M,train
+2023-10-01,Nagpur_FB9050G_Fabrictd,Y,36+,323.0,,,,RF_default,RF_default,train
+2023-10-01,Nagpur_HW0001G_Hawai,N,36+,268.0,,,,RF_default,RF_default,train
+2023-10-01,Nagpur_HW0003L_Hawai,N,36+,423.0,,,,L6M,L6M,train
+2023-10-01,Nagpur_PU6775G_PU,Y,36+,471.0,,,,LGBM_default,LGBM_default,train
+2023-10-01,Pune_EPUGI6101_PU,Y,25–36,1672.0,,,,TBF,TBF,train
+2023-10-01,Pune_EPUGI6102_PU,Y,25–36,674.0,,,,LY_trend,LY_trend,train
+2023-10-01,Pune_EV1180G_Eva ,N,36+,378.0,,,,TBF,TBF,train
+2023-10-01,Pune_EV1210G_Eva ,N,36+,4010.0,,,,L3M,L3M,train
+2023-10-01,Pune_FB9050G_Fabrictd,Y,36+,318.0,,,,TBF,TBF,train
+2023-10-01,Pune_HW0001G_Hawai,N,36+,1128.0,,,,L6M,L6M,train
+2023-10-01,Pune_HW0003L_Hawai,N,36+,1213.0,,,,XGB_default,XGB_default,train
+2023-10-01,Pune_HW0028G_Eva Hwi,N,36+,415.0,,,,LGBM_default,LGBM_default,train
+2023-10-01,Pune_PU6662G_PU,Y,36+,445.0,,,,TBF,TBF,train
+2023-10-01,Pune_PU6685G_PU,Y,36+,505.0,,,,TBF,TBF,train
+2023-10-01,Pune_PU6721G_PU,Y,36+,275.0,,,,HoltWinters,HoltWinters,train
+2023-10-01,Pune_PU6767G_PU,Y,25–36,788.0,,,,XGB_default,XGB_default,train
+2023-10-01,Pune_PU6775G_PU,Y,36+,383.0,,,,HoltWinters,SARIMA,train
+2023-11-01,Bhiwandi_EV1180G_Eva ,N,36+,301.0,,,,LY_trend,LY_trend,train
+2023-11-01,Bhiwandi_EV1210G_Eva ,N,36+,700.0,,,,TBF,TBF,train
+2023-11-01,Bhiwandi_HW0001G_Hawai,N,36+,1494.0,,,,L6M,TBF,train
+2023-11-01,Bhiwandi_HW0002G_Hawai,N,36+,720.0,,,,LGBM_default,LGBM_default,train
+2023-11-01,Bhiwandi_HW0003L_Hawai,N,36+,952.0,,,,TBF,TBF,train
+2023-11-01,Bhiwandi_PU6685G_PU,Y,36+,1168.0,,,,SARIMA,SARIMA,train
+2023-11-01,Bhiwandi_PU6767G_PU,Y,25–36,1098.0,,,,Prophet,Prophet,train
+2023-11-01,Bhiwandi_PU8750G_PU,Y,36+,348.0,,,,TBF,TBF,train
+2023-11-01,Bhiwandi_PU8805G_PU,Y,36+,845.0,,,,HoltWinters,HoltWinters,train
+2023-11-01,Bhiwandi_PU8850G_PU,Y,36+,539.0,,,,RF_default,RF_default,train
+2023-11-01,Bhiwandi_PU8885G_PU,Y,36+,373.0,,,,TBF,TBF,train
+2023-11-01,Bhiwandi_PV0400G_PVC,Y,36+,186.0,,,,TBF,TBF,train
+2023-11-01,Nagpur_EV1210G_Eva ,N,36+,5626.0,,,,L3M,L3M,train
+2023-11-01,Nagpur_FB9050G_Fabrictd,Y,36+,647.0,,,,RF_default,RF_default,train
+2023-11-01,Nagpur_HW0001G_Hawai,N,36+,438.0,,,,RF_default,RF_default,train
+2023-11-01,Nagpur_HW0003L_Hawai,N,36+,631.0,,,,L6M,L6M,train
+2023-11-01,Nagpur_PU6775G_PU,Y,36+,683.0,,,,LGBM_default,LGBM_default,train
+2023-11-01,Pune_EPUGI6101_PU,Y,25–36,2043.0,,,,TBF,TBF,train
+2023-11-01,Pune_EPUGI6102_PU,Y,25–36,248.0,,,,LY_trend,LY_trend,train
+2023-11-01,Pune_EV1180G_Eva ,N,36+,584.0,,,,TBF,TBF,train
+2023-11-01,Pune_EV1210G_Eva ,N,36+,4844.0,,,,L3M,L3M,train
+2023-11-01,Pune_FB9050G_Fabrictd,Y,36+,437.0,,,,TBF,TBF,train
+2023-11-01,Pune_HW0001G_Hawai,N,36+,1206.0,,,,L6M,L6M,train
+2023-11-01,Pune_HW0003L_Hawai,N,36+,1574.0,,,,XGB_default,XGB_default,train
+2023-11-01,Pune_HW0028G_Eva Hwi,N,36+,523.0,,,,LGBM_default,LGBM_default,train
+2023-11-01,Pune_PU6662G_PU,Y,36+,559.0,,,,TBF,TBF,train
+2023-11-01,Pune_PU6685G_PU,Y,36+,719.0,,,,TBF,TBF,train
+2023-11-01,Pune_PU6721G_PU,Y,36+,370.0,,,,HoltWinters,HoltWinters,train
+2023-11-01,Pune_PU6767G_PU,Y,25–36,589.0,,,,XGB_default,XGB_default,train
+2023-11-01,Pune_PU6775G_PU,Y,36+,440.0,,,,HoltWinters,SARIMA,train
+2023-12-01,Bhiwandi_EV1180G_Eva ,N,36+,357.0,,,,LY_trend,LY_trend,train
+2023-12-01,Bhiwandi_EV1210G_Eva ,N,36+,1354.0,,,,TBF,TBF,train
+2023-12-01,Bhiwandi_HW0001G_Hawai,N,36+,1315.0,,,,L6M,TBF,train
+2023-12-01,Bhiwandi_HW0002G_Hawai,N,36+,528.0,,,,LGBM_default,LGBM_default,train
+2023-12-01,Bhiwandi_HW0003L_Hawai,N,36+,971.0,,,,TBF,TBF,train
+2023-12-01,Bhiwandi_PU6685G_PU,Y,36+,1368.0,,,,SARIMA,SARIMA,train
+2023-12-01,Bhiwandi_PU6767G_PU,Y,25–36,924.0,,,,Prophet,Prophet,train
+2023-12-01,Bhiwandi_PU8750G_PU,Y,36+,394.0,,,,TBF,TBF,train
+2023-12-01,Bhiwandi_PU8805G_PU,Y,36+,533.0,,,,HoltWinters,HoltWinters,train
+2023-12-01,Bhiwandi_PU8850G_PU,Y,36+,895.0,,,,RF_default,RF_default,train
+2023-12-01,Bhiwandi_PU8885G_PU,Y,36+,424.0,,,,TBF,TBF,train
+2023-12-01,Bhiwandi_PV0400G_PVC,Y,36+,551.0,,,,TBF,TBF,train
+2023-12-01,Nagpur_EV1210G_Eva ,N,36+,4353.0,,,,L3M,L3M,train
+2023-12-01,Nagpur_FB9050G_Fabrictd,Y,36+,538.0,,,,RF_default,RF_default,train
+2023-12-01,Nagpur_HW0001G_Hawai,N,36+,440.0,,,,RF_default,RF_default,train
+2023-12-01,Nagpur_HW0003L_Hawai,N,36+,350.0,,,,L6M,L6M,train
+2023-12-01,Nagpur_PU6775G_PU,Y,36+,471.0,,,,LGBM_default,LGBM_default,train
+2023-12-01,Pune_EPUGI6101_PU,Y,25–36,434.0,,,,TBF,TBF,train
+2023-12-01,Pune_EPUGI6102_PU,Y,25–36,199.0,,,,LY_trend,LY_trend,train
+2023-12-01,Pune_EV1180G_Eva ,N,36+,440.0,,,,TBF,TBF,train
+2023-12-01,Pune_EV1210G_Eva ,N,36+,5148.0,,,,L3M,L3M,train
+2023-12-01,Pune_FB9050G_Fabrictd,Y,36+,352.0,,,,TBF,TBF,train
+2023-12-01,Pune_HW0001G_Hawai,N,36+,1339.0,,,,L6M,L6M,train
+2023-12-01,Pune_HW0003L_Hawai,N,36+,1784.0,,,,XGB_default,XGB_default,train
+2023-12-01,Pune_HW0028G_Eva Hwi,N,36+,554.0,,,,LGBM_default,LGBM_default,train
+2023-12-01,Pune_PU6662G_PU,Y,36+,326.0,,,,TBF,TBF,train
+2023-12-01,Pune_PU6685G_PU,Y,36+,502.0,,,,TBF,TBF,train
+2023-12-01,Pune_PU6721G_PU,Y,36+,440.0,,,,HoltWinters,HoltWinters,train
+2023-12-01,Pune_PU6767G_PU,Y,25–36,529.0,,,,XGB_default,XGB_default,train
+2023-12-01,Pune_PU6775G_PU,Y,36+,352.0,,,,HoltWinters,SARIMA,train
+2024-01-01,Bhiwandi_EV1180G_Eva ,N,36+,530.0,,,,LY_trend,LY_trend,train
+2024-01-01,Bhiwandi_EV1210G_Eva ,N,36+,217.0,,,,TBF,TBF,train
+2024-01-01,Bhiwandi_HW0001G_Hawai,N,36+,1138.0,,,,L6M,TBF,train
+2024-01-01,Bhiwandi_HW0002G_Hawai,N,36+,597.0,,,,LGBM_default,LGBM_default,train
+2024-01-01,Bhiwandi_HW0003L_Hawai,N,36+,623.0,,,,TBF,TBF,train
+2024-01-01,Bhiwandi_PU6685G_PU,Y,36+,744.0,,,,SARIMA,SARIMA,train
+2024-01-01,Bhiwandi_PU6767G_PU,Y,25–36,392.0,,,,Prophet,Prophet,train
+2024-01-01,Bhiwandi_PU8750G_PU,Y,36+,267.0,,,,TBF,TBF,train
+2024-01-01,Bhiwandi_PU8805G_PU,Y,36+,426.0,,,,HoltWinters,HoltWinters,train
+2024-01-01,Bhiwandi_PU8850G_PU,Y,36+,251.0,,,,RF_default,RF_default,train
+2024-01-01,Bhiwandi_PU8885G_PU,Y,36+,212.0,,,,TBF,TBF,train
+2024-01-01,Bhiwandi_PV0400G_PVC,Y,36+,173.0,,,,TBF,TBF,train
+2024-01-01,Nagpur_EV1210G_Eva ,N,36+,3014.0,,,,L3M,L3M,train
+2024-01-01,Nagpur_FB9050G_Fabrictd,Y,36+,171.0,,,,RF_default,RF_default,train
+2024-01-01,Nagpur_HW0001G_Hawai,N,36+,406.0,,,,RF_default,RF_default,train
+2024-01-01,Nagpur_HW0003L_Hawai,N,36+,302.0,,,,L6M,L6M,train
+2024-01-01,Nagpur_PU6775G_PU,Y,36+,555.0,,,,LGBM_default,LGBM_default,train
+2024-01-01,Pune_EPUGI6101_PU,Y,25–36,544.0,,,,TBF,TBF,train
+2024-01-01,Pune_EPUGI6102_PU,Y,25–36,253.0,,,,LY_trend,LY_trend,train
+2024-01-01,Pune_EV1180G_Eva ,N,36+,375.0,,,,TBF,TBF,train
+2024-01-01,Pune_EV1210G_Eva ,N,36+,3056.0,,,,L3M,L3M,train
+2024-01-01,Pune_FB9050G_Fabrictd,Y,36+,161.0,,,,TBF,TBF,train
+2024-01-01,Pune_HW0001G_Hawai,N,36+,1195.0,,,,L6M,L6M,train
+2024-01-01,Pune_HW0003L_Hawai,N,36+,974.0,,,,XGB_default,XGB_default,train
+2024-01-01,Pune_HW0028G_Eva Hwi,N,36+,350.0,,,,LGBM_default,LGBM_default,train
+2024-01-01,Pune_PU6662G_PU,Y,36+,241.0,,,,TBF,TBF,train
+2024-01-01,Pune_PU6685G_PU,Y,36+,422.0,,,,TBF,TBF,train
+2024-01-01,Pune_PU6721G_PU,Y,36+,372.0,,,,HoltWinters,HoltWinters,train
+2024-01-01,Pune_PU6767G_PU,Y,25–36,580.0,,,,XGB_default,XGB_default,train
+2024-01-01,Pune_PU6775G_PU,Y,36+,295.0,,,,HoltWinters,SARIMA,train
+2024-02-01,Bhiwandi_EV1180G_Eva ,N,36+,345.0,,,,LY_trend,LY_trend,train
+2024-02-01,Bhiwandi_EV1210G_Eva ,N,36+,426.0,,,,TBF,TBF,train
+2024-02-01,Bhiwandi_HW0001G_Hawai,N,36+,1372.0,,,,L6M,TBF,train
+2024-02-01,Bhiwandi_HW0002G_Hawai,N,36+,637.0,,,,LGBM_default,LGBM_default,train
+2024-02-01,Bhiwandi_HW0003L_Hawai,N,36+,830.0,,,,TBF,TBF,train
+2024-02-01,Bhiwandi_PU6685G_PU,Y,36+,673.0,,,,SARIMA,SARIMA,train
+2024-02-01,Bhiwandi_PU6767G_PU,Y,25–36,525.0,,,,Prophet,Prophet,train
+2024-02-01,Bhiwandi_PU8750G_PU,Y,36+,305.0,,,,TBF,TBF,train
+2024-02-01,Bhiwandi_PU8805G_PU,Y,36+,294.0,,,,HoltWinters,HoltWinters,train
+2024-02-01,Bhiwandi_PU8850G_PU,Y,36+,293.0,,,,RF_default,RF_default,train
+2024-02-01,Bhiwandi_PU8885G_PU,Y,36+,264.0,,,,TBF,TBF,train
+2024-02-01,Bhiwandi_PV0400G_PVC,Y,36+,170.0,,,,TBF,TBF,train
+2024-02-01,Nagpur_EV1210G_Eva ,N,36+,1784.0,,,,L3M,L3M,train
+2024-02-01,Nagpur_FB9050G_Fabrictd,Y,36+,146.0,,,,RF_default,RF_default,train
+2024-02-01,Nagpur_HW0001G_Hawai,N,36+,375.0,,,,RF_default,RF_default,train
+2024-02-01,Nagpur_HW0003L_Hawai,N,36+,257.0,,,,L6M,L6M,train
+2024-02-01,Nagpur_PU6775G_PU,Y,36+,457.0,,,,LGBM_default,LGBM_default,train
+2024-02-01,Pune_EPUGI6101_PU,Y,25–36,894.0,,,,TBF,TBF,train
+2024-02-01,Pune_EPUGI6102_PU,Y,25–36,204.0,,,,LY_trend,LY_trend,train
+2024-02-01,Pune_EV1180G_Eva ,N,36+,412.0,,,,TBF,TBF,train
+2024-02-01,Pune_EV1210G_Eva ,N,36+,2480.0,,,,L3M,L3M,train
+2024-02-01,Pune_FB9050G_Fabrictd,Y,36+,290.0,,,,TBF,TBF,train
+2024-02-01,Pune_HW0001G_Hawai,N,36+,1096.0,,,,L6M,L6M,train
+2024-02-01,Pune_HW0003L_Hawai,N,36+,1087.0,,,,XGB_default,XGB_default,train
+2024-02-01,Pune_HW0028G_Eva Hwi,N,36+,440.0,,,,LGBM_default,LGBM_default,train
+2024-02-01,Pune_PU6662G_PU,Y,36+,256.0,,,,TBF,TBF,train
+2024-02-01,Pune_PU6685G_PU,Y,36+,377.0,,,,TBF,TBF,train
+2024-02-01,Pune_PU6721G_PU,Y,36+,238.0,,,,HoltWinters,HoltWinters,train
+2024-02-01,Pune_PU6767G_PU,Y,25–36,480.0,,,,XGB_default,XGB_default,train
+2024-02-01,Pune_PU6775G_PU,Y,36+,369.0,,,,HoltWinters,SARIMA,train
+2024-03-01,Bhiwandi_EV1180G_Eva ,N,36+,157.0,,,,LY_trend,LY_trend,train
+2024-03-01,Bhiwandi_EV1210G_Eva ,N,36+,616.0,,,,TBF,TBF,train
+2024-03-01,Bhiwandi_HW0001G_Hawai,N,36+,1501.0,,,,L6M,TBF,train
+2024-03-01,Bhiwandi_HW0002G_Hawai,N,36+,535.0,,,,LGBM_default,LGBM_default,train
+2024-03-01,Bhiwandi_HW0003L_Hawai,N,36+,490.0,,,,TBF,TBF,train
+2024-03-01,Bhiwandi_PU6685G_PU,Y,36+,658.0,,,,SARIMA,SARIMA,train
+2024-03-01,Bhiwandi_PU6767G_PU,Y,25–36,582.0,,,,Prophet,Prophet,train
+2024-03-01,Bhiwandi_PU8750G_PU,Y,36+,238.0,,,,TBF,TBF,train
+2024-03-01,Bhiwandi_PU8805G_PU,Y,36+,410.0,,,,HoltWinters,HoltWinters,train
+2024-03-01,Bhiwandi_PU8850G_PU,Y,36+,359.0,,,,RF_default,RF_default,train
+2024-03-01,Bhiwandi_PU8885G_PU,Y,36+,453.0,,,,TBF,TBF,train
+2024-03-01,Bhiwandi_PV0400G_PVC,Y,36+,144.0,,,,TBF,TBF,train
+2024-03-01,Nagpur_EV1210G_Eva ,N,36+,5679.0,,,,L3M,L3M,train
+2024-03-01,Nagpur_FB9050G_Fabrictd,Y,36+,430.0,,,,RF_default,RF_default,train
+2024-03-01,Nagpur_HW0001G_Hawai,N,36+,700.0,,,,RF_default,RF_default,train
+2024-03-01,Nagpur_HW0003L_Hawai,N,36+,527.0,,,,L6M,L6M,train
+2024-03-01,Nagpur_PU6775G_PU,Y,36+,811.0,,,,LGBM_default,LGBM_default,train
+2024-03-01,Pune_EPUGI6101_PU,Y,25–36,1087.0,,,,TBF,TBF,train
+2024-03-01,Pune_EPUGI6102_PU,Y,25–36,336.0,,,,LY_trend,LY_trend,train
+2024-03-01,Pune_EV1180G_Eva ,N,36+,164.0,,,,TBF,TBF,train
+2024-03-01,Pune_EV1210G_Eva ,N,36+,2226.0,,,,L3M,L3M,train
+2024-03-01,Pune_FB9050G_Fabrictd,Y,36+,202.0,,,,TBF,TBF,train
+2024-03-01,Pune_HW0001G_Hawai,N,36+,722.0,,,,L6M,L6M,train
+2024-03-01,Pune_HW0003L_Hawai,N,36+,1014.0,,,,XGB_default,XGB_default,train
+2024-03-01,Pune_HW0028G_Eva Hwi,N,36+,232.0,,,,LGBM_default,LGBM_default,train
+2024-03-01,Pune_PU6662G_PU,Y,36+,364.0,,,,TBF,TBF,train
+2024-03-01,Pune_PU6685G_PU,Y,36+,396.0,,,,TBF,TBF,train
+2024-03-01,Pune_PU6721G_PU,Y,36+,209.0,,,,HoltWinters,HoltWinters,train
+2024-03-01,Pune_PU6767G_PU,Y,25–36,289.0,,,,XGB_default,XGB_default,train
+2024-03-01,Pune_PU6775G_PU,Y,36+,383.0,,,,HoltWinters,SARIMA,train
+2024-04-01,Bhiwandi_EV1180G_Eva ,N,36+,313.0,,,,LY_trend,LY_trend,train
+2024-04-01,Bhiwandi_EV1210G_Eva ,N,36+,543.0,,,,TBF,TBF,train
+2024-04-01,Bhiwandi_HW0001G_Hawai,N,36+,1386.0,,,,L6M,TBF,train
+2024-04-01,Bhiwandi_HW0002G_Hawai,N,36+,610.0,,,,LGBM_default,LGBM_default,train
+2024-04-01,Bhiwandi_HW0003L_Hawai,N,36+,493.0,,,,TBF,TBF,train
+2024-04-01,Bhiwandi_PU6685G_PU,Y,36+,1003.0,,,,SARIMA,SARIMA,train
+2024-04-01,Bhiwandi_PU6767G_PU,Y,25–36,852.0,,,,Prophet,Prophet,train
+2024-04-01,Bhiwandi_PU8750G_PU,Y,36+,442.0,,,,TBF,TBF,train
+2024-04-01,Bhiwandi_PU8805G_PU,Y,36+,809.0,,,,HoltWinters,HoltWinters,train
+2024-04-01,Bhiwandi_PU8850G_PU,Y,36+,485.0,,,,RF_default,RF_default,train
+2024-04-01,Bhiwandi_PU8885G_PU,Y,36+,879.0,,,,TBF,TBF,train
+2024-04-01,Bhiwandi_PV0400G_PVC,Y,36+,203.0,,,,TBF,TBF,train
+2024-04-01,Nagpur_EV1210G_Eva ,N,36+,2807.0,,,,L3M,L3M,train
+2024-04-01,Nagpur_FB9050G_Fabrictd,Y,36+,693.0,,,,RF_default,RF_default,train
+2024-04-01,Nagpur_HW0001G_Hawai,N,36+,443.0,,,,RF_default,RF_default,train
+2024-04-01,Nagpur_HW0003L_Hawai,N,36+,382.0,,,,L6M,L6M,train
+2024-04-01,Nagpur_PU6775G_PU,Y,36+,538.0,,,,LGBM_default,LGBM_default,train
+2024-04-01,Pune_EPUGI6101_PU,Y,25–36,1739.0,,,,TBF,TBF,train
+2024-04-01,Pune_EPUGI6102_PU,Y,25–36,333.0,,,,LY_trend,LY_trend,train
+2024-04-01,Pune_EV1180G_Eva ,N,36+,600.0,,,,TBF,TBF,train
+2024-04-01,Pune_EV1210G_Eva ,N,36+,3344.0,,,,L3M,L3M,train
+2024-04-01,Pune_FB9050G_Fabrictd,Y,36+,365.0,,,,TBF,TBF,train
+2024-04-01,Pune_HW0001G_Hawai,N,36+,1216.0,,,,L6M,L6M,train
+2024-04-01,Pune_HW0003L_Hawai,N,36+,1407.0,,,,XGB_default,XGB_default,train
+2024-04-01,Pune_HW0028G_Eva Hwi,N,36+,383.0,,,,LGBM_default,LGBM_default,train
+2024-04-01,Pune_PU6662G_PU,Y,36+,365.0,,,,TBF,TBF,train
+2024-04-01,Pune_PU6685G_PU,Y,36+,521.0,,,,TBF,TBF,train
+2024-04-01,Pune_PU6721G_PU,Y,36+,306.0,,,,HoltWinters,HoltWinters,train
+2024-04-01,Pune_PU6767G_PU,Y,25–36,737.0,,,,XGB_default,XGB_default,train
+2024-04-01,Pune_PU6775G_PU,Y,36+,389.0,,,,HoltWinters,SARIMA,train
+2024-05-01,Bhiwandi_EV1180G_Eva ,N,36+,1020.0,,,,LY_trend,LY_trend,train
+2024-05-01,Bhiwandi_EV1210G_Eva ,N,36+,1614.0,,,,TBF,TBF,train
+2024-05-01,Bhiwandi_HW0001G_Hawai,N,36+,1081.0,,,,L6M,TBF,train
+2024-05-01,Bhiwandi_HW0002G_Hawai,N,36+,452.0,,,,LGBM_default,LGBM_default,train
+2024-05-01,Bhiwandi_HW0003L_Hawai,N,36+,388.0,,,,TBF,TBF,train
+2024-05-01,Bhiwandi_PU6685G_PU,Y,36+,989.0,,,,SARIMA,SARIMA,train
+2024-05-01,Bhiwandi_PU6767G_PU,Y,25–36,896.0,,,,Prophet,Prophet,train
+2024-05-01,Bhiwandi_PU8750G_PU,Y,36+,571.0,,,,TBF,TBF,train
+2024-05-01,Bhiwandi_PU8805G_PU,Y,36+,1598.0,,,,HoltWinters,HoltWinters,train
+2024-05-01,Bhiwandi_PU8850G_PU,Y,36+,488.0,,,,RF_default,RF_default,train
+2024-05-01,Bhiwandi_PU8885G_PU,Y,36+,1713.0,,,,TBF,TBF,train
+2024-05-01,Bhiwandi_PV0400G_PVC,Y,36+,1163.0,,,,TBF,TBF,train
+2024-05-01,Nagpur_EV1210G_Eva ,N,36+,5081.0,,,,L3M,L3M,train
+2024-05-01,Nagpur_FB9050G_Fabrictd,Y,36+,238.0,,,,RF_default,RF_default,train
+2024-05-01,Nagpur_HW0001G_Hawai,N,36+,450.0,,,,RF_default,RF_default,train
+2024-05-01,Nagpur_HW0003L_Hawai,N,36+,229.0,,,,L6M,L6M,train
+2024-05-01,Nagpur_PU6775G_PU,Y,36+,626.0,,,,LGBM_default,LGBM_default,train
+2024-05-01,Pune_EPUGI6101_PU,Y,25–36,2250.0,,,,TBF,TBF,train
+2024-05-01,Pune_EPUGI6102_PU,Y,25–36,289.0,,,,LY_trend,LY_trend,train
+2024-05-01,Pune_EV1180G_Eva ,N,36+,880.0,,,,TBF,TBF,train
+2024-05-01,Pune_EV1210G_Eva ,N,36+,5352.0,,,,L3M,L3M,train
+2024-05-01,Pune_FB9050G_Fabrictd,Y,36+,446.0,,,,TBF,TBF,train
+2024-05-01,Pune_HW0001G_Hawai,N,36+,1204.0,,,,L6M,L6M,train
+2024-05-01,Pune_HW0003L_Hawai,N,36+,1417.0,,,,XGB_default,XGB_default,train
+2024-05-01,Pune_HW0028G_Eva Hwi,N,36+,359.0,,,,LGBM_default,LGBM_default,train
+2024-05-01,Pune_PU6662G_PU,Y,36+,467.0,,,,TBF,TBF,train
+2024-05-01,Pune_PU6685G_PU,Y,36+,575.0,,,,TBF,TBF,train
+2024-05-01,Pune_PU6721G_PU,Y,36+,718.0,,,,HoltWinters,HoltWinters,train
+2024-05-01,Pune_PU6767G_PU,Y,25–36,944.0,,,,XGB_default,XGB_default,train
+2024-05-01,Pune_PU6775G_PU,Y,36+,436.0,,,,HoltWinters,SARIMA,train
+2024-06-01,Bhiwandi_EV1180G_Eva ,N,36+,1127.0,,,,LY_trend,LY_trend,train
+2024-06-01,Bhiwandi_EV1210G_Eva ,N,36+,1806.0,,,,TBF,TBF,train
+2024-06-01,Bhiwandi_HW0001G_Hawai,N,36+,1296.0,,,,L6M,TBF,train
+2024-06-01,Bhiwandi_HW0002G_Hawai,N,36+,541.0,,,,LGBM_default,LGBM_default,train
+2024-06-01,Bhiwandi_HW0003L_Hawai,N,36+,399.0,,,,TBF,TBF,train
+2024-06-01,Bhiwandi_PU6685G_PU,Y,36+,1094.0,,,,SARIMA,SARIMA,train
+2024-06-01,Bhiwandi_PU6767G_PU,Y,25–36,926.0,,,,Prophet,Prophet,train
+2024-06-01,Bhiwandi_PU8750G_PU,Y,36+,582.0,,,,TBF,TBF,train
+2024-06-01,Bhiwandi_PU8805G_PU,Y,36+,1767.0,,,,HoltWinters,HoltWinters,train
+2024-06-01,Bhiwandi_PU8850G_PU,Y,36+,492.0,,,,RF_default,RF_default,train
+2024-06-01,Bhiwandi_PU8885G_PU,Y,36+,1758.0,,,,TBF,TBF,train
+2024-06-01,Bhiwandi_PV0400G_PVC,Y,36+,815.0,,,,TBF,TBF,train
+2024-06-01,Nagpur_EV1210G_Eva ,N,36+,7685.0,,,,L3M,L3M,train
+2024-06-01,Nagpur_FB9050G_Fabrictd,Y,36+,288.0,,,,RF_default,RF_default,train
+2024-06-01,Nagpur_HW0001G_Hawai,N,36+,584.0,,,,RF_default,RF_default,train
+2024-06-01,Nagpur_HW0003L_Hawai,N,36+,473.0,,,,L6M,L6M,train
+2024-06-01,Nagpur_PU6775G_PU,Y,36+,373.0,,,,LGBM_default,LGBM_default,train
+2024-06-01,Pune_EPUGI6101_PU,Y,25–36,2043.0,,,,TBF,TBF,train
+2024-06-01,Pune_EPUGI6102_PU,Y,25–36,1001.0,,,,LY_trend,LY_trend,train
+2024-06-01,Pune_EV1180G_Eva ,N,36+,1371.0,,,,TBF,TBF,train
+2024-06-01,Pune_EV1210G_Eva ,N,36+,8051.0,,,,L3M,L3M,train
+2024-06-01,Pune_FB9050G_Fabrictd,Y,36+,505.0,,,,TBF,TBF,train
+2024-06-01,Pune_HW0001G_Hawai,N,36+,1191.0,,,,L6M,L6M,train
+2024-06-01,Pune_HW0003L_Hawai,N,36+,1151.0,,,,XGB_default,XGB_default,train
+2024-06-01,Pune_HW0028G_Eva Hwi,N,36+,424.0,,,,LGBM_default,LGBM_default,train
+2024-06-01,Pune_PU6662G_PU,Y,36+,448.0,,,,TBF,TBF,train
+2024-06-01,Pune_PU6685G_PU,Y,36+,675.0,,,,TBF,TBF,train
+2024-06-01,Pune_PU6721G_PU,Y,36+,605.0,,,,HoltWinters,HoltWinters,train
+2024-06-01,Pune_PU6767G_PU,Y,25–36,755.0,,,,XGB_default,XGB_default,train
+2024-06-01,Pune_PU6775G_PU,Y,36+,482.0,,,,HoltWinters,SARIMA,train
+2024-07-01,Bhiwandi_EV1180G_Eva ,N,36+,496.0,,,,LY_trend,LY_trend,train
+2024-07-01,Bhiwandi_EV1210G_Eva ,N,36+,787.0,,,,TBF,TBF,train
+2024-07-01,Bhiwandi_HW0001G_Hawai,N,36+,922.0,,,,L6M,TBF,train
+2024-07-01,Bhiwandi_HW0002G_Hawai,N,36+,325.0,,,,LGBM_default,LGBM_default,train
+2024-07-01,Bhiwandi_HW0003L_Hawai,N,36+,250.0,,,,TBF,TBF,train
+2024-07-01,Bhiwandi_PU6685G_PU,Y,36+,881.0,,,,SARIMA,SARIMA,train
+2024-07-01,Bhiwandi_PU6767G_PU,Y,25–36,859.0,,,,Prophet,Prophet,train
+2024-07-01,Bhiwandi_PU8750G_PU,Y,36+,400.0,,,,TBF,TBF,train
+2024-07-01,Bhiwandi_PU8805G_PU,Y,36+,834.0,,,,HoltWinters,HoltWinters,train
+2024-07-01,Bhiwandi_PU8850G_PU,Y,36+,427.0,,,,RF_default,RF_default,train
+2024-07-01,Bhiwandi_PU8885G_PU,Y,36+,882.0,,,,TBF,TBF,train
+2024-07-01,Bhiwandi_PV0400G_PVC,Y,36+,350.0,,,,TBF,TBF,train
+2024-07-01,Nagpur_EV1210G_Eva ,N,36+,4631.0,,,,L3M,L3M,train
+2024-07-01,Nagpur_FB9050G_Fabrictd,Y,36+,276.0,,,,RF_default,RF_default,train
+2024-07-01,Nagpur_HW0001G_Hawai,N,36+,329.0,,,,RF_default,RF_default,train
+2024-07-01,Nagpur_HW0003L_Hawai,N,36+,218.0,,,,L6M,L6M,train
+2024-07-01,Nagpur_PU6775G_PU,Y,36+,318.0,,,,LGBM_default,LGBM_default,train
+2024-07-01,Pune_EPUGI6101_PU,Y,25–36,1125.0,,,,TBF,TBF,train
+2024-07-01,Pune_EPUGI6102_PU,Y,25–36,898.0,,,,LY_trend,LY_trend,train
+2024-07-01,Pune_EV1180G_Eva ,N,36+,545.0,,,,TBF,TBF,train
+2024-07-01,Pune_EV1210G_Eva ,N,36+,4464.0,,,,L3M,L3M,train
+2024-07-01,Pune_FB9050G_Fabrictd,Y,36+,469.0,,,,TBF,TBF,train
+2024-07-01,Pune_HW0001G_Hawai,N,36+,738.0,,,,L6M,L6M,train
+2024-07-01,Pune_HW0003L_Hawai,N,36+,862.0,,,,XGB_default,XGB_default,train
+2024-07-01,Pune_HW0028G_Eva Hwi,N,36+,272.0,,,,LGBM_default,LGBM_default,train
+2024-07-01,Pune_PU6662G_PU,Y,36+,264.0,,,,TBF,TBF,train
+2024-07-01,Pune_PU6685G_PU,Y,36+,356.0,,,,TBF,TBF,train
+2024-07-01,Pune_PU6721G_PU,Y,36+,161.0,,,,HoltWinters,HoltWinters,train
+2024-07-01,Pune_PU6767G_PU,Y,25–36,544.0,,,,XGB_default,XGB_default,train
+2024-07-01,Pune_PU6775G_PU,Y,36+,188.0,,,,HoltWinters,SARIMA,train
+2024-08-01,Bhiwandi_EV1180G_Eva ,N,36+,588.0,,,,LY_trend,LY_trend,train
+2024-08-01,Bhiwandi_EV1210G_Eva ,N,36+,870.0,,,,TBF,TBF,train
+2024-08-01,Bhiwandi_HW0001G_Hawai,N,36+,1202.0,,,,L6M,TBF,train
+2024-08-01,Bhiwandi_HW0002G_Hawai,N,36+,510.0,,,,LGBM_default,LGBM_default,train
+2024-08-01,Bhiwandi_HW0003L_Hawai,N,36+,328.0,,,,TBF,TBF,train
+2024-08-01,Bhiwandi_PU6685G_PU,Y,36+,621.0,,,,SARIMA,SARIMA,train
+2024-08-01,Bhiwandi_PU6767G_PU,Y,25–36,966.0,,,,Prophet,Prophet,train
+2024-08-01,Bhiwandi_PU8750G_PU,Y,36+,300.0,,,,TBF,TBF,train
+2024-08-01,Bhiwandi_PU8805G_PU,Y,36+,573.0,,,,HoltWinters,HoltWinters,train
+2024-08-01,Bhiwandi_PU8850G_PU,Y,36+,498.0,,,,RF_default,RF_default,train
+2024-08-01,Bhiwandi_PU8885G_PU,Y,36+,322.0,,,,TBF,TBF,train
+2024-08-01,Bhiwandi_PV0400G_PVC,Y,36+,147.0,,,,TBF,TBF,train
+2024-08-01,Nagpur_EV1210G_Eva ,N,36+,5258.0,,,,L3M,L3M,train
+2024-08-01,Nagpur_FB9050G_Fabrictd,Y,36+,275.0,,,,RF_default,RF_default,train
+2024-08-01,Nagpur_HW0001G_Hawai,N,36+,346.0,,,,RF_default,RF_default,train
+2024-08-01,Nagpur_HW0003L_Hawai,N,36+,166.0,,,,L6M,L6M,train
+2024-08-01,Nagpur_PU6775G_PU,Y,36+,455.0,,,,LGBM_default,LGBM_default,train
+2024-08-01,Pune_EPUGI6101_PU,Y,25–36,1740.0,,,,TBF,TBF,train
+2024-08-01,Pune_EPUGI6102_PU,Y,25–36,898.0,,,,LY_trend,LY_trend,train
+2024-08-01,Pune_EV1180G_Eva ,N,36+,718.0,,,,TBF,TBF,train
+2024-08-01,Pune_EV1210G_Eva ,N,36+,4794.0,,,,L3M,L3M,train
+2024-08-01,Pune_FB9050G_Fabrictd,Y,36+,327.0,,,,TBF,TBF,train
+2024-08-01,Pune_HW0001G_Hawai,N,36+,1002.0,,,,L6M,L6M,train
+2024-08-01,Pune_HW0003L_Hawai,N,36+,874.0,,,,XGB_default,XGB_default,train
+2024-08-01,Pune_HW0028G_Eva Hwi,N,36+,431.0,,,,LGBM_default,LGBM_default,train
+2024-08-01,Pune_PU6662G_PU,Y,36+,259.0,,,,TBF,TBF,train
+2024-08-01,Pune_PU6685G_PU,Y,36+,395.0,,,,TBF,TBF,train
+2024-08-01,Pune_PU6721G_PU,Y,36+,226.0,,,,HoltWinters,HoltWinters,train
+2024-08-01,Pune_PU6767G_PU,Y,25–36,574.0,,,,XGB_default,XGB_default,train
+2024-08-01,Pune_PU6775G_PU,Y,36+,290.0,,,,HoltWinters,SARIMA,train
+2024-09-01,Bhiwandi_EV1180G_Eva ,N,36+,316.0,,,,LY_trend,LY_trend,train
+2024-09-01,Bhiwandi_EV1210G_Eva ,N,36+,609.0,,,,TBF,TBF,train
+2024-09-01,Bhiwandi_HW0001G_Hawai,N,36+,968.0,,,,L6M,TBF,train
+2024-09-01,Bhiwandi_HW0002G_Hawai,N,36+,426.0,,,,LGBM_default,LGBM_default,train
+2024-09-01,Bhiwandi_HW0003L_Hawai,N,36+,255.0,,,,TBF,TBF,train
+2024-09-01,Bhiwandi_PU6685G_PU,Y,36+,1013.0,,,,SARIMA,SARIMA,train
+2024-09-01,Bhiwandi_PU6767G_PU,Y,25–36,1132.0,,,,Prophet,Prophet,train
+2024-09-01,Bhiwandi_PU8750G_PU,Y,36+,326.0,,,,TBF,TBF,train
+2024-09-01,Bhiwandi_PU8805G_PU,Y,36+,527.0,,,,HoltWinters,HoltWinters,train
+2024-09-01,Bhiwandi_PU8850G_PU,Y,36+,439.0,,,,RF_default,RF_default,train
+2024-09-01,Bhiwandi_PU8885G_PU,Y,36+,423.0,,,,TBF,TBF,train
+2024-09-01,Bhiwandi_PV0400G_PVC,Y,36+,174.0,,,,TBF,TBF,train
+2024-09-01,Nagpur_EV1210G_Eva ,N,36+,2406.0,,,,L3M,L3M,train
+2024-09-01,Nagpur_FB9050G_Fabrictd,Y,36+,365.0,,,,RF_default,RF_default,train
+2024-09-01,Nagpur_HW0001G_Hawai,N,36+,365.0,,,,RF_default,RF_default,train
+2024-09-01,Nagpur_HW0003L_Hawai,N,36+,213.0,,,,L6M,L6M,train
+2024-09-01,Nagpur_PU6775G_PU,Y,36+,502.0,,,,LGBM_default,LGBM_default,train
+2024-09-01,Pune_EPUGI6101_PU,Y,25–36,1617.0,,,,TBF,TBF,train
+2024-09-01,Pune_EPUGI6102_PU,Y,25–36,1205.0,,,,LY_trend,LY_trend,train
+2024-09-01,Pune_EV1180G_Eva ,N,36+,390.0,,,,TBF,TBF,train
+2024-09-01,Pune_EV1210G_Eva ,N,36+,4126.0,,,,L3M,L3M,train
+2024-09-01,Pune_FB9050G_Fabrictd,Y,36+,363.0,,,,TBF,TBF,train
+2024-09-01,Pune_HW0001G_Hawai,N,36+,1017.0,,,,L6M,L6M,train
+2024-09-01,Pune_HW0003L_Hawai,N,36+,1007.0,,,,XGB_default,XGB_default,train
+2024-09-01,Pune_HW0028G_Eva Hwi,N,36+,315.0,,,,LGBM_default,LGBM_default,train
+2024-09-01,Pune_PU6662G_PU,Y,36+,374.0,,,,TBF,TBF,train
+2024-09-01,Pune_PU6685G_PU,Y,36+,605.0,,,,TBF,TBF,train
+2024-09-01,Pune_PU6721G_PU,Y,36+,136.0,,,,HoltWinters,HoltWinters,train
+2024-09-01,Pune_PU6767G_PU,Y,25–36,763.0,,,,XGB_default,XGB_default,train
+2024-09-01,Pune_PU6775G_PU,Y,36+,503.0,,,,HoltWinters,SARIMA,train
+2024-10-01,Bhiwandi_EV1180G_Eva ,N,36+,350.0,379.97493330572263,379.97493330572263,379.97493330572263,LY_trend,LY_trend,validation
+2024-10-01,Bhiwandi_EV1210G_Eva ,N,36+,653.0,543.0,543.0,543.0,TBF,TBF,validation
+2024-10-01,Bhiwandi_HW0001G_Hawai,N,36+,1614.0,1142.5,1142.5,1204.7656757290067,L6M,TBF,validation
+2024-10-01,Bhiwandi_HW0002G_Hawai,N,36+,595.0,600.9001394482499,600.9001394482499,600.9001394482499,LGBM_default,LGBM_default,validation
+2024-10-01,Bhiwandi_HW0003L_Hawai,N,36+,592.0,493.0,493.0,493.0,TBF,TBF,validation
+2024-10-01,Bhiwandi_PU6685G_PU,Y,36+,1746.0,1165.5416932316973,1165.5416932316973,1165.5416932316973,SARIMA,SARIMA,validation
+2024-10-01,Bhiwandi_PU6767G_PU,Y,25–36,1788.0,1406.6180432252024,1406.6180432252024,1406.6180432252024,Prophet,Prophet,validation
+2024-10-01,Bhiwandi_PU8750G_PU,Y,36+,394.0,394.0583344935565,394.0583344935565,394.0583344935565,TBF,TBF,validation
+2024-10-01,Bhiwandi_PU8805G_PU,Y,36+,791.0,693.904097767475,693.904097767475,693.904097767475,HoltWinters,HoltWinters,validation
+2024-10-01,Bhiwandi_PU8850G_PU,Y,36+,567.0,541.82,541.82,541.82,RF_default,RF_default,validation
+2024-10-01,Bhiwandi_PU8885G_PU,Y,36+,533.0,538.8921309852252,538.8921309852252,538.8921309852252,TBF,TBF,validation
+2024-10-01,Bhiwandi_PV0400G_PVC,Y,36+,225.0,296.8572575224419,296.8572575224419,296.8572575224419,TBF,TBF,validation
+2024-10-01,Nagpur_EV1210G_Eva ,N,36+,5148.0,4098.333333333333,4098.333333333333,4098.333333333333,L3M,L3M,validation
+2024-10-01,Nagpur_FB9050G_Fabrictd,Y,36+,530.0,535.06,535.06,535.06,RF_default,RF_default,validation
+2024-10-01,Nagpur_HW0001G_Hawai,N,36+,603.0,560.54,560.54,560.54,RF_default,RF_default,validation
+2024-10-01,Nagpur_HW0003L_Hawai,N,36+,388.0,280.1666666666667,280.1666666666667,280.1666666666667,L6M,L6M,validation
+2024-10-01,Nagpur_PU6775G_PU,Y,36+,748.0,491.71326472670444,491.71326472670444,491.71326472670444,LGBM_default,LGBM_default,validation
+2024-10-01,Pune_EPUGI6101_PU,Y,25–36,5817.0,2188.837994583825,2188.837994583825,2188.837994583825,TBF,TBF,validation
+2024-10-01,Pune_EPUGI6102_PU,Y,25–36,4578.0,2619.079897889221,2619.079897889221,2619.079897889221,LY_trend,LY_trend,validation
+2024-10-01,Pune_EV1180G_Eva ,N,36+,595.0,432.32942112906676,432.32942112906676,432.32942112906676,TBF,TBF,validation
+2024-10-01,Pune_EV1210G_Eva ,N,36+,4593.0,4461.333333333333,4461.333333333333,4461.333333333333,L3M,L3M,validation
+2024-10-01,Pune_FB9050G_Fabrictd,Y,36+,507.0,428.0251963893752,428.0251963893752,428.0251963893752,TBF,TBF,validation
+2024-10-01,Pune_HW0001G_Hawai,N,36+,1235.0,1061.3333333333333,1061.3333333333333,1061.3333333333333,L6M,L6M,validation
+2024-10-01,Pune_HW0003L_Hawai,N,36+,1360.0,1422.525634765625,1422.525634765625,1422.525634765625,XGB_default,XGB_default,validation
+2024-10-01,Pune_HW0028G_Eva Hwi,N,36+,468.0,408.793370583071,408.793370583071,408.793370583071,LGBM_default,LGBM_default,validation
+2024-10-01,Pune_PU6662G_PU,Y,36+,407.0,405.00079350480115,405.00079350480115,405.00079350480115,TBF,TBF,validation
+2024-10-01,Pune_PU6685G_PU,Y,36+,584.0,505.3654993853851,505.3654993853851,505.3654993853851,TBF,TBF,validation
+2024-10-01,Pune_PU6721G_PU,Y,36+,217.0,260.9131397939344,260.9131397939344,260.9131397939344,HoltWinters,HoltWinters,validation
+2024-10-01,Pune_PU6767G_PU,Y,25–36,736.0,643.7695922851562,643.7695922851562,643.7695922851562,XGB_default,XGB_default,validation
+2024-10-01,Pune_PU6775G_PU,Y,36+,584.0,350.96066502391506,350.96066502391506,400.63333333333327,HoltWinters,SARIMA,validation
+2024-11-01,Bhiwandi_EV1180G_Eva ,N,36+,273.0,305.80870300808164,305.80870300808164,305.80870300808164,LY_trend,LY_trend,validation
+2024-11-01,Bhiwandi_EV1210G_Eva ,N,36+,349.0,543.0,543.0,543.0,TBF,TBF,validation
+2024-11-01,Bhiwandi_HW0001G_Hawai,N,36+,1209.0,1093.8,1093.8,1327.5858076567115,L6M,TBF,validation
+2024-11-01,Bhiwandi_HW0002G_Hawai,N,36+,482.0,609.3016743545456,609.3016743545456,609.3016743545456,LGBM_default,LGBM_default,validation
+2024-11-01,Bhiwandi_HW0003L_Hawai,N,36+,502.0,493.0,493.0,493.0,TBF,TBF,validation
+2024-11-01,Bhiwandi_PU6685G_PU,Y,36+,922.0,1020.5114851336737,1020.5114851336737,1020.5114851336737,SARIMA,SARIMA,validation
+2024-11-01,Bhiwandi_PU6767G_PU,Y,25–36,750.0,1318.7083524851362,1318.7083524851362,1318.7083524851362,Prophet,Prophet,validation
+2024-11-01,Bhiwandi_PU8750G_PU,Y,36+,264.0,320.3903493946505,320.3903493946505,320.3903493946505,TBF,TBF,validation
+2024-11-01,Bhiwandi_PU8805G_PU,Y,36+,439.0,685.377474458616,685.377474458616,685.377474458616,HoltWinters,HoltWinters,validation
+2024-11-01,Bhiwandi_PU8850G_PU,Y,36+,360.0,450.52,450.52,450.52,RF_default,RF_default,validation
+2024-11-01,Bhiwandi_PU8885G_PU,Y,36+,327.0,489.5450888138414,489.5450888138414,489.5450888138414,TBF,TBF,validation
+2024-11-01,Bhiwandi_PV0400G_PVC,Y,36+,104.0,172.93553631369667,172.93553631369667,172.93553631369667,TBF,TBF,validation
+2024-11-01,Nagpur_EV1210G_Eva ,N,36+,2914.0,3832.0,3832.0,3832.0,L3M,L3M,validation
+2024-11-01,Nagpur_FB9050G_Fabrictd,Y,36+,554.0,325.08,325.08,325.08,RF_default,RF_default,validation
+2024-11-01,Nagpur_HW0001G_Hawai,N,36+,415.0,530.25,530.25,530.25,RF_default,RF_default,validation
+2024-11-01,Nagpur_HW0003L_Hawai,N,36+,245.0,259.8,259.8,259.8,L6M,L6M,validation
+2024-11-01,Nagpur_PU6775G_PU,Y,36+,355.0,422.57325585068673,422.57325585068673,422.57325585068673,LGBM_default,LGBM_default,validation
+2024-11-01,Pune_EPUGI6101_PU,Y,25–36,1251.0,2250.0,2250.0,2250.0,TBF,TBF,validation
+2024-11-01,Pune_EPUGI6102_PU,Y,25–36,756.0,963.6970544162118,963.6970544162118,963.6970544162118,LY_trend,LY_trend,validation
+2024-11-01,Pune_EV1180G_Eva ,N,36+,639.0,574.8913247666859,574.8913247666859,574.8913247666859,TBF,TBF,validation
+2024-11-01,Pune_EV1210G_Eva ,N,36+,4061.0,4460.0,4460.0,4460.0,L3M,L3M,validation
+2024-11-01,Pune_FB9050G_Fabrictd,Y,36+,247.0,335.7783868226995,335.7783868226995,335.7783868226995,TBF,TBF,validation
+2024-11-01,Pune_HW0001G_Hawai,N,36+,779.0,1030.4,1030.4,1030.4,L6M,L6M,validation
+2024-11-01,Pune_HW0003L_Hawai,N,36+,1076.0,1270.5103759765625,1270.5103759765625,1270.5103759765625,XGB_default,XGB_default,validation
+2024-11-01,Pune_HW0028G_Eva Hwi,N,36+,327.0,295.064395045324,295.064395045324,295.064395045324,LGBM_default,LGBM_default,validation
+2024-11-01,Pune_PU6662G_PU,Y,36+,393.0,377.5916488938702,377.5916488938702,377.5916488938702,TBF,TBF,validation
+2024-11-01,Pune_PU6685G_PU,Y,36+,565.0,523.1304290585068,523.1304290585068,523.1304290585068,TBF,TBF,validation
+2024-11-01,Pune_PU6721G_PU,Y,36+,246.0,252.07959350248822,252.07959350248822,252.07959350248822,HoltWinters,HoltWinters,validation
+2024-11-01,Pune_PU6767G_PU,Y,25–36,506.0,577.13916015625,577.13916015625,577.13916015625,XGB_default,XGB_default,validation
+2024-11-01,Pune_PU6775G_PU,Y,36+,348.0,347.75598506406885,347.75598506406885,400.63333333333327,HoltWinters,SARIMA,validation
+2024-12-01,Bhiwandi_EV1180G_Eva ,N,36+,405.0,362.7033454281898,362.7033454281898,362.7033454281898,LY_trend,LY_trend,validation
+2024-12-01,Bhiwandi_EV1210G_Eva ,N,36+,798.0,980.6888641041015,980.6888641041015,980.6888641041015,TBF,TBF,validation
+2024-12-01,Bhiwandi_HW0001G_Hawai,N,36+,1340.0,1097.0,1097.0,1386.0,L6M,TBF,validation
+2024-12-01,Bhiwandi_HW0002G_Hawai,N,36+,575.0,565.5517801033816,565.5517801033816,565.5517801033816,LGBM_default,LGBM_default,validation
+2024-12-01,Bhiwandi_HW0003L_Hawai,N,36+,508.0,493.0,493.0,493.0,TBF,TBF,validation
+2024-12-01,Bhiwandi_PU6685G_PU,Y,36+,1403.0,964.9733111008245,964.9733111008245,964.9733111008245,SARIMA,SARIMA,validation
+2024-12-01,Bhiwandi_PU6767G_PU,Y,25–36,1109.0,1371.4819815443755,1371.4819815443755,1371.4819815443755,Prophet,Prophet,validation
+2024-12-01,Bhiwandi_PU8750G_PU,Y,36+,448.0,312.9799603610327,312.9799603610327,312.9799603610327,TBF,TBF,validation
+2024-12-01,Bhiwandi_PU8805G_PU,Y,36+,921.0,676.8508511497569,676.8508511497569,676.8508511497569,HoltWinters,HoltWinters,validation
+2024-12-01,Bhiwandi_PU8850G_PU,Y,36+,570.0,428.2,428.2,428.2,RF_default,RF_default,validation
+2024-12-01,Bhiwandi_PU8885G_PU,Y,36+,589.0,450.29175981387704,450.29175981387704,450.29175981387704,TBF,TBF,validation
+2024-12-01,Bhiwandi_PV0400G_PVC,Y,36+,237.0,350.032622966493,350.032622966493,350.032622966493,TBF,TBF,validation
+2024-12-01,Nagpur_EV1210G_Eva ,N,36+,3391.0,2406.0,2406.0,2406.0,L3M,L3M,validation
+2024-12-01,Nagpur_FB9050G_Fabrictd,Y,36+,282.0,266.54,266.54,266.54,RF_default,RF_default,validation
+2024-12-01,Nagpur_HW0001G_Hawai,N,36+,489.0,609.67,609.67,609.67,RF_default,RF_default,validation
+2024-12-01,Nagpur_HW0003L_Hawai,N,36+,319.0,267.5,267.5,267.5,L6M,L6M,validation
+2024-12-01,Nagpur_PU6775G_PU,Y,36+,256.0,442.0745658398794,442.0745658398794,442.0745658398794,LGBM_default,LGBM_default,validation
+2024-12-01,Pune_EPUGI6101_PU,Y,25–36,1270.0,1125.0,1125.0,1125.0,TBF,TBF,validation
+2024-12-01,Pune_EPUGI6102_PU,Y,25–36,195.0,773.2891686646217,773.2891686646217,773.2891686646217,LY_trend,LY_trend,validation
+2024-12-01,Pune_EV1180G_Eva ,N,36+,634.0,540.5278691667387,540.5278691667387,540.5278691667387,TBF,TBF,validation
+2024-12-01,Pune_EV1210G_Eva ,N,36+,3978.0,4126.0,4126.0,4126.0,L3M,L3M,validation
+2024-12-01,Pune_FB9050G_Fabrictd,Y,36+,196.0,327.0,327.0,327.0,TBF,TBF,validation
+2024-12-01,Pune_HW0001G_Hawai,N,36+,965.0,987.0,987.0,987.0,L6M,L6M,validation
+2024-12-01,Pune_HW0003L_Hawai,N,36+,1202.0,1131.982177734375,1131.982177734375,1131.982177734375,XGB_default,XGB_default,validation
+2024-12-01,Pune_HW0028G_Eva Hwi,N,36+,302.0,369.3940519208842,369.3940519208842,369.3940519208842,LGBM_default,LGBM_default,validation
+2024-12-01,Pune_PU6662G_PU,Y,36+,326.0,304.77332440512816,304.77332440512816,304.77332440512816,TBF,TBF,validation
+2024-12-01,Pune_PU6685G_PU,Y,36+,502.0,458.6156844561172,458.6156844561172,458.6156844561172,TBF,TBF,validation
+2024-12-01,Pune_PU6721G_PU,Y,36+,154.0,243.24604721104203,243.24604721104203,243.24604721104203,HoltWinters,HoltWinters,validation
+2024-12-01,Pune_PU6767G_PU,Y,25–36,459.0,621.404296875,621.404296875,621.404296875,XGB_default,XGB_default,validation
+2024-12-01,Pune_PU6775G_PU,Y,36+,371.0,344.5513051042226,344.5513051042226,400.63333333333327,HoltWinters,SARIMA,validation
+2025-01-01,Bhiwandi_EV1180G_Eva ,N,36+,461.0,416.48848430948294,416.48848430948294,416.48848430948294,LY_trend,LY_trend,testing
+2025-01-01,Bhiwandi_EV1210G_Eva ,N,36+,465.0,490.7937819360623,490.7937819360623,490.7937819360623,TBF,TBF,testing
+2025-01-01,Bhiwandi_HW0001G_Hawai,N,36+,1165.0,1209.1666666666667,1359.6550090500907,1256.514123234864,L6M,TBF,testing
+2025-01-01,Bhiwandi_HW0002G_Hawai,N,36+,440.0,557.8779361662666,557.8779361662666,557.8779361662666,LGBM_default,LGBM_default,testing
+2025-01-01,Bhiwandi_HW0003L_Hawai,N,36+,447.0,454.8261788766827,473.7388293167881,473.7388293167881,TBF,TBF,testing
+2025-01-01,Bhiwandi_PU6685G_PU,Y,36+,796.0,1000.6969696969693,1000.6969696969693,1000.6969696969693,SARIMA,SARIMA,testing
+2025-01-01,Bhiwandi_PU6767G_PU,Y,25–36,512.0,1035.4845654394317,1035.4845654394317,1035.4845654394317,Prophet,Prophet,testing
+2025-01-01,Bhiwandi_PU8750G_PU,Y,36+,173.0,264.0,264.0,264.0,TBF,TBF,testing
+2025-01-01,Bhiwandi_PU8805G_PU,Y,36+,510.0,680.1233443149157,680.1233443149157,680.1233443149157,HoltWinters,HoltWinters,testing
+2025-01-01,Bhiwandi_PU8850G_PU,Y,36+,312.0,447.64,447.64,447.64,RF_default,RF_default,testing
+2025-01-01,Bhiwandi_PU8885G_PU,Y,36+,350.0,333.9717301915214,333.9717301915214,333.9717301915214,TBF,TBF,testing
+2025-01-01,Bhiwandi_PV0400G_PVC,Y,36+,60.0,229.01333640004304,193.56102888815207,193.56102888815207,TBF,TBF,testing
+2025-01-01,Nagpur_EV1210G_Eva ,N,36+,3847.0,3817.6666666666665,3817.6666666666665,3817.6666666666665,L3M,L3M,testing
+2025-01-01,Nagpur_FB9050G_Fabrictd,Y,36+,251.0,229.81,229.81,229.81,RF_default,RF_default,testing
+2025-01-01,Nagpur_HW0001G_Hawai,N,36+,624.0,590.93,590.93,590.93,RF_default,RF_default,testing
+2025-01-01,Nagpur_HW0003L_Hawai,N,36+,259.0,258.1666666666667,258.1666666666667,258.1666666666667,L6M,L6M,testing
+2025-01-01,Nagpur_PU6775G_PU,Y,36+,320.0,488.4966899116656,488.4966899116656,488.4966899116656,LGBM_default,LGBM_default,testing
+2025-01-01,Pune_EPUGI6101_PU,Y,25–36,670.0,1125.0,1125.0,1125.0,TBF,TBF,testing
+2025-01-01,Pune_EPUGI6102_PU,Y,25–36,213.0,661.6197435932278,661.6197435932278,661.6197435932278,LY_trend,LY_trend,testing
+2025-01-01,Pune_EV1180G_Eva ,N,36+,606.0,542.8063551678945,598.9635648412433,598.9635648412433,TBF,TBF,testing
+2025-01-01,Pune_EV1210G_Eva ,N,36+,2960.0,4210.666666666667,4210.666666666667,4210.666666666667,L3M,L3M,testing
+2025-01-01,Pune_FB9050G_Fabrictd,Y,36+,233.0,246.3381028707238,246.3381028707238,246.3381028707238,TBF,TBF,testing
+2025-01-01,Pune_HW0001G_Hawai,N,36+,1010.0,956.0,956.0,956.0,L6M,L6M,testing
+2025-01-01,Pune_HW0003L_Hawai,N,36+,844.0,992.7569580078125,992.7569580078125,992.7569580078125,XGB_default,XGB_default,testing
+2025-01-01,Pune_HW0028G_Eva Hwi,N,36+,255.0,374.5267032438123,374.5267032438123,374.5267032438123,LGBM_default,LGBM_default,testing
+2025-01-01,Pune_PU6662G_PU,Y,36+,298.0,272.780018190575,277.62597120646575,277.62597120646575,TBF,TBF,testing
+2025-01-01,Pune_PU6685G_PU,Y,36+,372.0,390.0586494915982,411.5520203943097,411.5520203943097,TBF,TBF,testing
+2025-01-01,Pune_PU6721G_PU,Y,36+,255.0,218.06766461060832,197.99234153069636,197.99234153069636,HoltWinters,HoltWinters,testing
+2025-01-01,Pune_PU6767G_PU,Y,25–36,452.0,512.8051147460938,512.8051147460938,512.8051147460938,XGB_default,XGB_default,testing
+2025-01-01,Pune_PU6775G_PU,Y,36+,227.0,370.17993531646766,416.25994336619686,403.69696969696963,HoltWinters,SARIMA,testing
+2025-02-01,Bhiwandi_EV1180G_Eva ,N,36+,316.0,271.11042846560684,271.11042846560684,271.11042846560684,LY_trend,LY_trend,testing
+2025-02-01,Bhiwandi_EV1210G_Eva ,N,36+,345.0,641.2634805131679,641.2634805131679,641.2634805131679,TBF,TBF,testing
+2025-02-01,Bhiwandi_HW0001G_Hawai,N,36+,1105.0,1266.6,1424.2362793627938,1542.0458246231897,L6M,TBF,testing
+2025-02-01,Bhiwandi_HW0002G_Hawai,N,36+,507.0,561.7712931145583,561.7712931145583,561.7712931145583,LGBM_default,LGBM_default,testing
+2025-02-01,Bhiwandi_HW0003L_Hawai,N,36+,391.0,568.8548384534148,592.5090457319036,592.5090457319036,TBF,TBF,testing
+2025-02-01,Bhiwandi_PU6685G_PU,Y,36+,832.0,1000.6969696969693,1000.6969696969693,1000.6969696969693,SARIMA,SARIMA,testing
+2025-02-01,Bhiwandi_PU6767G_PU,Y,25–36,473.0,966.4755558742138,966.4755558742138,966.4755558742138,Prophet,Prophet,testing
+2025-02-01,Bhiwandi_PU8750G_PU,Y,36+,136.0,371.8102724638194,371.8102724638194,371.8102724638194,TBF,TBF,testing
+2025-02-01,Bhiwandi_PU8805G_PU,Y,36+,880.0,672.1216850116973,672.1216850116973,672.1216850116973,HoltWinters,HoltWinters,testing
+2025-02-01,Bhiwandi_PU8850G_PU,Y,36+,817.0,515.23,515.23,515.23,RF_default,RF_default,testing
+2025-02-01,Bhiwandi_PU8885G_PU,Y,36+,172.0,568.8140422343225,568.8140422343225,568.8140422343225,TBF,TBF,testing
+2025-02-01,Bhiwandi_PV0400G_PVC,Y,36+,261.0,232.39360704801416,196.41801824443476,196.41801824443476,TBF,TBF,testing
+2025-02-01,Nagpur_EV1210G_Eva ,N,36+,2759.0,3152.5,3152.5,3152.5,L3M,L3M,testing
+2025-02-01,Nagpur_FB9050G_Fabrictd,Y,36+,353.0,447.52,447.52,447.52,RF_default,RF_default,testing
+2025-02-01,Nagpur_HW0001G_Hawai,N,36+,412.0,597.64,597.64,597.64,RF_default,RF_default,testing
+2025-02-01,Nagpur_HW0003L_Hawai,N,36+,268.0,266.2,266.2,266.2,L6M,L6M,testing
+2025-02-01,Nagpur_PU6775G_PU,Y,36+,343.0,478.09806492538513,478.09806492538513,478.09806492538513,LGBM_default,LGBM_default,testing
+2025-02-01,Pune_EPUGI6101_PU,Y,25–36,1052.0,1125.0,1125.0,1125.0,TBF,TBF,testing
+2025-02-01,Pune_EPUGI6102_PU,Y,25–36,308.0,533.4799513558041,533.4799513558041,533.4799513558041,LY_trend,LY_trend,testing
+2025-02-01,Pune_EV1180G_Eva ,N,36+,415.0,543.3007143256067,599.509068998658,599.509068998658,TBF,TBF,testing
+2025-02-01,Pune_EV1210G_Eva ,N,36+,3632.0,4019.5,4019.5,4019.5,L3M,L3M,testing
+2025-02-01,Pune_FB9050G_Fabrictd,Y,36+,233.0,381.41004583135174,381.41004583135174,381.41004583135174,TBF,TBF,testing
+2025-02-01,Pune_HW0001G_Hawai,N,36+,716.0,999.6,999.6,999.6,L6M,L6M,testing
+2025-02-01,Pune_HW0003L_Hawai,N,36+,1128.0,1213.6929931640625,1213.6929931640625,1213.6929931640625,XGB_default,XGB_default,testing
+2025-02-01,Pune_HW0028G_Eva Hwi,N,36+,332.0,355.03191673527783,355.03191673527783,355.03191673527783,LGBM_default,LGBM_default,testing
+2025-02-01,Pune_PU6662G_PU,Y,36+,332.0,333.30034376983434,339.22144391786804,339.22144391786804,TBF,TBF,testing
+2025-02-01,Pune_PU6685G_PU,Y,36+,369.0,465.50795030566644,491.1587980618221,491.1587980618221,TBF,TBF,testing
+2025-02-01,Pune_PU6721G_PU,Y,36+,127.0,208.52084461509386,189.3244023914425,189.3244023914425,HoltWinters,HoltWinters,testing
+2025-02-01,Pune_PU6767G_PU,Y,25–36,431.0,591.2405395507812,591.2405395507812,591.2405395507812,XGB_default,XGB_default,testing
+2025-02-01,Pune_PU6775G_PU,Y,36+,215.0,368.20834420186856,414.04292853798177,403.69696969696963,HoltWinters,SARIMA,testing
+2025-03-01,Bhiwandi_EV1180G_Eva ,N,36+,319.0,123.37489063507326,123.37489063507326,123.37489063507326,LY_trend,LY_trend,testing
+2025-03-01,Bhiwandi_EV1210G_Eva ,N,36+,628.0,789.2085197181742,789.2085197181742,789.2085197181742,TBF,TBF,testing
+2025-03-01,Bhiwandi_HW0001G_Hawai,N,36+,1394.0,1282.75,1442.3962477124774,1614.0,L6M,TBF,testing
+2025-03-01,Bhiwandi_HW0002G_Hawai,N,36+,524.0,506.1792586786298,506.1792586786298,506.1792586786298,LGBM_default,LGBM_default,testing
+2025-03-01,Bhiwandi_HW0003L_Hawai,N,36+,479.0,434.5329428503152,452.6017569039286,452.6017569039286,TBF,TBF,testing
+2025-03-01,Bhiwandi_PU6685G_PU,Y,36+,1191.0,1000.6969696969693,1000.6969696969693,1000.6969696969693,SARIMA,SARIMA,testing
+2025-03-01,Bhiwandi_PU6767G_PU,Y,25–36,1260.0,1226.6885236887242,1226.6885236887242,1226.6885236887242,Prophet,Prophet,testing
+2025-03-01,Bhiwandi_PU8750G_PU,Y,36+,361.0,413.5914495057242,413.5914495057242,413.5914495057242,TBF,TBF,testing
+2025-03-01,Bhiwandi_PU8805G_PU,Y,36+,691.0,664.120025708479,664.120025708479,664.120025708479,HoltWinters,HoltWinters,testing
+2025-03-01,Bhiwandi_PU8850G_PU,Y,36+,560.0,493.86,493.86,493.86,RF_default,RF_default,testing
+2025-03-01,Bhiwandi_PU8885G_PU,Y,36+,707.0,882.0,882.0,882.0,TBF,TBF,testing
+2025-03-01,Bhiwandi_PV0400G_PVC,Y,36+,397.0,350.0,295.8184059312298,295.8184059312298,TBF,TBF,testing
+2025-03-01,Nagpur_EV1210G_Eva ,N,36+,4715.0,3391.0,3391.0,3391.0,L3M,L3M,testing
+2025-03-01,Nagpur_FB9050G_Fabrictd,Y,36+,631.0,469.23,469.23,469.23,RF_default,RF_default,testing
+2025-03-01,Nagpur_HW0001G_Hawai,N,36+,581.0,545.21,545.21,545.21,RF_default,RF_default,testing
+2025-03-01,Nagpur_HW0003L_Hawai,N,36+,317.0,291.25,291.25,291.25,L6M,L6M,testing
+2025-03-01,Nagpur_PU6775G_PU,Y,36+,490.0,528.6881527991784,528.6881527991784,528.6881527991784,LGBM_default,LGBM_default,testing
+2025-03-01,Pune_EPUGI6101_PU,Y,25–36,2210.0,1305.670939003474,1305.670939003474,1305.670939003474,TBF,TBF,testing
+2025-03-01,Pune_EPUGI6102_PU,Y,25–36,611.0,878.6728610566187,878.6728610566187,878.6728610566187,LY_trend,LY_trend,testing
+2025-03-01,Pune_EV1180G_Eva ,N,36+,719.0,718.0,792.2822484696092,792.2822484696092,TBF,TBF,testing
+2025-03-01,Pune_EV1210G_Eva ,N,36+,5386.0,3978.0,3978.0,3978.0,L3M,L3M,testing
+2025-03-01,Pune_FB9050G_Fabrictd,Y,36+,372.0,383.99763094554,383.99763094554,383.99763094554,TBF,TBF,testing
+2025-03-01,Pune_HW0001G_Hawai,N,36+,1646.0,999.0,999.0,999.0,L6M,L6M,testing
+2025-03-01,Pune_HW0003L_Hawai,N,36+,2349.0,1188.788330078125,1188.788330078125,1188.788330078125,XGB_default,XGB_default,testing
+2025-03-01,Pune_HW0028G_Eva Hwi,N,36+,321.0,307.82377752929136,307.82377752929136,307.82377752929136,LGBM_default,LGBM_default,testing
+2025-03-01,Pune_PU6662G_PU,Y,36+,357.0,407.0,414.2303788618769,414.2303788618769,TBF,TBF,testing
+2025-03-01,Pune_PU6685G_PU,Y,36+,778.0,605.0,638.3372671342865,638.3372671342865,TBF,TBF,testing
+2025-03-01,Pune_PU6721G_PU,Y,36+,760.0,198.97402461957938,180.6564632521886,180.6564632521886,HoltWinters,HoltWinters,testing
+2025-03-01,Pune_PU6767G_PU,Y,25–36,546.0,754.9996948242188,754.9996948242188,754.9996948242188,XGB_default,XGB_default,testing
+2025-03-01,Pune_PU6775G_PU,Y,36+,380.0,366.2367530872695,411.8259137097667,403.69696969696963,HoltWinters,SARIMA,testing
+2025-04-01,Bhiwandi_EV1180G_Eva ,N,36+,210.0,881.915195426874,881.915195426874,881.915195426874,LY_trend,LY_trend,forecasting
+2025-04-01,Bhiwandi_EV1210G_Eva ,N,36+,454.0,798.0,798.0,798.0,TBF,TBF,forecasting
+2025-04-01,Bhiwandi_HW0001G_Hawai,N,36+,1156.0,1304.5,1466.8531710317104,1238.032135530736,L6M,TBF,forecasting
+2025-04-01,Bhiwandi_HW0002G_Hawai,N,36+,477.0,471.67981068789027,471.67981068789027,471.67981068789027,LGBM_default,LGBM_default,forecasting
+2025-04-01,Bhiwandi_HW0003L_Hawai,N,36+,341.0,402.85123980158187,419.6026605235543,419.6026605235543,TBF,TBF,forecasting
+2025-04-01,Bhiwandi_PU6685G_PU,Y,36+,630.0,982.1315789473687,982.1315789473687,982.1315789473687,SARIMA,SARIMA,forecasting
+2025-04-01,Bhiwandi_PU6767G_PU,Y,25–36,538.0,918.163286158472,918.163286158472,918.163286158472,Prophet,Prophet,forecasting
+2025-04-01,Bhiwandi_PU8750G_PU,Y,36+,151.0,448.0,448.0,448.0,TBF,TBF,forecasting
+2025-04-01,Bhiwandi_PU8805G_PU,Y,36+,294.0,647.7155026159858,647.7155026159858,647.7155026159858,HoltWinters,HoltWinters,forecasting
+2025-04-01,Bhiwandi_PU8850G_PU,Y,36+,236.0,781.62,781.62,781.62,RF_default,RF_default,forecasting
+2025-04-01,Bhiwandi_PU8885G_PU,Y,36+,384.0,707.0,707.0,707.0,TBF,TBF,forecasting
+2025-04-01,Bhiwandi_PV0400G_PVC,Y,36+,184.0,397.0,335.5425918705664,335.5425918705664,TBF,TBF,forecasting
+2025-04-01,Nagpur_EV1210G_Eva ,N,36+,2898.0,3773.6666666666665,3773.6666666666665,3773.6666666666665,L3M,L3M,forecasting
+2025-04-01,Nagpur_FB9050G_Fabrictd,Y,36+,330.0,321.04,321.04,321.04,RF_default,RF_default,forecasting
+2025-04-01,Nagpur_HW0001G_Hawai,N,36+,367.0,536.85,536.85,536.85,RF_default,RF_default,forecasting
+2025-04-01,Nagpur_HW0003L_Hawai,N,36+,212.0,299.3333333333333,299.3333333333333,299.3333333333333,L6M,L6M,forecasting
+2025-04-01,Nagpur_PU6775G_PU,Y,36+,294.0,355.46150800011054,355.46150800011054,355.46150800011054,LGBM_default,LGBM_default,forecasting
+2025-04-01,Pune_EPUGI6101_PU,Y,25–36,1075.0,1798.96062138743,1798.96062138743,1798.96062138743,TBF,TBF,forecasting
+2025-04-01,Pune_EPUGI6102_PU,Y,25–36,332.0,361.63439957356223,361.63439957356223,361.63439957356223,LY_trend,LY_trend,forecasting
+2025-04-01,Pune_EV1180G_Eva ,N,36+,425.0,719.0,793.3857056401797,793.3857056401797,TBF,TBF,forecasting
+2025-04-01,Pune_EV1210G_Eva ,N,36+,2367.0,3992.6666666666665,3992.6666666666665,3992.6666666666665,L3M,L3M,forecasting
+2025-04-01,Pune_FB9050G_Fabrictd,Y,36+,296.0,507.0,507.0,507.0,TBF,TBF,forecasting
+2025-04-01,Pune_HW0001G_Hawai,N,36+,988.0,1058.5,1058.5,1058.5,L6M,L6M,forecasting
+2025-04-01,Pune_HW0003L_Hawai,N,36+,759.0,1225.7672119140625,1225.7672119140625,1225.7672119140625,XGB_default,XGB_default,forecasting
+2025-04-01,Pune_HW0028G_Eva Hwi,N,36+,224.0,333.25559032903146,333.25559032903146,333.25559032903146,LGBM_default,LGBM_default,forecasting
+2025-04-01,Pune_PU6662G_PU,Y,36+,304.0,407.0,414.2303788618769,414.2303788618769,TBF,TBF,forecasting
+2025-04-01,Pune_PU6685G_PU,Y,36+,334.0,600.129904977323,633.1988156508817,633.1988156508817,TBF,TBF,forecasting
+2025-04-01,Pune_PU6721G_PU,Y,36+,175.0,234.56078622977668,212.96710532413059,212.96710532413059,HoltWinters,HoltWinters,forecasting
+2025-04-01,Pune_PU6767G_PU,Y,25–36,382.0,673.0643920898438,673.0643920898438,673.0643920898438,XGB_default,XGB_default,forecasting
+2025-04-01,Pune_PU6775G_PU,Y,36+,213.0,313.3409467018768,352.3456359592471,385.7894736842106,HoltWinters,SARIMA,forecasting
+2025-05-01,Bhiwandi_EV1180G_Eva ,N,36+,846.0,388.1365900015346,388.1365900015346,388.1365900015346,LY_trend,LY_trend,forecasting
+2025-05-01,Bhiwandi_EV1210G_Eva ,N,36+,1478.0,798.0,798.0,798.0,TBF,TBF,forecasting
+2025-05-01,Bhiwandi_HW0001G_Hawai,N,36+,1019.0,1228.1666666666667,1381.0196776967773,1105.0,L6M,TBF,forecasting
+2025-05-01,Bhiwandi_HW0002G_Hawai,N,36+,398.0,460.97113518821703,460.97113518821703,460.97113518821703,LGBM_default,LGBM_default,forecasting
+2025-05-01,Bhiwandi_HW0003L_Hawai,N,36+,327.0,391.0,407.2586206896551,407.2586206896551,TBF,TBF,forecasting
+2025-05-01,Bhiwandi_PU6685G_PU,Y,36+,849.0,982.1315789473687,982.1315789473687,982.1315789473687,SARIMA,SARIMA,forecasting
+2025-05-01,Bhiwandi_PU6767G_PU,Y,25–36,693.0,853.9797150217254,853.9797150217254,853.9797150217254,Prophet,Prophet,forecasting
+2025-05-01,Bhiwandi_PU8750G_PU,Y,36+,347.0,367.8618891126761,367.8618891126761,367.8618891126761,TBF,TBF,forecasting
+2025-05-01,Bhiwandi_PU8805G_PU,Y,36+,1003.0,640.0261708768974,640.0261708768974,640.0261708768974,HoltWinters,HoltWinters,forecasting
+2025-05-01,Bhiwandi_PU8850G_PU,Y,36+,502.0,571.66,571.66,571.66,RF_default,RF_default,forecasting
+2025-05-01,Bhiwandi_PU8885G_PU,Y,36+,1012.0,588.5753404874808,588.5753404874808,588.5753404874808,TBF,TBF,forecasting
+2025-05-01,Bhiwandi_PV0400G_PVC,Y,36+,644.0,204.5539820150036,172.8880939616109,172.8880939616109,TBF,TBF,forecasting
+2025-05-01,Nagpur_EV1210G_Eva ,N,36+,6495.0,3457.3333333333335,3457.3333333333335,3457.3333333333335,L3M,L3M,forecasting
+2025-05-01,Nagpur_FB9050G_Fabrictd,Y,36+,468.0,390.61,390.61,390.61,RF_default,RF_default,forecasting
+2025-05-01,Nagpur_HW0001G_Hawai,N,36+,561.0,526.74,526.74,526.74,RF_default,RF_default,forecasting
+2025-05-01,Nagpur_HW0003L_Hawai,N,36+,248.0,270.0,270.0,270.0,L6M,L6M,forecasting
+2025-05-01,Nagpur_PU6775G_PU,Y,36+,434.0,495.67092190631837,495.67092190631837,495.67092190631837,LGBM_default,LGBM_default,forecasting
+2025-05-01,Pune_EPUGI6101_PU,Y,25–36,1806.0,1482.8469648720259,1482.8469648720259,1482.8469648720259,TBF,TBF,forecasting
+2025-05-01,Pune_EPUGI6102_PU,Y,25–36,451.0,324.4232675495094,324.4232675495094,324.4232675495094,LY_trend,LY_trend,forecasting
+2025-05-01,Pune_EV1180G_Eva ,N,36+,2081.0,719.0,793.3857056401797,793.3857056401797,TBF,TBF,forecasting
+2025-05-01,Pune_EV1210G_Eva ,N,36+,6539.0,3795.0,3795.0,3795.0,L3M,L3M,forecasting
+2025-05-01,Pune_FB9050G_Fabrictd,Y,36+,410.0,320.24105768702293,320.24105768702293,320.24105768702293,TBF,TBF,forecasting
+2025-05-01,Pune_HW0001G_Hawai,N,36+,929.0,1017.3333333333334,1017.3333333333334,1017.3333333333334,L6M,L6M,forecasting
+2025-05-01,Pune_HW0003L_Hawai,N,36+,987.0,956.3679809570312,956.3679809570312,956.3679809570312,XGB_default,XGB_default,forecasting
+2025-05-01,Pune_HW0028G_Eva Hwi,N,36+,253.0,347.63173333042147,347.63173333042147,347.63173333042147,LGBM_default,LGBM_default,forecasting
+2025-05-01,Pune_PU6662G_PU,Y,36+,352.0,298.0,303.2939874713497,303.2939874713497,TBF,TBF,forecasting
+2025-05-01,Pune_PU6685G_PU,Y,36+,615.0,369.0,389.3329778058706,389.3329778058706,TBF,TBF,forecasting
+2025-05-01,Pune_PU6721G_PU,Y,36+,329.0,227.4289633068784,206.4918384733192,206.4918384733192,HoltWinters,HoltWinters,forecasting
+2025-05-01,Pune_PU6767G_PU,Y,25–36,487.0,417.5125732421875,417.5125732421875,417.5125732421875,XGB_default,XGB_default,forecasting
+2025-05-01,Pune_PU6775G_PU,Y,36+,303.0,309.6256262648072,348.1678323368013,385.7894736842106,HoltWinters,SARIMA,forecasting
+2025-06-01,Bhiwandi_EV1180G_Eva ,N,36+,,460.1296671792386,460.1296671792386,460.1296671792386,LY_trend,LY_trend,forecasting
+2025-06-01,Bhiwandi_EV1210G_Eva ,N,36+,,487.4050901932711,487.4050901932711,487.4050901932711,TBF,TBF,forecasting
+2025-06-01,Bhiwandi_HW0001G_Hawai,N,36+,,1196.5,1345.4118966189662,1105.0,L6M,TBF,forecasting
+2025-06-01,Bhiwandi_HW0002G_Hawai,N,36+,,482.66299080450693,482.66299080450693,482.66299080450693,LGBM_default,LGBM_default,forecasting
+2025-06-01,Bhiwandi_HW0003L_Hawai,N,36+,,391.0,407.2586206896551,407.2586206896551,TBF,TBF,forecasting
+2025-06-01,Bhiwandi_PU6685G_PU,Y,36+,,982.1315789473687,982.1315789473687,982.1315789473687,SARIMA,SARIMA,forecasting
+2025-06-01,Bhiwandi_PU6767G_PU,Y,25–36,,966.5483488770153,966.5483488770153,966.5483488770153,Prophet,Prophet,forecasting
+2025-06-01,Bhiwandi_PU8750G_PU,Y,36+,,256.8807452302646,256.8807452302646,256.8807452302646,TBF,TBF,forecasting
+2025-06-01,Bhiwandi_PU8805G_PU,Y,36+,,632.336839137809,632.336839137809,632.336839137809,HoltWinters,HoltWinters,forecasting
+2025-06-01,Bhiwandi_PU8850G_PU,Y,36+,,535.73,535.73,535.73,RF_default,RF_default,forecasting
+2025-06-01,Bhiwandi_PU8885G_PU,Y,36+,,321.9134890907319,321.9134890907319,321.9134890907319,TBF,TBF,forecasting
+2025-06-01,Bhiwandi_PV0400G_PVC,Y,36+,,101.4652688566486,85.75798311587842,85.75798311587842,TBF,TBF,forecasting
+2025-06-01,Nagpur_EV1210G_Eva ,N,36+,,4702.666666666667,4702.666666666667,4702.666666666667,L3M,L3M,forecasting
+2025-06-01,Nagpur_FB9050G_Fabrictd,Y,36+,,494.56,494.56,494.56,RF_default,RF_default,forecasting
+2025-06-01,Nagpur_HW0001G_Hawai,N,36+,,544.71,544.71,544.71,RF_default,RF_default,forecasting
+2025-06-01,Nagpur_HW0003L_Hawai,N,36+,,270.5,270.5,270.5,L6M,L6M,forecasting
+2025-06-01,Nagpur_PU6775G_PU,Y,36+,,344.8387713027374,344.8387713027374,344.8387713027374,LGBM_default,LGBM_default,forecasting
+2025-06-01,Pune_EPUGI6101_PU,Y,25–36,,1860.406601459511,1860.406601459511,1860.406601459511,TBF,TBF,forecasting
+2025-06-01,Pune_EPUGI6102_PU,Y,25–36,,324.4232675495094,324.4232675495094,324.4232675495094,LY_trend,LY_trend,forecasting
+2025-06-01,Pune_EV1180G_Eva ,N,36+,,601.200007046408,663.3984587223858,663.3984587223858,TBF,TBF,forecasting
+2025-06-01,Pune_EV1210G_Eva ,N,36+,,4764.0,4764.0,4764.0,L3M,L3M,forecasting
+2025-06-01,Pune_FB9050G_Fabrictd,Y,36+,,323.3562430730835,323.3562430730835,323.3562430730835,TBF,TBF,forecasting
+2025-06-01,Pune_HW0001G_Hawai,N,36+,,1042.3333333333333,1042.3333333333333,1042.3333333333333,L6M,L6M,forecasting
+2025-06-01,Pune_HW0003L_Hawai,N,36+,,1279.3651123046875,1279.3651123046875,1279.3651123046875,XGB_default,XGB_default,forecasting
+2025-06-01,Pune_HW0028G_Eva Hwi,N,36+,,302.4969668406649,302.4969668406649,302.4969668406649,LGBM_default,LGBM_default,forecasting
+2025-06-01,Pune_PU6662G_PU,Y,36+,,318.666809004144,324.3279435491202,324.3279435491202,TBF,TBF,forecasting
+2025-06-01,Pune_PU6685G_PU,Y,36+,,369.0,389.3329778058706,389.3329778058706,TBF,TBF,forecasting
+2025-06-01,Pune_PU6721G_PU,Y,36+,,220.2971403839801,200.01657162250783,200.01657162250783,HoltWinters,HoltWinters,forecasting
+2025-06-01,Pune_PU6767G_PU,Y,25–36,,384.6144104003906,384.6144104003906,384.6144104003906,XGB_default,XGB_default,forecasting
+2025-06-01,Pune_PU6775G_PU,Y,36+,,305.9103058277376,343.9900287143556,385.7894736842106,HoltWinters,SARIMA,forecasting
